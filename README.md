@@ -16,6 +16,11 @@
   - [CVE-2020-1337](#cve-2020-1337)
   - [CVE-2020-1313](#cve-2020-1313)
   - [CVE-2020-1301](#cve-2020-1301)
+  - [CVE-2020-1066](#cve-2020-1066)
+  - [CVE-2020-1054](#cve-2020-1054)
+  - [CVE-2020-1048](#cve-2020-1048)
+  - [CVE-2020-1034](#cve-2020-1034)
+  - [CVE-2020-1015](#cve-2020-1015)
 # 2021
 
 ## CVE-2021-28310
@@ -237,7 +242,7 @@
 
 ## CVE-2020-1015
 
-An elevation of privilege vulnerability exists in the way that the User-Mode Power Service (UMPS) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0934, CVE-2020-0983, CVE-2020-1009, CVE-2020-1011.
+> An elevation of privilege vulnerability exists in the way that the User-Mode Power Service (UMPS) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0934, CVE-2020-0983, CVE-2020-1009, CVE-2020-1011.
 
 - **Analyse**
   - https://0xeb-bp.com/blog/2020/05/12/cve-2020-1015-analysis.html
