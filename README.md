@@ -47,7 +47,12 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2012](#2012)
+  - [CVE-2012-0217 (MS12-042)](#cve-2012-0217-ms12-042)
+  - [CVE-2012-0152 (MS12-020)](#cve-2012-0152-ms12-020)
+  - [CVE-2012-0002 (MS12-020)](#cve-2012-0002-ms12-020)
 - [2011](#2011)
+  - [CVE-2011-2005 (MS11-080)](#cve-2011-2005-ms11-080)
   - [CVE-2011-1974 (MS11-062)](#cve-2011-1974-ms11-062)
   - [CVE-2011-1249 (MS11-046)](#cve-2011-1249-ms11-046)
   - [CVE-2011-1237 (MS11-034)](#cve-2011-1237-ms11-034)
@@ -473,7 +478,50 @@
 
 
 
+# 2012
+
+##  CVE-2012-0217 (MS12-042)
+
+> The x86-64 kernel system-call functionality in Xen 4.1.2 and earlier, as used in Citrix XenServer 6.0.2 and earlier and other products; Oracle Solaris 11 and earlier; illumos before r13724; Joyent SmartOS before 20120614T184600Z; FreeBSD before 9.0-RELEASE-p3; NetBSD 6.0 Beta and earlier; Microsoft Windows Server 2008 R2 and R2 SP1 and Windows 7 Gold and SP1; and possibly other operating systems, when running on an Intel processor, incorrectly uses the sysret path in cases where a certain address is not a canonical address, which allows local users to gain privileges via a crafted application. NOTE: because this issue is due to incorrect use of the Intel specification, it should have been split into separate identifiers; however, there was some value in preserving the original mapping of the multi-codebase coordinated-disclosure effort to a single identifier.
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-042](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-042) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2012-0217](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2012-0217) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
+
+## CVE-2012-0152 (MS12-020)
+
+> The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 and R2 SP1 and Windows 7 Gold and SP1 allows remote attackers to cause a denial of service (application hang) via a series of crafted packets, aka "Terminal Server Denial of Service Vulnerability."
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-020](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-020) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer) :  ![starts](https://img.shields.io/github/stars/rutvijjethwa/RDP_jammer.svg) ![forks](https://img.shields.io/github/forks/rutvijjethwa/RDP_jammer.svg)
+  - [https://github.com/anmolksachan/MS12-020](https://github.com/anmolksachan/MS12-020) :  ![starts](https://img.shields.io/github/stars/anmolksachan/MS12-020.svg) ![forks](https://img.shields.io/github/forks/anmolksachan/MS12-020.svg)
+
+
+
+## CVE-2012-0002 (MS12-020)
+
+> The Remote Desktop Protocol (RDP) implementation in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly process packets in memory, which allows remote attackers to execute arbitrary code by sending crafted RDP packets triggering access to an object that (1) was not properly initialized or (2) is deleted, aka "Remote Desktop Protocol Vulnerability."
+
+- **Exp**
+
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-020](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-020) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+
+  
+
 # 2011
+
+## CVE-2011-2005 (MS11-080)
+
+> afd.sys in the Ancillary Function Driver in Microsoft Windows XP SP2 and SP3 and Server 2003 SP2 does not properly validate user-mode input passed to kernel mode, which allows local users to gain privileges via a crafted application, aka "Ancillary Function Driver Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - http://qq53.github.io/1500623869.html
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-080](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-080) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-2005](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-2005) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 ## CVE-2011-1974 (MS11-062)
 
