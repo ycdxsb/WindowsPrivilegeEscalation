@@ -35,6 +35,11 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2009](#2009)
+  - [CVE-2009-2532 (MS09-050)](#cve-2009-2532-ms09-050)
+  - [CVE-2009-1535 (MS09-020)](#cve-2009-1535-ms09-020)
+  - [CVE-2009-0229 (MS09-022)](#cve-2009-0229-ms09-022)
+  - [CVE-2009-0079 (MS09-012)](#cve-2009-0079-ms09-012)
 - [2008](#2008)
   - [CVE-2008-4250 (MS08-067)](#cve-2008-4250-ms08-067)
   - [CVE-2008-4037 (MS08-068)](#cve-2008-4037-ms08-068)
@@ -438,6 +443,57 @@
   - https://github.com/MalwareTech/RDGScanner : [![starts](https://camo.githubusercontent.com/054b560f1eb86d097ab0306b4dbd0e9ab7e2ef01274249230b2e2fa64c147abe/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4d616c77617265546563682f5244475363616e6e65722e737667)](https://camo.githubusercontent.com/054b560f1eb86d097ab0306b4dbd0e9ab7e2ef01274249230b2e2fa64c147abe/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4d616c77617265546563682f5244475363616e6e65722e737667) [![forks](https://camo.githubusercontent.com/104e4986b50db121402fb2c7448f911ce8e5abaeab8353951c362fcc948cc5e6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4d616c77617265546563682f5244475363616e6e65722e737667)](https://camo.githubusercontent.com/104e4986b50db121402fb2c7448f911ce8e5abaeab8353951c362fcc948cc5e6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4d616c77617265546563682f5244475363616e6e65722e737667)
   - https://github.com/2d4d/rdg_scanner_cve-2020-0609 : [![starts](https://camo.githubusercontent.com/96dd2be4d0756d48c6b76baaeae92826e515b526b87df0d231220cb6cc9ed26e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f326434642f7264675f7363616e6e65725f6376652d323032302d303630392e737667)](https://camo.githubusercontent.com/96dd2be4d0756d48c6b76baaeae92826e515b526b87df0d231220cb6cc9ed26e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f326434642f7264675f7363616e6e65725f6376652d323032302d303630392e737667) [![forks](https://camo.githubusercontent.com/43e695599dbb804cfaec3036f20910bec4a1a28aa9dcc33ebd80774e16de0b6c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f326434642f7264675f7363616e6e65725f6376652d323032302d303630392e737667)](https://camo.githubusercontent.com/43e695599dbb804cfaec3036f20910bec4a1a28aa9dcc33ebd80774e16de0b6c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f326434642f7264675f7363616e6e65725f6376652d323032302d303630392e737667)
   - https://github.com/Archi73ct/CVE-2020-0609 : [![starts](https://camo.githubusercontent.com/e778eca3693d3c0901b20244f21e0108131b250fddabce829018df4111237000/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4172636869373363742f4356452d323032302d303630392e737667)](https://camo.githubusercontent.com/e778eca3693d3c0901b20244f21e0108131b250fddabce829018df4111237000/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4172636869373363742f4356452d323032302d303630392e737667) [![forks](https://camo.githubusercontent.com/85ee00b2dd779f727c3b77ff18976de5b01edc69d70c93413d262a1be88bf622/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4172636869373363742f4356452d323032302d303630392e737667)](https://camo.githubusercontent.com/85ee00b2dd779f727c3b77ff18976de5b01edc69d70c93413d262a1be88bf622/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4172636869373363742f4356452d323032302d303630392e737667)
+
+
+
+# 2009
+
+## CVE-2009-2532 (MS09-050)
+
+> Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold and SP2, and Windows 7 RC do not properly process the command value in an SMB Multi-Protocol Negotiate Request packet, which allows remote attackers to execute arbitrary code via a crafted SMBv2 packet to the Server service, aka "SMBv2 Command Value Vulnerability."
+
+- **Analyse**
+  - https://www.giantbranch.cn/2017/08/26/Educatedscholar%E5%88%A9%E7%94%A8%E7%9A%84%E6%BC%8F%E6%B4%9Ems09-050%E5%88%86%E6%9E%90%E5%8F%8A%E5%85%B6%E5%88%A9%E7%94%A8%E7%9A%84shellcode%E5%88%86%E6%9E%90%E5%8F%8A%E4%B8%8Emsf%E5%88%A9%E7%94%A8%E5%AF%B9%E6%AF%94/
+  - https://zhuanlan.zhihu.com/p/27155431
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS09-050 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2009-2532 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - https://github.com/mazding/ms09050 : [![starts](https://camo.githubusercontent.com/2c039f2903a321a116418af20b59eef65848db70769643d36c542ccd76199228/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6d617a64696e672f6d7330393035302e737667)](https://camo.githubusercontent.com/2c039f2903a321a116418af20b59eef65848db70769643d36c542ccd76199228/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6d617a64696e672f6d7330393035302e737667) [![forks](https://camo.githubusercontent.com/f90334636ebf583c2e900cbf09c7e66394d6a967738919c23e27902fa3689594/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6d617a64696e672f6d7330393035302e737667)](https://camo.githubusercontent.com/f90334636ebf583c2e900cbf09c7e66394d6a967738919c23e27902fa3689594/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6d617a64696e672f6d7330393035302e737667)
+
+## CVE-2009-1535 (MS09-020)
+
+> The WebDAV extension in Microsoft Internet Information Services (IIS) 5.1 and 6.0 allows remote attackers to bypass URI-based protection mechanisms, 
+> and list folders or read, create, or modify files, via a %c0%af (Unicode / character) at an arbitrary position in the URI, 
+> as demonstrated by inserting %c0%af into a "/protected/" initial pathname component to bypass the password protection on the protected\ folder, 
+> aka "IIS 5.1 and 6.0 WebDAV Authentication Bypass Vulnerability," a different vulnerability than CVE-2009-1122.
+
+- **Analyse**
+  - https://www.twblogs.net/a/5b96d7fd2b717750bda69ce9
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS09-020 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2009-1535 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+## CVE-2009-0229 (MS09-022)
+
+> The Windows Printing Service in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 SP2 allows local users to read arbitrary files via a crafted separator page, aka "Print Spooler Read File Vulnerability."
+
+- **PoC**
+  - https://github.com/zveriu/CVE-2009-0229-PoC : [![starts](https://camo.githubusercontent.com/78e746a4899fa2a2bc5b57731b33146fa898d24fc9d661180fb343b2f7c155c2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7a76657269752f4356452d323030392d303232392d506f432e737667)](https://camo.githubusercontent.com/78e746a4899fa2a2bc5b57731b33146fa898d24fc9d661180fb343b2f7c155c2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7a76657269752f4356452d323030392d303232392d506f432e737667) [![forks](https://camo.githubusercontent.com/dc025013c5cbbd0b123ab997184f962c0b3ea2a855556e9ce86bc2bd51c27921/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7a76657269752f4356452d323030392d303232392d506f432e737667)](https://camo.githubusercontent.com/dc025013c5cbbd0b123ab997184f962c0b3ea2a855556e9ce86bc2bd51c27921/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7a76657269752f4356452d323030392d303232392d506f432e737667)
+
+## CVE-2009-0079 (MS09-012)
+
+> The RPCSS service in Microsoft Windows XP SP2 and SP3 and Server 2003 SP1 and SP2 does not properly implement isolation among a set of distinct processes that (1) all run under the NetworkService account or (2) all run under the LocalService account, which allows local users to gain privileges by accessing the resources of one of the processes, aka "Windows RPCSS Service Isolation Vulnerability."
+
+- **Analyse**
+
+  - https://xz.aliyun.com/t/8091
+
+- **Exp**
+
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS09-012 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2009-0079:  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+  
 
 
 
