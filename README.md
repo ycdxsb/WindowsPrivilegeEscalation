@@ -462,18 +462,22 @@
 > Microsoft Windows 2000 Gold through SP4, XP Gold through SP3, Server 2003 SP1 and SP2, Vista Gold and SP1, and Server 2008 allows remote SMB servers to execute arbitrary code on a client machine by replaying the NTLM credentials of a client user, as demonstrated by backrush, aka "SMB Credential Reflection Vulnerability." NOTE: some reliable sources report that this vulnerability exists because of an insufficient fix for CVE-2000-0834.
 
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-068:![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-4037：[![starts](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667) [![forks](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-068 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-4037 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 ## CVE-2008-3464 (MS08-066)
 
 > afd.sys in the Ancillary Function Driver (AFD) component in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP1 and SP2 does not properly validate input sent from user mode to the kernel, which allows local users to gain privileges via a crafted application, as demonstrated using crafted pointers and lengths that bypass intended ProbeForRead and ProbeForWrite restrictions, aka "AFD Kernel Overwrite Vulnerability."
 
 - **Analyse**
+  
   - https://bbs.pediy.com/thread-74811.htm
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-066:![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-3464：[![starts](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667) [![forks](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-066 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-3464 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  
+    
 
 ## CVE-2008-1084 (MS08-025)
 
@@ -483,8 +487,10 @@
   - https://github.com/lyshark/Windows-exploits/blob/master/Windows%20%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%20ms08025%20%E5%88%86%E6%9E%90.7z
   - https://bbs.pediy.com/thread-63099.htm
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025:![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084：[![starts](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667) [![forks](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
 
 # 2007
 
@@ -513,8 +519,10 @@
   - http://www.atomsec.org/%E5%AE%89%E5%85%A8/ms06-040cve-2006-3439%E9%9D%99%E6%80%81%E5%88%86%E6%9E%90/
   - https://bbs.pediy.com/thread-266157.htm
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS06-040:![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2006-3439：[![starts](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667) [![forks](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS06-040 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2006-3439 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
 
 # 2005
 
@@ -526,9 +534,12 @@
   
   - https://blog.csdn.net/tomqq/article/details/1951128
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS05-039:![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983：[![starts](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667) [![forks](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)
-
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS05-039 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  
+- https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  
+    
+  
     
 
 # 2003
@@ -540,7 +551,7 @@
 - **Analyse**
   - https://blog.51cto.com/executer/2174779
 - **Exp**
-  - https://github.com/abatchy17/WindowsExploits/tree/master/MS03-026：![starts](https://img.shields.io/github/stars/abatchy17/WindowsExploits.svg) ![forks](https://img.shields.io/github/forks/abatchy17/WindowsExploits.svg)
+  - https://github.com/abatchy17/WindowsExploits/tree/master/MS03-026 :  ![starts](https://img.shields.io/github/stars/abatchy17/WindowsExploits.svg) ![forks](https://img.shields.io/github/forks/abatchy17/WindowsExploits.svg)
   - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2003-0352 : [![starts](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/569d3339a1a40ee11aa216a4a52b50999608ff0af48706275b4eddee860619a3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4173636f7462652f4b65726e656c6875622e737667) [![forks](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)](https://camo.githubusercontent.com/d1d02bb607b0a21f44e1509f3e6f85c441c8514fd663e78a4cd25c10b5329569/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4173636f7462652f4b65726e656c6875622e737667)
 
 # 2000
