@@ -15,7 +15,6 @@
 
 > A collection of Windows Privilege Escalation vulnerabilities (Analyse / PoC / Exp )
 
-
 - [2021](#2021)
   - [CVE-2021-28310](#cve-2021-28310)
   - [CVE-2021-24096](#cve-2021-24096)
@@ -48,6 +47,11 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2011](#2011)
+  - [CVE-2011-1974 (MS11-062)](#cve-2011-1974-ms11-062)
+  - [CVE-2011-1249 (MS11-046)](#cve-2011-1249-ms11-046)
+  - [CVE-2011-1237 (MS11-034)](#cve-2011-1237-ms11-034)
+  - [CVE-2011-0045 (MS11-011)](#cve-2011-0045-ms11-011)
 - [2010](#2010)
   - [CVE-2010-3338 (MS10-092)](#cve-2010-3338-ms10-092)
   - [CVE-2010-2730 (MS10-065)](#cve-2010-2730-ms10-065)
@@ -78,6 +82,7 @@
   - [CVE-2003-0352 (MS03-026)](#cve-2003-0352-ms03-026)
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
+
 # 2021
 
 ## CVE-2021-28310
@@ -468,6 +473,51 @@
 
 
 
+# 2011
+
+## CVE-2011-1974 (MS11-062)
+
+> NDISTAPI.sys in the NDISTAPI driver in Remote Access Service (RAS) in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP2 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka "NDISTAPI Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-062](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-062) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1974](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1974) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
+
+## CVE-2011-1249 (MS11-046)
+
+> The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka "Ancillary Function Driver Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - github https://github.com/Madusanka99/OHTS/blob/master/IT16075504%20-OHTS%20Report.pdf
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-046](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-046) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1249](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+## CVE-2011-1237 (MS11-034)
+
+> Use-after-free vulnerability in win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 allows local users to gain privileges via a crafted application that leverages incorrect driver object management, a different vulnerability than other "Vulnerability Type 1" CVEs listed in MS11-034, aka "Win32k Use After Free Vulnerability."
+
+- **Analyse**
+  - https://lse.epita.fr/lse-summer-week-2013/slides/lse-summer-week-2013-26-Bruno%20Pujos-A%20Look%20into%20the%20Windows%20Kernel.pdf
+- **Exp**
+  - [https://github.com/BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237) :  ![starts](https://img.shields.io/github/stars/BrunoPujos/CVE-2011-1237.svg) ![forks](https://img.shields.io/github/forks/BrunoPujos/CVE-2011-1237.svg)
+
+
+
+## CVE-2011-0045 (MS11-011)
+
+> The Trace Events functionality in the kernel in Microsoft Windows XP SP3 does not properly perform type conversion, which causes integer truncation and insufficient memory allocation and triggers a buffer overflow, which allows local users to gain privileges via a crafted application, related to WmiTraceMessageVa, aka "Windows Kernel Integer Truncation Vulnerability."
+
+- **Analyse**
+  - https://blog.csdn.net/QEver/article/details/6227415
+  - https://www.geek-share.com/detail/2510409740.html
+  - https://bbs.pediy.com/thread-130487.htm
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-011](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-011) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+
 # 2010
 
 ## CVE-2010-3338 (MS10-092)
@@ -632,8 +682,7 @@
 > Unspecified vulnerability in the kernel in Microsoft Windows 2000 SP4, XP SP2, Server 2003 SP1 and SP2, through Vista SP1, and Server 2008 allows local users to execute arbitrary code via unknown vectors related to improper input validation. NOTE: it was later reported that one affected function is NtUserFnOUTSTRING in win32k.sys.
 
 - **Analyse**
-  - [https://github.com/lyshark/Windows-exploits/blob/master/Windows%20%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%20ms08025%20%E5%88%86%E6%9E%90.7z](https://github.com/lyshark/Windows-exploits/blob/master/Windows%20%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%20ms08025%20%E5%88%86%E6%9E%90.7z) :  ![starts](https://img.shields.io/github/stars/lyshark/Windows-exploits.svg) ![forks](https://img.shields.io/github/forks/lyshark/Windows-exploits.svg)
-  - https://bbs.pediy.com/thread-63099.htm
+  - github https://github.com/lyshark/Windows-exploits/blob/master/Windows%20%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%20ms08025%20%E5%88%86%E6%9E%90.7zhttps://bbs.pediy.com/thread-63099.htm
 - **Exp**
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
@@ -679,11 +728,13 @@
 > Stack-based buffer overflow in the Plug and Play (PnP) service for Microsoft Windows 2000 and Windows XP Service Pack 1 allows remote attackers to execute arbitrary code via a crafted packet, and local users to gain privileges via a malicious application, as exploited by the Zotob (aka Mytob) worm.
 
 - **Analyse**
+  
   - https://blog.csdn.net/tomqq/article/details/1951128
 - **Exp**
+  
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS05-039](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS05-039) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   
-- https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   
     
   
