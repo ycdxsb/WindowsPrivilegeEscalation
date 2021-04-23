@@ -15,7 +15,7 @@
 
 > A collection of Windows Privilege Escalation vulnerabilities (Analyse / PoC / Exp )
 
-- [WindowsPrivilegeEscalation](#windowsprivilegeescalation)
+
 - [2021](#2021)
   - [CVE-2021-28310](#cve-2021-28310)
   - [CVE-2021-24096](#cve-2021-24096)
@@ -48,6 +48,15 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2010](#2010)
+  - [CVE-2010-3338 (MS10-092)](#cve-2010-3338-ms10-092)
+  - [CVE-2010-2730 (MS10-065)](#cve-2010-2730-ms10-065)
+  - [CVE-2010-2554 (MS10-059)](#cve-2010-2554-ms10-059)
+  - [CVE-2010-1897 (MS10-048)](#cve-2010-1897-ms10-048)
+  - [CVE-2010-1887 (MS10-048)](#cve-2010-1887-ms10-048)
+  - [CVE-2010-0270 (MS10-020)](#cve-2010-0270-ms10-020)
+  - [CVE-2010-0233 (MS10-015)](#cve-2010-0233-ms10-015)
+  - [CVE-2010-0020 (MS10-012)](#cve-2010-0020-ms10-012)
 - [2009](#2009)
   - [CVE-2009-2532 (MS09-050)](#cve-2009-2532-ms09-050)
   - [CVE-2009-1535 (MS09-020)](#cve-2009-1535-ms09-020)
@@ -459,6 +468,76 @@
 
 
 
+# 2010
+
+## CVE-2010-3338 (MS10-092)
+
+> The Windows Task Scheduler in Microsoft Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 does not properly determine the security context of scheduled tasks, which allows local users to gain privileges via a crafted application, aka "Task Scheduler Vulnerability." NOTE: this might overlap CVE-2010-3888.
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-092 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-3338 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+  
+## CVE-2010-2730 (MS10-065)
+
+> Buffer overflow in Microsoft Internet Information Services (IIS) 7.5, when FastCGI is enabled, allows remote attackers to execute arbitrary code via crafted headers in a request, aka "Request Header Buffer Overflow Vulnerability."
+
+- **Analyse**
+  - https://blog.51cto.com/gnaw0725/1635204
+  - https://www.youtube.com/watch?v=23Mtx1F_CM0
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-065 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+
+## CVE-2010-2554 (MS10-059)
+
+> The Tracing Feature for Services in Microsoft Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 has incorrect ACLs on its registry keys, which allows local users to gain privileges via vectors involving a named pipe and impersonation, aka "Tracing Registry Key ACL Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-059 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+
+## CVE-2010-1897 (MS10-048)
+
+> The Windows kernel-mode drivers in win32k.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 do not properly validate pseudo-handle values in callback parameters during window creation, which allows local users to gain privileges via a crafted application, aka "Win32k Window Creation Vulnerability."
+
+- **Exp**
+
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-1897 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+## CVE-2010-1887 (MS10-048)
+
+> The Windows kernel-mode drivers in win32k.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 do not properly validate an unspecified system-call argument, which allows local users to cause a denial of service (system hang) via a crafted application, aka "Win32k Bounds Checking Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-048 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+
+## CVE-2010-0270 (MS10-020)
+
+> he SMB client in Microsoft Windows Server 2008 R2 and Windows 7 does not properly validate fields in SMB transaction responses, which allows remote SMB servers and man-in-the-middle attackers to execute arbitrary code or cause a denial of service (memory corruption and reboot) via a crafted (1) SMBv1 or (2) SMBv2 response, aka "SMB Client Transaction Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-012/MS10-020.py :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-0270 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
+
+## CVE-2010-0233 (MS10-015)
+
+> Double free vulnerability in the kernel in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 Gold and SP2 allows local users to gain privileges via a crafted application, aka "Windows Kernel Double Free Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS10-015 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-0233 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
+
+## CVE-2010-0020 (MS10-012)
+
+> The SMB implementation in the Server service in Microsoft Windows 2000 SP4, Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 does not properly validate request fields, which allows remote authenticated users to execute arbitrary code via a malformed request, aka "SMB Pathname Overflow Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-012/MS10-012.txt :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
+
 # 2009
 
 ## CVE-2009-2532 (MS09-050)
@@ -603,6 +682,7 @@
   
   - https://blog.csdn.net/tomqq/article/details/1951128
 - **Exp**
+  
   - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS05-039 :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg) 
   
 - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983 :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
