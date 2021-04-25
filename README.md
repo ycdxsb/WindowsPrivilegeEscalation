@@ -47,6 +47,18 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2014](#2014)
+  - [CVE-2014-6324 (MS14-068)](#cve-2014-6324-ms14-068)
+  - [CVE-2014-6321 (MS14-066)](#cve-2014-6321-ms14-066)
+  - [CVE-2014-4113 (MS14-058)](#cve-2014-4113-ms14-058)
+  - [CVE-2014-4076 (MS14-070)](#cve-2014-4076-ms14-070)
+  - [CVE-2014-1767 (MS14-040)](#cve-2014-1767-ms14-040)
+- [2013](#2013)
+  - [CVE-2013-5065 (MS14-002)](#cve-2013-5065-ms14-002)
+  - [CVE-2013-1345 (MS13-053)](#cve-2013-1345-ms13-053)
+  - [CVE-2013-1332 (MS13-046)](#cve-2013-1332-ms13-046)
+  - [CVE-2013-1300 (MS13-053)](#cve-2013-1300-ms13-053)
+  - [CVE-2013-0008 (MS13-005)](#cve-2013-0008-ms13-005)
 - [2012](#2012)
   - [CVE-2012-0217 (MS12-042)](#cve-2012-0217-ms12-042)
   - [CVE-2012-0152 (MS12-020)](#cve-2012-0152-ms12-020)
@@ -87,7 +99,6 @@
   - [CVE-2003-0352 (MS03-026)](#cve-2003-0352-ms03-026)
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
-
 # 2021
 
 ## CVE-2021-28310
@@ -478,6 +489,76 @@
 
 
 
+# 2014
+
+## CVE-2014-6324 (MS14-068)
+
+> The Kerberos Key Distribution Center (KDC) in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 allows remote authenticated domain users to obtain domain administrator privileges via a forged signature in a ticket, as exploited in the wild in November 2014, aka "Kerberos Checksum Vulnerability."
+
+- **Analyse**
+  - https://naykcin.top/2020/01/12/ms14068/
+  - https://www.cnblogs.com/feizianquan/p/11760564.html
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-068](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-068) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/ianxtianxt/MS14-068](https://github.com/ianxtianxt/MS14-068) :  ![starts](https://img.shields.io/github/stars/ianxtianxt/MS14-068.svg) ![forks](https://img.shields.io/github/forks/ianxtianxt/MS14-068.svg)
+
+## CVE-2014-6321 (MS14-066)
+
+> Schannel in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows remote attackers to execute arbitrary code via crafted packets, aka "Microsoft Schannel Remote Code Execution Vulnerability."
+
+- **Analyse**
+  - http://bobao.360.cn/learning/detail/114.html
+  - https://wooyun.js.org/drops/CVE-2014-6321%20schannel%E5%A0%86%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.html
+  - https://www.freebuf.com/vuls/52110.html
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-066](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-066) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/anexia-it/winshock-test](https://github.com/anexia-it/winshock-test) :  ![starts](https://img.shields.io/github/stars/anexia-it/winshock-test.svg) ![forks](https://img.shields.io/github/forks/anexia-it/winshock-test.svg)
+
+## CVE-2014-4113 (MS14-058)
+
+> win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, as exploited in the wild in October 2014, aka "Win32k.sys Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://xz.aliyun.com/t/4456
+  - https://b2ahex.github.io/blog/2017/06/13/4113%E5%88%86%E6%9E%90/index.html
+  - https://www.anquanke.com/post/id/84477
+  - https://bbs.pediy.com/thread-198194.htm
+  - https://wooyun.js.org/drops/CVE-2014-4113%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E8%BF%87%E7%A8%8B%E5%88%86%E6%9E%90.html
+  - http://www.netfairy.net/?post=209
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2014-4113](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/sam-b/CVE-2014-4113](https://github.com/sam-b/CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/sam-b/CVE-2014-4113.svg) ![forks](https://img.shields.io/github/forks/sam-b/CVE-2014-4113.svg)
+  - [https://github.com/nsxz/Exploit-CVE-2014-4113](https://github.com/nsxz/Exploit-CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/nsxz/Exploit-CVE-2014-4113.svg) ![forks](https://img.shields.io/github/forks/nsxz/Exploit-CVE-2014-4113.svg)
+  - [https://github.com/johnjohnsp1/CVE-2014-4113](https://github.com/johnjohnsp1/CVE-2014-4113) :  ![starts](https://img.shields.io/github/stars/johnjohnsp1/CVE-2014-4113.svg) ![forks](https://img.shields.io/github/forks/johnjohnsp1/CVE-2014-4113.svg)
+  - [https://github.com/wikiZ/cve-2014-4113](https://github.com/wikiZ/cve-2014-4113) :  ![starts](https://img.shields.io/github/stars/wikiZ/cve-2014-4113.svg) ![forks](https://img.shields.io/github/forks/wikiZ/cve-2014-4113.svg)
+
+## CVE-2014-4076 (MS14-070)
+
+> Microsoft Windows Server 2003 SP2 allows local users to gain privileges via a crafted IOCTL call to (1) tcpip.sys or (2) tcpip6.sys, aka "TCP/IP Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://bbs.pediy.com/thread-198600.htm
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-070](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-070) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2014-4076](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2014-4076) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/dev-zzo/exploits-nt-privesc/MS14-070](https://github.com/dev-zzo/exploits-nt-privesc/MS14-070) :  ![starts](https://img.shields.io/github/stars/dev-zzo/exploits-nt-privesc.svg) ![forks](https://img.shields.io/github/forks/dev-zzo/exploits-nt-privesc.svg)
+  - [https://github.com/fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076) :  ![starts](https://img.shields.io/github/stars/fungoshacks/CVE-2014-4076.svg) ![forks](https://img.shields.io/github/forks/fungoshacks/CVE-2014-4076.svg)
+
+
+
+## CVE-2014-1767 (MS14-040)
+
+> Double free vulnerability in the Ancillary Function Driver (AFD) in afd.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka "Ancillary Function Driver Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://xz.aliyun.com/t/6770
+  - https://www.bbsmax.com/A/E35p6R28zv/
+- **Exp**
+  - https://www.exploit-db.com/exploits/39446/
+  - https://www.exploit-db.com/exploits/39525/
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-040](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS14-040) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2014-1767](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2014-1767) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
 # 2013
 
 ## CVE-2013-5065 (MS14-002)
@@ -488,6 +569,7 @@
   - https://bbs.pediy.com/thread-182135.htm
 - **Exp**
   - https://www.exploit-db.com/exploits/37732/
+  - [https://github.com/dev-zzo/exploits-nt-privesc/tree/master/MS14-002](https://github.com/dev-zzo/exploits-nt-privesc/tree/master/MS14-002) :  ![starts](https://img.shields.io/github/stars/dev-zzo/exploits-nt-privesc.svg) ![forks](https://img.shields.io/github/forks/dev-zzo/exploits-nt-privesc.svg)
   - [https://github.com/Friarfukd/RobbinHood](https://github.com/Friarfukd/RobbinHood) :  ![starts](https://img.shields.io/github/stars/Friarfukd/RobbinHood.svg) ![forks](https://img.shields.io/github/forks/Friarfukd/RobbinHood.svg)
 
 ## CVE-2013-1345 (MS13-053)
