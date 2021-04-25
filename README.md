@@ -47,6 +47,16 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2015](#2015)
+  - [CVE-2015-2546 (MS15-097)](#cve-2015-2546-ms15-097)
+  - [CVE-2015-2387 (MS15-077)](#cve-2015-2387-ms15-077)
+  - [CVE-2015-2370 (MS15-076)](#cve-2015-2370-ms15-076)
+  - [CVE-2015-1726 (MS15-061)](#cve-2015-1726-ms15-061)
+  - [CVE-2015-1701 (MS15-051)](#cve-2015-1701-ms15-051)
+  - [CVE-2015-0062 (MS15-015)](#cve-2015-0062-ms15-015)
+  - [CVE-2015-0057 (MS15-010)](#cve-2015-0057-ms15-010)
+  - [CVE-2015-0003 (MS15-010)](#cve-2015-0003-ms15-010)
+  - [CVE-2015-0002 (MS15-001)](#cve-2015-0002-ms15-001)
 - [2014](#2014)
   - [CVE-2014-6324 (MS14-068)](#cve-2014-6324-ms14-068)
   - [CVE-2014-6321 (MS14-066)](#cve-2014-6321-ms14-066)
@@ -488,6 +498,115 @@
   - [https://github.com/Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609) :  ![starts](https://img.shields.io/github/stars/Archi73ct/CVE-2020-0609.svg) ![forks](https://img.shields.io/github/forks/Archi73ct/CVE-2020-0609.svg)
 
 
+
+# 2015
+
+## CVE-2015-2546 (MS15-097)
+
+>  The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 allows local users to gain privileges via a crafted application, aka "Win32k Memory Corruption Elevation of Privilege Vulnerability," a different vulnerability than CVE-2015-2511, CVE-2015-2517, and CVE-2015-2518.
+
+- **Analyse**
+  - http://drops.xmd5.com/static/drops/papers-9276.html
+  - https://bbs.pediy.com/thread-263673.htm
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-097:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2546:
+  - https://github.com/k0keoyo/CVE-2015-2546-Exploit : [![starts](https://camo.githubusercontent.com/c0a8c5a50e3ca62b0890397d380ce4a4fba4abd4421170d3b54671dbb9d57086/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667)](https://camo.githubusercontent.com/c0a8c5a50e3ca62b0890397d380ce4a4fba4abd4421170d3b54671dbb9d57086/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667) [![forks](https://camo.githubusercontent.com/0066a4d8e829fbc0836a7e2ffaab88c1a7ef200319b46762245deb927bf6ad5a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667)](https://camo.githubusercontent.com/0066a4d8e829fbc0836a7e2ffaab88c1a7ef200319b46762245deb927bf6ad5a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667)
+
+
+
+## CVE-2015-2387 (MS15-077)
+
+> ATMFD.DLL in the Adobe Type Manager Font Driver in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka "ATMFD.DLL Memory Corruption Vulnerability."
+
+- **Exp**
+  - https://www.exploit-db.com/exploits/37098/
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-077:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2387:
+
+## CVE-2015-2370 (MS15-076)
+
+> The authentication implementation in the RPC subsystem in Microsoft Windows Server 2003 SP2 and R2 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 does not prevent DCE/RPC connection reflection, which allows local users to gain privileges via a crafted application, aka "Windows RPC Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - http://bobao.360.cn/learning/detail/584.html
+  - https://blog.csdn.net/oShuangYue12/article/details/84677607
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-076:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2370:
+  - https://github.com/monoxgas/Trebuchet:
+
+## CVE-2015-1726 (MS15-061)
+
+> Use-after-free vulnerability in the kernel-mode drivers in Microsoft Windows Server 2003 SP2 and R2 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka "Microsoft Windows Kernel Brush Object Use After Free Vulnerability."
+
+- **Analyse**
+  - github https://github.com/LibreCrops/translation-zh_CN/blob/master/source/ms-15-061.rst
+  - https://translation-zh-cn.readthedocs.io/zh_CN/latest/ms-15-061.html
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-061:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1725:
+  - https://github.com/Rootkitsmm-zz/MS15-061:
+
+## CVE-2015-1701 (MS15-051)
+
+> Win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in April 2015, aka "Win32k Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-051:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1701:
+  - https://github.com/hfiref0x/CVE-2015-1701 : [![starts](https://camo.githubusercontent.com/410beaa5e34e38e6ed154f3898ec44a981643f9d5b1e47107e46e5cbc6daf84c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f68666972656630782f4356452d323031352d313730312e737667)](https://camo.githubusercontent.com/410beaa5e34e38e6ed154f3898ec44a981643f9d5b1e47107e46e5cbc6daf84c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f68666972656630782f4356452d323031352d313730312e737667) [![forks](https://camo.githubusercontent.com/b94aed950efa1d6cb63fd108272264937053900d11507b049a5a0bd030286959/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f68666972656630782f4356452d323031352d313730312e737667)](https://camo.githubusercontent.com/b94aed950efa1d6cb63fd108272264937053900d11507b049a5a0bd030286959/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f68666972656630782f4356452d323031352d313730312e737667)
+
+
+
+## CVE-2015-0062 (MS15-015)
+
+> Microsoft Windows Server 2008 R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allow local users to gain privileges via a crafted application that leverages incorrect impersonation handling in a process that uses the SeAssignPrimaryTokenPrivilege privilege, aka "Windows Create Process Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-015:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0062:
+
+## CVE-2015-0057 (MS15-010)
+
+> win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://xz.aliyun.com/t/4549
+  - https://paper.seebug.org/1439/
+  - https://www.anquanke.com/post/id/163973
+  - https://blog.csdn.net/qq_35713009/article/details/102921859
+- **PoC**
+  - https://www.exploit-db.com/exploits/39035
+- **Exp**
+  - https://www.exploit-db.com/exploits/37098
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0057:
+  - https://github.com/55-AA/CVE-2015-0057 : [![starts](https://camo.githubusercontent.com/fe7f00770bdfb3f5e9f980f4e94ac42539fef6679adc353eb1200df2cd76e511/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f35352d41412f4356452d323031352d303035372e737667)](https://camo.githubusercontent.com/fe7f00770bdfb3f5e9f980f4e94ac42539fef6679adc353eb1200df2cd76e511/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f35352d41412f4356452d323031352d303035372e737667) [![forks](https://camo.githubusercontent.com/fd99d206d3c906eb299753dbea92f3c8fe061b09d1ee05f3d9b82a01055f0ccb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f35352d41412f4356452d323031352d303035372e737667)](https://camo.githubusercontent.com/fd99d206d3c906eb299753dbea92f3c8fe061b09d1ee05f3d9b82a01055f0ccb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f35352d41412f4356452d323031352d303035372e737667)
+
+
+
+## CVE-2015-0003 (MS15-010)
+
+> win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges or cause a denial of service (NULL pointer dereference) via a crafted application, aka "Win32k Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://www.shuzhiduo.com/A/Vx5M1WrL5N/
+  - https://www.cnblogs.com/flycat-2016/p/5452929.html
+  - https://www.fireeye.com/blog/threat-research/2015/07/dyre_banking_trojan.html
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-010:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0003:
+
+## CVE-2015-0002 (MS15-001)
+
+> The AhcVerifyAdminContext function in ahcache.sys in the Application Compatibility component in Microsoft Windows 7 SP1, Windows Server 2008 R2 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 does not verify that an impersonation token is associated with an administrative account, which allows local users to gain privileges by running AppCompatCache.exe with a crafted DLL file, aka MSRC ID 20544 or "Microsoft Application Compatibility Infrastructure Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://googleprojectzero.blogspot.com/2015/02/a-tokens-tale_9.html
+  - http://www.vuln.cn/6702
+- **Exp**
+  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-001:
+  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0002:
 
 # 2014
 
