@@ -47,6 +47,15 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2016](#2016)
+  - [CVE-2016-7255 (MS16-135)](#cve-2016-7255-ms16-135)
+  - [CVE-2016-3371 (MS16-111)](#cve-2016-3371-ms16-111)
+  - [CVE-2016-3308/3309 (MS16-098)](#cve-2016-33083309-ms16-098)
+  - [CVE-2016-3225 (MS16-075)](#cve-2016-3225-ms16-075)
+  - [CVE-2016-0099 (MS16-032)](#cve-2016-0099-ms16-032)
+  - [CVE-2016-0095 (MS16-034)](#cve-2016-0095-ms16-034)
+  - [CVE-2016-0051 (MS16-016)](#cve-2016-0051-ms16-016)
+  - [CVE-2016-0041 (MS16-014)](#cve-2016-0041-ms16-014)
 - [2015](#2015)
   - [CVE-2015-2546 (MS15-097)](#cve-2015-2546-ms15-097)
   - [CVE-2015-2387 (MS15-077)](#cve-2015-2387-ms15-077)
@@ -109,6 +118,7 @@
   - [CVE-2003-0352 (MS03-026)](#cve-2003-0352-ms03-026)
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
+
 # 2021
 
 ## CVE-2021-28310
@@ -499,6 +509,114 @@
 
 
 
+# 2016
+
+## CVE-2016-7255 (MS16-135)
+
+> The kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, and 1607, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/85232
+- **PoC**
+  - [https://github.com/FuzzySecurity/PSKernel-Primitives/tree/master/Sample-Exploits/MS16-135](https://github.com/FuzzySecurity/PSKernel-Primitives/tree/master/Sample-Exploits/MS16-135) :  ![starts](https://img.shields.io/github/stars/FuzzySecurity/PSKernel-Primitives.svg) ![forks](https://img.shields.io/github/forks/FuzzySecurity/PSKernel-Primitives.svg)
+  - [https://github.com/tinysec/public/tree/master/CVE-2016-7255](https://github.com/tinysec/public/tree/master/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/tinysec/public.svg) ![forks](https://img.shields.io/github/forks/tinysec/public.svg)
+  - [https://github.com/FSecureLABS/CVE-2016-7255](https://github.com/FSecureLABS/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/FSecureLABS/CVE-2016-7255.svg) ![forks](https://img.shields.io/github/forks/FSecureLABS/CVE-2016-7255.svg)
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-135](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-135) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-7255](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/heh3/CVE-2016-7255](https://github.com/heh3/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/heh3/CVE-2016-7255.svg) ![forks](https://img.shields.io/github/forks/heh3/CVE-2016-7255.svg)
+  - [https://github.com/yuvatia/page-table-exploitation](https://github.com/yuvatia/page-table-exploitation) :  ![starts](https://img.shields.io/github/stars/yuvatia/page-table-exploitation.svg) ![forks](https://img.shields.io/github/forks/yuvatia/page-table-exploitation.svg)
+  - [https://github.com/bbolmin/cve-2016-7255_x86_x64](https://github.com/bbolmin/cve-2016-7255_x86_x64) :  ![starts](https://img.shields.io/github/stars/bbolmin/cve-2016-7255_x86_x64.svg) ![forks](https://img.shields.io/github/forks/bbolmin/cve-2016-7255_x86_x64.svg)
+  - [https://github.com/homjxi0e/CVE-2016-7255](https://github.com/homjxi0e/CVE-2016-7255) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2016-7255.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2016-7255.svg)
+
+
+
+## CVE-2016-3371 (MS16-111)
+
+> The kernel API in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold, 1511, and 1607 does not properly enforce permissions, which allows local users to obtain sensitive information via a crafted application, aka "Windows Kernel Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - https://www.exploit-db.com/exploits/40429/
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-111](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-111) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-3371](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-3371) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+## CVE-2016-3308/3309 (MS16-098)
+
+> The kernel-mode drivers in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allow local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability," a different vulnerability than CVE-2016-3309, CVE-2016-3310, and CVE-2016-3311.
+
+- **Analyse**
+  - https://paper.seebug.org/37/
+  - https://xz.aliyun.com/t/4543
+  - github https://github.com/55-AA/CVE-2016-3308/blob/master/CVE-2016-3308.md
+  - https://xz.aliyun.com/t/2919
+  - https://paper.seebug.org/320/
+  - https://security.tencent.com/index.php/blog/msg/117
+  - https://www.anquanke.com/post/id/85302
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-098](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-098) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-3309](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-3309) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/sensepost/gdi-palettes-exp](https://github.com/sensepost/gdi-palettes-exp) :  ![starts](https://img.shields.io/github/stars/sensepost/gdi-palettes-exp.svg) ![forks](https://img.shields.io/github/forks/sensepost/gdi-palettes-exp.svg)
+  - [https://github.com/55-AA/CVE-2016-3308](https://github.com/55-AA/CVE-2016-3308) :  ![starts](https://img.shields.io/github/stars/55-AA/CVE-2016-3308.svg) ![forks](https://img.shields.io/github/forks/55-AA/CVE-2016-3308.svg)
+  - [https://github.com/siberas/CVE-2016-3309_Reloaded](https://github.com/siberas/CVE-2016-3309_Reloaded) :  ![starts](https://img.shields.io/github/stars/siberas/CVE-2016-3309_Reloaded.svg) ![forks](https://img.shields.io/github/forks/siberas/CVE-2016-3309_Reloaded.svg)
+
+
+
+##  CVE-2016-3225 (MS16-075)
+
+> The SMB server component in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application that forwards an authentication request to an unintended service, aka "Windows SMB Server Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - https://www.exploit-db.com/exploits/45562/
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-075](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-075) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-3225](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-3225) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - https://www.secpulse.com/archives/72798.html
+
+## CVE-2016-0099 (MS16-032)
+
+> The Secondary Logon Service in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 does not properly process request handles, which allows local users to gain privileges via a crafted application, aka "Secondary Logon Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-032](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-032) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0099](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0099) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/zcgonvh/MS16-032](https://github.com/zcgonvh/MS16-032) :  ![starts](https://img.shields.io/github/stars/zcgonvh/MS16-032.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/MS16-032.svg)
+  - [https://github.com/Meatballs1/ms16-032](https://github.com/Meatballs1/ms16-032) :  ![starts](https://img.shields.io/github/stars/Meatballs1/ms16-032.svg) ![forks](https://img.shields.io/github/forks/Meatballs1/ms16-032.svg)
+  - [https://github.com/Sh3lldor/Get_System](https://github.com/Sh3lldor/Get_System) :  ![starts](https://img.shields.io/github/stars/Sh3lldor/Get_System.svg) ![forks](https://img.shields.io/github/forks/Sh3lldor/Get_System.svg)
+
+## CVE-2016-0095 (MS16-034)
+
+> The kernel-mode driver in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability," a different vulnerability than CVE-2016-0093, CVE-2016-0094, and CVE-2016-0096.
+
+- **Analyse**
+  - https://xz.aliyun.com/t/6008
+  - http://weaponx.site/2017/08/11/CVE-2016-0095%E4%BB%8EPoC%E5%88%B0Exploit/
+  - https://whereisk0shl.top/ssctf_pwn450_windows_kernel_exploitation_writeup.html
+  - github https://github.com/k0keoyo/SSCTF-pwn450-ms16-034-writeup
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-034](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-034) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0095](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0095) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/fengjixuchui/cve-2016-0095-x64](https://github.com/fengjixuchui/cve-2016-0095-x64) :  ![starts](https://img.shields.io/github/stars/fengjixuchui/cve-2016-0095-x64.svg) ![forks](https://img.shields.io/github/forks/fengjixuchui/cve-2016-0095-x64.svg)
+
+## CVE-2016-0051 (MS16-016)
+
+> The WebDAV client in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, and Windows 10 Gold and 1511 allows local users to gain privileges via a crafted application, aka "WebDAV Elevation of Privilege Vulnerability."
+
+- **Exp**
+  - https://www.exploit-db.com/exploits/39788/
+  - https://www.exploit-db.com/exploits/39432/
+  - https://www.exploit-db.com/exploits/40085/
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-016](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-016) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0051](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/koczkatamas/CVE-2016-0051](https://github.com/koczkatamas/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/koczkatamas/CVE-2016-0051.svg) ![forks](https://img.shields.io/github/forks/koczkatamas/CVE-2016-0051.svg)
+  - [https://github.com/hexx0r/CVE-2016-0051](https://github.com/hexx0r/CVE-2016-0051) :  ![starts](https://img.shields.io/github/stars/hexx0r/CVE-2016-0051.svg) ![forks](https://img.shields.io/github/forks/hexx0r/CVE-2016-0051.svg)
+
+## CVE-2016-0041 (MS16-014)
+
+> Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold and 1511, and Internet Explorer 10 and 11 mishandle DLL loading, which allows local users to gain privileges via a crafted application, aka "DLL Loading Remote Code Execution Vulnerability."
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-014](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-014) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0041](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2016-0041) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
 # 2015
 
 ## CVE-2015-2546 (MS15-097)
@@ -509,9 +627,9 @@
   - http://drops.xmd5.com/static/drops/papers-9276.html
   - https://bbs.pediy.com/thread-263673.htm
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-097:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2546:
-  - https://github.com/k0keoyo/CVE-2015-2546-Exploit : [![starts](https://camo.githubusercontent.com/c0a8c5a50e3ca62b0890397d380ce4a4fba4abd4421170d3b54671dbb9d57086/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667)](https://camo.githubusercontent.com/c0a8c5a50e3ca62b0890397d380ce4a4fba4abd4421170d3b54671dbb9d57086/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667) [![forks](https://camo.githubusercontent.com/0066a4d8e829fbc0836a7e2ffaab88c1a7ef200319b46762245deb927bf6ad5a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667)](https://camo.githubusercontent.com/0066a4d8e829fbc0836a7e2ffaab88c1a7ef200319b46762245deb927bf6ad5a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6b306b656f796f2f4356452d323031352d323534362d4578706c6f69742e737667)
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-097](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-097) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2546](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2546) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/k0keoyo/CVE-2015-2546-Exploit](https://github.com/k0keoyo/CVE-2015-2546-Exploit) :  ![starts](https://img.shields.io/github/stars/k0keoyo/CVE-2015-2546-Exploit.svg) ![forks](https://img.shields.io/github/forks/k0keoyo/CVE-2015-2546-Exploit.svg)
 
 
 
@@ -521,8 +639,8 @@
 
 - **Exp**
   - https://www.exploit-db.com/exploits/37098/
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-077:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2387:
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-077](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-077) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2387](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2387) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 ## CVE-2015-2370 (MS15-076)
 
@@ -532,9 +650,9 @@
   - http://bobao.360.cn/learning/detail/584.html
   - https://blog.csdn.net/oShuangYue12/article/details/84677607
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-076:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2370:
-  - https://github.com/monoxgas/Trebuchet:
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-076](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-076) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2370](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2370) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/monoxgas/Trebuchet](https://github.com/monoxgas/Trebuchet) :  ![starts](https://img.shields.io/github/stars/monoxgas/Trebuchet.svg) ![forks](https://img.shields.io/github/forks/monoxgas/Trebuchet.svg)
 
 ## CVE-2015-1726 (MS15-061)
 
@@ -544,18 +662,18 @@
   - github https://github.com/LibreCrops/translation-zh_CN/blob/master/source/ms-15-061.rst
   - https://translation-zh-cn.readthedocs.io/zh_CN/latest/ms-15-061.html
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-061:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1725:
-  - https://github.com/Rootkitsmm-zz/MS15-061:
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-061](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-061) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1725](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1725) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/Rootkitsmm-zz/MS15-061](https://github.com/Rootkitsmm-zz/MS15-061) :  ![starts](https://img.shields.io/github/stars/Rootkitsmm-zz/MS15-061.svg) ![forks](https://img.shields.io/github/forks/Rootkitsmm-zz/MS15-061.svg)
 
 ## CVE-2015-1701 (MS15-051)
 
 > Win32k.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Vista SP2, and Server 2008 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in April 2015, aka "Win32k Elevation of Privilege Vulnerability."
 
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-051:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1701:
-  - https://github.com/hfiref0x/CVE-2015-1701 : [![starts](https://camo.githubusercontent.com/410beaa5e34e38e6ed154f3898ec44a981643f9d5b1e47107e46e5cbc6daf84c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f68666972656630782f4356452d323031352d313730312e737667)](https://camo.githubusercontent.com/410beaa5e34e38e6ed154f3898ec44a981643f9d5b1e47107e46e5cbc6daf84c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f68666972656630782f4356452d323031352d313730312e737667) [![forks](https://camo.githubusercontent.com/b94aed950efa1d6cb63fd108272264937053900d11507b049a5a0bd030286959/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f68666972656630782f4356452d323031352d313730312e737667)](https://camo.githubusercontent.com/b94aed950efa1d6cb63fd108272264937053900d11507b049a5a0bd030286959/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f68666972656630782f4356452d323031352d313730312e737667)
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-051](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-051) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1701](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/hfiref0x/CVE-2015-1701.svg) ![forks](https://img.shields.io/github/forks/hfiref0x/CVE-2015-1701.svg)
 
 
 
@@ -564,8 +682,8 @@
 > Microsoft Windows Server 2008 R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allow local users to gain privileges via a crafted application that leverages incorrect impersonation handling in a process that uses the SeAssignPrimaryTokenPrivilege privilege, aka "Windows Create Process Elevation of Privilege Vulnerability."
 
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-015:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0062:
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-015](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-015) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0062](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0062) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 ## CVE-2015-0057 (MS15-010)
 
@@ -580,8 +698,8 @@
   - https://www.exploit-db.com/exploits/39035
 - **Exp**
   - https://www.exploit-db.com/exploits/37098
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0057:
-  - https://github.com/55-AA/CVE-2015-0057 : [![starts](https://camo.githubusercontent.com/fe7f00770bdfb3f5e9f980f4e94ac42539fef6679adc353eb1200df2cd76e511/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f35352d41412f4356452d323031352d303035372e737667)](https://camo.githubusercontent.com/fe7f00770bdfb3f5e9f980f4e94ac42539fef6679adc353eb1200df2cd76e511/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f35352d41412f4356452d323031352d303035372e737667) [![forks](https://camo.githubusercontent.com/fd99d206d3c906eb299753dbea92f3c8fe061b09d1ee05f3d9b82a01055f0ccb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f35352d41412f4356452d323031352d303035372e737667)](https://camo.githubusercontent.com/fd99d206d3c906eb299753dbea92f3c8fe061b09d1ee05f3d9b82a01055f0ccb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f35352d41412f4356452d323031352d303035372e737667)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0057](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/55-AA/CVE-2015-0057.svg) ![forks](https://img.shields.io/github/forks/55-AA/CVE-2015-0057.svg)
 
 
 
@@ -594,8 +712,8 @@
   - https://www.cnblogs.com/flycat-2016/p/5452929.html
   - https://www.fireeye.com/blog/threat-research/2015/07/dyre_banking_trojan.html
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-010:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0003:
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-010](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-010) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0003](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0003) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 ## CVE-2015-0002 (MS15-001)
 
@@ -605,8 +723,8 @@
   - https://googleprojectzero.blogspot.com/2015/02/a-tokens-tale_9.html
   - http://www.vuln.cn/6702
 - **Exp**
-  - https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-001:
-  - https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0002:
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-001](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS15-001) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0002](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0002) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 # 2014
 
