@@ -478,6 +478,56 @@
 
 
 
+# 2013
+
+## CVE-2013-5065 (MS14-002)
+
+> NDProxy.sys in the kernel in Microsoft Windows XP SP2 and SP3 and Server 2003 SP2 allows local users to gain privileges via a crafted application, as exploited in the wild in November 2013.
+
+- **Analyse**
+  - https://bbs.pediy.com/thread-182135.htm
+- **Exp**
+  - https://www.exploit-db.com/exploits/37732/
+  - [https://github.com/Friarfukd/RobbinHood](https://github.com/Friarfukd/RobbinHood) :  ![starts](https://img.shields.io/github/stars/Friarfukd/RobbinHood.svg) ![forks](https://img.shields.io/github/forks/Friarfukd/RobbinHood.svg)
+
+## CVE-2013-1345 (MS13-053)
+
+> win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka "Win32k Vulnerability."
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-053](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-053) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-1345](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-1345) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+## CVE-2013-1332 (MS13-046)
+
+> dxgkrnl.sys (aka the DirectX graphics kernel subsystem) in the kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka "DirectX Graphics Kernel Subsystem Double Fetch Vulnerability."
+
+- **Analyse**
+  - https://www.anquanke.com/vul/id/1045064
+  - http://www.91ri.org/6708.html
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-046](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-046) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-1332](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-1332) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+
+
+## CVE-2013-1300 (MS13-053)
+
+> win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka "Win32k Memory Allocation Vulnerability."
+
+- **Analyse**
+  - https://labs.mwrinfosecurity.com/blog/2013/09/06/mwr-labs-pwn2own-2013-write-up---kernel-exploit/
+- **Exp**
+  - [https://github.com/Meatballs1/cve-2013-1300](https://github.com/Meatballs1/cve-2013-1300) :  ![starts](https://img.shields.io/github/stars/Meatballs1/cve-2013-1300.svg) ![forks](https://img.shields.io/github/forks/Meatballs1/cve-2013-1300.svg)
+
+## CVE-2013-0008 (MS13-005)
+
+> win32k.sys in the kernel-mode drivers in Microsoft Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, Windows 7 Gold and SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle window broadcast messages, which allows local users to gain privileges via a crafted application, aka "Win32k Improper Message Handling Vulnerability."
+
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-005](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-005) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-0008](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-0008) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
 # 2012
 
 ##  CVE-2012-0217 (MS12-042)
