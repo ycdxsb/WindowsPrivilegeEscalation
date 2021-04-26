@@ -47,6 +47,16 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2018](#2018)
+  - [CVE-2018-8639](#cve-2018-8639)
+  - [CVE-2018-8453](#cve-2018-8453)
+  - [CVE-2018-8440](#cve-2018-8440)
+  - [CVE-2018-8414](#cve-2018-8414)
+  - [CVE-2018-8120](#cve-2018-8120)
+  - [CVE-2018-7249](#cve-2018-7249)
+  - [CVE-2018-1038](#cve-2018-1038)
+  - [CVE-2018-0886](#cve-2018-0886)
+  - [CVE-2018-0824](#cve-2018-0824)
 - [2017](#2017)
   - [CVE-2017-11783](#cve-2017-11783)
   - [CVE-2017-8543](#cve-2017-8543)
@@ -521,6 +531,128 @@
   - [https://github.com/Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609) :  ![starts](https://img.shields.io/github/stars/Archi73ct/CVE-2020-0609.svg) ![forks](https://img.shields.io/github/forks/Archi73ct/CVE-2020-0609.svg)
 
 
+
+
+
+# 2018
+
+## CVE-2018-8639
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka "Win32k Elevation of Privilege Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers. This CVE ID is unique from CVE-2018-8641.
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/183358
+  - https://bbs.pediy.com/thread-251400.htm
+  - https://bbs.pediy.com/thread-254305.htm
+- **Exp** 
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2018-8639](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2018-8639) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/ze0r/CVE-2018-8639-exp](https://github.com/ze0r/CVE-2018-8639-exp) :  ![starts](https://img.shields.io/github/stars/ze0r/CVE-2018-8639-exp.svg) ![forks](https://img.shields.io/github/forks/ze0r/CVE-2018-8639-exp.svg)
+  - [https://github.com/timwhitez/CVE-2018-8639-EXP](https://github.com/timwhitez/CVE-2018-8639-EXP) :  ![starts](https://img.shields.io/github/stars/timwhitez/CVE-2018-8639-EXP.svg) ![forks](https://img.shields.io/github/forks/timwhitez/CVE-2018-8639-EXP.svg)
+
+## CVE-2018-8453
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka "Win32k Elevation of Privilege Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2019, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+
+- **Analyse**
+  - github https://github.com/thepwnrip/leHACK-Analysis-of-CVE-2018-8453
+  - https://www.anquanke.com/post/id/162894
+  - https://paper.seebug.org/784/
+  - https://bbs.pediy.com/thread-249021.htm
+  - https://www.jianshu.com/p/082bd9992b57
+  - https://www.whsgwl.net/blog/CVE-2018-8453_0.html
+  - https://www.whsgwl.net/blog/CVE-2018-8453_1.html
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2018-8453](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2018-8453) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/ze0r/cve-2018-8453-exp](https://github.com/ze0r/cve-2018-8453-exp) :  ![starts](https://img.shields.io/github/stars/ze0r/cve-2018-8453-exp.svg) ![forks](https://img.shields.io/github/forks/ze0r/cve-2018-8453-exp.svg)
+  - [https://github.com/Mkv4/cve-2018-8453-exp](https://github.com/Mkv4/cve-2018-8453-exp) :  ![starts](https://img.shields.io/github/stars/Mkv4/cve-2018-8453-exp.svg) ![forks](https://img.shields.io/github/forks/Mkv4/cve-2018-8453-exp.svg)
+
+## CVE-2018-8440
+
+> An elevation of privilege vulnerability exists when Windows improperly handles calls to Advanced Local Procedure Call (ALPC), aka "Windows ALPC Elevation of Privilege Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+
+- **Analyse**
+  - https://blog.0patch.com/2018/08/how-we-micropatched-publicly-dropped.html
+  - https://blog.0patch.com/2018/09/comparing-our-micropatch-with.html
+  - https://www.anquanke.com/post/id/169382
+- **Exp**
+  - [https://github.com/sourceincite/CVE-2018-8440](https://github.com/sourceincite/CVE-2018-8440) :  ![starts](https://img.shields.io/github/stars/sourceincite/CVE-2018-8440.svg) ![forks](https://img.shields.io/github/forks/sourceincite/CVE-2018-8440.svg)
+
+## CVE-2018-8414
+
+> A remote code execution vulnerability exists when the Windows Shell does not properly validate file paths, aka "Windows Shell Remote Code Execution Vulnerability." This affects Windows 10 Servers, Windows 10.
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/157782
+  - https://www.cnblogs.com/backlion/p/9642241.html
+- **Exp**
+  - [https://github.com/whereisr0da/CVE-2018-8414-POC](https://github.com/whereisr0da/CVE-2018-8414-POC) :  ![starts](https://img.shields.io/github/stars/whereisr0da/CVE-2018-8414-POC.svg) ![forks](https://img.shields.io/github/forks/whereisr0da/CVE-2018-8414-POC.svg)
+
+
+
+## CVE-2018-8120
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka "Win32k Elevation of Privilege Vulnerability." This affects Windows Server 2008, Windows 7, Windows Server 2008 R2. This CVE ID is unique from CVE-2018-8124, CVE-2018-8164, CVE-2018-8166.
+
+- **Analyse**
+  - github https://github.com/EVOL4/CVE-2018-8120/blob/master/CVE-2018-8120.md
+  - https://b2ahex.github.io/blog/2018/05/15/8120%E5%88%86%E6%9E%90/index.html
+  - https://paper.seebug.org/614/
+  - https://xz.aliyun.com/t/8667
+  - http://xz.aliyun.com/t/5966
+- **PoC**
+  - [https://github.com/areuu/CVE-2018-8120](https://github.com/areuu/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/areuu/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/areuu/CVE-2018-8120.svg)
+  - [https://github.com/StartZYP/CVE-2018-8120](https://github.com/StartZYP/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/StartZYP/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/StartZYP/CVE-2018-8120.svg)
+- **Exp**
+  - [https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2018-8120](https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+  - [https://github.com/unamer/CVE-2018-8120](https://github.com/unamer/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/unamer/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/unamer/CVE-2018-8120.svg)
+  - [https://github.com/alpha1ab/CVE-2018-8120](https://github.com/alpha1ab/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/alpha1ab/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/alpha1ab/CVE-2018-8120.svg)
+  - [https://github.com/bigric3/cve-2018-8120](https://github.com/bigric3/cve-2018-8120) :  ![starts](https://img.shields.io/github/stars/bigric3/cve-2018-8120.svg) ![forks](https://img.shields.io/github/forks/bigric3/cve-2018-8120.svg)
+  - [https://github.com/ne1llee/cve-2018-8120](https://github.com/ne1llee/cve-2018-8120) :  ![starts](https://img.shields.io/github/stars/ne1llee/cve-2018-8120.svg) ![forks](https://img.shields.io/github/forks/ne1llee/cve-2018-8120.svg)
+  - [https://github.com/ozkanbilge/CVE-2018-8120](https://github.com/ozkanbilge/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/ozkanbilge/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/ozkanbilge/CVE-2018-8120.svg)
+  - [https://github.com/EVOL4/CVE-2018-8120](https://github.com/EVOL4/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/EVOL4/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/EVOL4/CVE-2018-8120.svg)
+  - [https://github.com/qiantu88/CVE-2018-8120](https://github.com/qiantu88/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/qiantu88/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/qiantu88/CVE-2018-8120.svg)
+  - [https://github.com/Y0n0Y/cve-2018-8120-exp](https://github.com/Y0n0Y/cve-2018-8120-exp) :  ![starts](https://img.shields.io/github/stars/Y0n0Y/cve-2018-8120-exp.svg) ![forks](https://img.shields.io/github/forks/Y0n0Y/cve-2018-8120-exp.svg)
+  - [https://github.com/DreamoneOnly/CVE-2018-8120](https://github.com/DreamoneOnly/CVE-2018-8120) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2018-8120.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2018-8120.svg)
+  - [https://github.com/wikiZ/cve-2018-8120](https://github.com/wikiZ/cve-2018-8120) :  ![starts](https://img.shields.io/github/stars/wikiZ/cve-2018-8120.svg) ![forks](https://img.shields.io/github/forks/wikiZ/cve-2018-8120.svg)
+
+## CVE-2018-7249
+
+> An issue was discovered in secdrv.sys as shipped in Microsoft Windows Vista, Windows 7, Windows 8, and Windows 8.1 before KB3086255, and as shipped in Macrovision SafeDisc. Two carefully timed calls to IOCTL 0xCA002813 can cause a race condition that leads to a use-after-free. When exploited, an unprivileged attacker can run arbitrary code in the kernel.
+
+- **Exp**
+  - [https://github.com/Elvin9/NotSecDrv](https://github.com/Elvin9/NotSecDrv) :  ![starts](https://img.shields.io/github/stars/Elvin9/NotSecDrv.svg) ![forks](https://img.shields.io/github/forks/Elvin9/NotSecDrv.svg)
+
+## CVE-2018-1038
+
+> The Windows kernel in Windows 7 SP1 and Windows Server 2008 R2 SP1 allows an elevation of privilege vulnerability due to the way it handles objects in memory, aka "Windows Kernel Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://blog.xpnsec.com/total-meltdown-cve-2018-1038/
+  - https://www.anquanke.com/post/id/106156
+  - https://de4dcr0w.github.io/%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/CVE-2018-1038-TotalMeltdown%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E7%9A%84%E4%B8%80%E7%82%B9%E8%AE%B0%E5%BD%95.html
+- **Exp**
+  - https://gist.github.com/xpn/3792ec34d712425a5c47caf5677de5fe
+  - https://www.exploit-db.com/exploits/44581
+
+## CVE-2018-0886
+
+> The Credential Security Support Provider protocol (CredSSP) in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1 and RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, 1703, and 1709 Windows Server 2016 and Windows Server, version 1709 allows a remote code execution vulnerability due to how CredSSP validates request during the authentication process, aka "CredSSP Remote Code Execution Vulnerability".
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/101158
+- **Exp**
+  - [https://github.com/preempt/credssp](https://github.com/preempt/credssp) :  ![starts](https://img.shields.io/github/stars/preempt/credssp.svg) ![forks](https://img.shields.io/github/forks/preempt/credssp.svg)
+
+## CVE-2018-0824
+
+> A remote code execution vulnerability exists in "Microsoft COM for Windows" when it fails to properly handle serialized objects, aka "Microsoft COM for Windows Remote Code Execution Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+
+- **Analyse**
+  - https://codewhitesec.blogspot.com/2018/06/cve-2018-0624.html
+  - https://www.anquanke.com/post/id/148749
+- **Exp**
+  - https://www.exploit-db.com/exploits/44906
+  - [https://github.com/codewhitesec/UnmarshalPwn](https://github.com/codewhitesec/UnmarshalPwn) :  ![starts](https://img.shields.io/github/stars/codewhitesec/UnmarshalPwn.svg) ![forks](https://img.shields.io/github/forks/codewhitesec/UnmarshalPwn.svg)
 
 # 2017
 
