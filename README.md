@@ -47,6 +47,19 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2017](#2017)
+  - [CVE-2017-11783](#cve-2017-11783)
+  - [CVE-2017-8543](#cve-2017-8543)
+  - [CVE-2017-8465](#cve-2017-8465)
+  - [CVE-2017-8464](#cve-2017-8464)
+  - [CVE-2017-7269](#cve-2017-7269)
+  - [CVE-2017-0290](#cve-2017-0290)
+  - [CVE-2017-0263](#cve-2017-0263)
+  - [CVE-2017-0213](#cve-2017-0213)
+  - [CVE-2017-0143 (MS17-010)](#cve-2017-0143-ms17-010)
+  - [CVE-2017-0101 (MS17-017)](#cve-2017-0101-ms17-017)
+  - [CVE-2017-0100 (MS17-012)](#cve-2017-0100-ms17-012)
+  - [CVE-2017-0005 (MS17-013)](#cve-2017-0005-ms17-013)
 - [2016](#2016)
   - [CVE-2016-7255 (MS16-135)](#cve-2016-7255-ms16-135)
   - [CVE-2016-3371 (MS16-111)](#cve-2016-3371-ms16-111)
@@ -506,6 +519,177 @@
   - [https://github.com/MalwareTech/RDGScanner](https://github.com/MalwareTech/RDGScanner) :  ![starts](https://img.shields.io/github/stars/MalwareTech/RDGScanner.svg) ![forks](https://img.shields.io/github/forks/MalwareTech/RDGScanner.svg)
   - [https://github.com/2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609) :  ![starts](https://img.shields.io/github/stars/2d4d/rdg_scanner_cve-2020-0609.svg) ![forks](https://img.shields.io/github/forks/2d4d/rdg_scanner_cve-2020-0609.svg)
   - [https://github.com/Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609) :  ![starts](https://img.shields.io/github/stars/Archi73ct/CVE-2020-0609.svg) ![forks](https://img.shields.io/github/forks/Archi73ct/CVE-2020-0609.svg)
+
+
+
+# 2017
+
+## CVE-2017-11783
+
+> Microsoft Windows 8.1, Windows Server 2012 R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allows an elevation of privilege vulnerability in the way it handles calls to Advanced Local Procedure Call (ALPC), aka "Windows Elevation of Privilege Vulnerability".
+
+- **Exp**
+  - [https://github.com/Sheisback/CVE-2017-11783](https://github.com/Sheisback/CVE-2017-11783) :  ![starts](https://img.shields.io/github/stars/Sheisback/CVE-2017-11783.svg) ![forks](https://img.shields.io/github/forks/Sheisback/CVE-2017-11783.svg)
+
+## CVE-2017-8543
+
+> Microsoft Windows XP SP3, Windows XP x64 XP2, Windows Server 2003 SP2, Windows Vista, Windows 7 SP1, Windows Server 2008 SP2 and R2 SP1, Windows 8, Windows 8.1 and Windows RT 8.1, Windows Server 2012 and R2, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allow an attacker to take control of the affected system when Windows Search fails to handle objects in memory, aka "Windows Search Remote Code Execution Vulnerability".
+
+- **Analyse**
+  - https://paper.seebug.org/355/
+
+## CVE-2017-8465
+
+> Microsoft Windows 8.1 and Windows RT 8.1, Windows Server 2012 R2, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allow an attacker to run processes in an elevated context when the Windows kernel improperly handles objects in memory, aka "Win32k Elevation of Privilege Vulnerability." This CVE ID is unique from CVE-2017-8468.
+
+- **Exp**
+  - [https://github.com/nghiadt1098/CVE-2017-8465](https://github.com/nghiadt1098/CVE-2017-8465) :  ![starts](https://img.shields.io/github/stars/nghiadt1098/CVE-2017-8465.svg) ![forks](https://img.shields.io/github/forks/nghiadt1098/CVE-2017-8465.svg)
+
+## CVE-2017-8464
+
+> Windows Shell in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allows local users or remote attackers to execute arbitrary code via a crafted .LNK file, which is not properly handled during icon display in Windows Explorer or any other application that parses the icon of the shortcut. aka "LNK Remote Code Execution Vulnerability."
+
+- **Analyse**
+  - https://my.oschina.net/u/4310658/blog/3695267
+  - https://www.anquanke.com/post/id/202705
+  - https://wohin.me/0dayan-quan-external-stuxnet-cve-2017-8464/
+  - https://blog.csdn.net/baidu_41647119/article/details/103875396
+  - http://www.vxjump.net/files/vuln_analysis/cve-2017-8464.txt
+- **PoC**
+  - [https://github.com/Elm0D/CVE-2017-8464](https://github.com/Elm0D/CVE-2017-8464) :  ![starts](https://img.shields.io/github/stars/Elm0D/CVE-2017-8464.svg) ![forks](https://img.shields.io/github/forks/Elm0D/CVE-2017-8464.svg)
+- **Exp**
+  - https://www.exploit-db.com/exploits/42382/
+  - https://www.exploit-db.com/exploits/42429/
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-8464](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-8464) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/3gstudent/CVE-2017-8464-EXP](https://github.com/3gstudent/CVE-2017-8464-EXP) :  ![starts](https://img.shields.io/github/stars/3gstudent/CVE-2017-8464-EXP.svg) ![forks](https://img.shields.io/github/forks/3gstudent/CVE-2017-8464-EXP.svg)
+  - [https://github.com/Securitykid/CVE-2017-8464-exp-generator](https://github.com/Securitykid/CVE-2017-8464-exp-generator) :  ![starts](https://img.shields.io/github/stars/Securitykid/CVE-2017-8464-exp-generator.svg) ![forks](https://img.shields.io/github/forks/Securitykid/CVE-2017-8464-exp-generator.svg)
+  - [https://github.com/xssfile/CVE-2017-8464-EXP](https://github.com/xssfile/CVE-2017-8464-EXP) :  ![starts](https://img.shields.io/github/stars/xssfile/CVE-2017-8464-EXP.svg) ![forks](https://img.shields.io/github/forks/xssfile/CVE-2017-8464-EXP.svg)
+  - [https://github.com/X-Vector/usbhijacking](https://github.com/X-Vector/usbhijacking) :  ![starts](https://img.shields.io/github/stars/X-Vector/usbhijacking.svg) ![forks](https://img.shields.io/github/forks/X-Vector/usbhijacking.svg)
+
+## CVE-2017-7269
+
+> Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with "If: <http://" in a PROPFIND request, as exploited in the wild in July or August 2016.
+
+- **Analyse**
+
+  - https://paper.seebug.org/259/
+
+- **PoC**
+
+  - [https://github.com/lcatro/CVE-2017-7269-Echo-PoC](https://github.com/lcatro/CVE-2017-7269-Echo-PoC) :  ![starts](https://img.shields.io/github/stars/lcatro/CVE-2017-7269-Echo-PoC.svg) ![forks](https://img.shields.io/github/forks/lcatro/CVE-2017-7269-Echo-PoC.svg)
+
+- **Exp**
+
+  - [https://github.com/zcgonvh/cve-2017-7269](https://github.com/zcgonvh/cve-2017-7269) :  ![starts](https://img.shields.io/github/stars/zcgonvh/cve-2017-7269.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/cve-2017-7269.svg)
+  - [https://github.com/zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool) :  ![starts](https://img.shields.io/github/stars/zcgonvh/cve-2017-7269-tool.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/cve-2017-7269-tool.svg)
+  - [https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/g0rx/iis6-exploit-2017-CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/g0rx/iis6-exploit-2017-CVE-2017-7269.svg)
+  - [https://github.com/eliuha/webdav_exploit](https://github.com/eliuha/webdav_exploit) :  ![starts](https://img.shields.io/github/stars/eliuha/webdav_exploit.svg) ![forks](https://img.shields.io/github/forks/eliuha/webdav_exploit.svg)
+  - [https://github.com/Al1ex/CVE-2017-7269](https://github.com/Al1ex/CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/Al1ex/CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/Al1ex/CVE-2017-7269.svg)
+  - [https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby](https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby) :  ![starts](https://img.shields.io/github/stars/slimpagey/IIS_6.0_WebDAV_Ruby.svg) ![forks](https://img.shields.io/github/forks/slimpagey/IIS_6.0_WebDAV_Ruby.svg)
+  - [https://github.com/caicai1355/CVE-2017-7269-exploit](https://github.com/caicai1355/CVE-2017-7269-exploit) :  ![starts](https://img.shields.io/github/stars/caicai1355/CVE-2017-7269-exploit.svg) ![forks](https://img.shields.io/github/forks/caicai1355/CVE-2017-7269-exploit.svg)
+
+  
+
+## CVE-2017-0290
+
+> The Microsoft Malware Protection Engine running on Microsoft Forefront and Microsoft Defender on Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 does not properly scan a specially crafted file leading to memory corruption, aka "Microsoft Malware Protection Engine Remote Code Execution Vulnerability."
+
+- **Analyse**
+  - https://0patch.blogspot.jp/2017/05/0patching-worst-windows-remote-code.html
+  - https://www.anquanke.com/post/id/86136
+  - https://arstechnica.com/information-technology/2017/05/windows-defender-nscript-remote-vulnerability/
+- **Exp**
+  - https://www.exploit-db.com/exploits/41975/
+  - [https://github.com/homjxi0e/CVE-2017-0290-](https://github.com/homjxi0e/CVE-2017-0290-) :  ![starts](https://img.shields.io/github/stars/homjxi0e/CVE-2017-0290-.svg) ![forks](https://img.shields.io/github/forks/homjxi0e/CVE-2017-0290-.svg)
+
+## CVE-2017-0263
+
+> The kernel-mode drivers in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, 1703, and Windows Server 2016 allow local users to gain privileges via a crafted application, aka "Win32k Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/102377
+  - https://www.anquanke.com/post/id/102378
+  - https://xz.aliyun.com/t/9287
+  - https://50u1w4y.github.io/site/recurrence/CVE-2017-0263/
+- **PoC**
+  - https://www.exploit-db.com/exploits/44478
+
+## CVE-2017-0213
+
+> Windows COM Aggregate Marshaler in Microsoft Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1, Windows 10 Gold, 1511, 1607, and 1703, and Windows Server 2016 allows an elevation privilege vulnerability when an attacker runs a specially crafted application, aka "Windows COM Elevation of Privilege Vulnerability". This CVE ID is unique from CVE-2017-0214.
+
+- **Analyse**
+  - https://cloud.tencent.com/developer/article/1045805
+- **Exp**
+  - https://www.exploit-db.com/exploits/42020/
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0213](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0213) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/zcgonvh/CVE-2017-0213](https://github.com/zcgonvh/CVE-2017-0213) :  ![starts](https://img.shields.io/github/stars/zcgonvh/CVE-2017-0213.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/CVE-2017-0213.svg)
+  - [https://github.com/eonrickity/CVE-2017-0213](https://github.com/eonrickity/CVE-2017-0213) :  ![starts](https://img.shields.io/github/stars/eonrickity/CVE-2017-0213.svg) ![forks](https://img.shields.io/github/forks/eonrickity/CVE-2017-0213.svg)
+  - [https://github.com/jbooz1/CVE-2017-0213](https://github.com/jbooz1/CVE-2017-0213) :  ![starts](https://img.shields.io/github/stars/jbooz1/CVE-2017-0213.svg) ![forks](https://img.shields.io/github/forks/jbooz1/CVE-2017-0213.svg)
+  - [https://github.com/Jos675/CVE-2017-0213-Exploit](https://github.com/Jos675/CVE-2017-0213-Exploit) :  ![starts](https://img.shields.io/github/stars/Jos675/CVE-2017-0213-Exploit.svg) ![forks](https://img.shields.io/github/forks/Jos675/CVE-2017-0213-Exploit.svg)
+  - [https://github.com/shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-) :  ![starts](https://img.shields.io/github/stars/shaheemirza/CVE-2017-0213-.svg) ![forks](https://img.shields.io/github/forks/shaheemirza/CVE-2017-0213-.svg)
+
+
+
+## CVE-2017-0143 (MS17-010)
+
+> The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0144, CVE-2017-0146, and CVE-2017-0148.
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/86270
+  - github https://github.com/worawit/MS17-010/blob/master/BUG.txt
+  - https://yi0934.github.io/2019/04/08/CVE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/ms17-010/
+  - https://cy2cs.top/2020/08/22/%E3%80%90owva%E3%80%91%E6%B0%B8%E6%81%92%E4%B9%8B%E8%93%9D%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/
+  - https://paper.seebug.org/280/
+- **PoC**
+  - [https://github.com/peterpt/eternal_scanner](https://github.com/peterpt/eternal_scanner) :  ![starts](https://img.shields.io/github/stars/peterpt/eternal_scanner.svg) ![forks](https://img.shields.io/github/forks/peterpt/eternal_scanner.svg)
+- **Exp**
+  - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS17-010](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS17-010) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
+  - [https://github.com/worawit/MS17-010](https://github.com/worawit/MS17-010) :  ![starts](https://img.shields.io/github/stars/worawit/MS17-010.svg) ![forks](https://img.shields.io/github/forks/worawit/MS17-010.svg)
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0143](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0143) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/3ndG4me/AutoBlue-MS17-010](https://github.com/3ndG4me/AutoBlue-MS17-010) :  ![starts](https://img.shields.io/github/stars/3ndG4me/AutoBlue-MS17-010.svg) ![forks](https://img.shields.io/github/forks/3ndG4me/AutoBlue-MS17-010.svg)
+  - [https://github.com/bhassani/EternalBlueC](https://github.com/bhassani/EternalBlueC) :  ![starts](https://img.shields.io/github/stars/bhassani/EternalBlueC.svg) ![forks](https://img.shields.io/github/forks/bhassani/EternalBlueC.svg)
+  - [https://github.com/mez-0/MS17-010-Python](https://github.com/mez-0/MS17-010-Python) :  ![starts](https://img.shields.io/github/stars/mez-0/MS17-010-Python.svg) ![forks](https://img.shields.io/github/forks/mez-0/MS17-010-Python.svg)
+  - [https://github.com/hanshaze/MS17-010-EternalBlue-WinXP-Win10](https://github.com/hanshaze/MS17-010-EternalBlue-WinXP-Win10) :  ![starts](https://img.shields.io/github/stars/hanshaze/MS17-010-EternalBlue-WinXP-Win10.svg) ![forks](https://img.shields.io/github/forks/hanshaze/MS17-010-EternalBlue-WinXP-Win10.svg)
+  - [https://github.com/povlteksttv/Eternalblue](https://github.com/povlteksttv/Eternalblue) :  ![starts](https://img.shields.io/github/stars/povlteksttv/Eternalblue.svg) ![forks](https://img.shields.io/github/forks/povlteksttv/Eternalblue.svg)
+  - [https://github.com/pythonone/MS17-010](https://github.com/pythonone/MS17-010) :  ![starts](https://img.shields.io/github/stars/pythonone/MS17-010.svg) ![forks](https://img.shields.io/github/forks/pythonone/MS17-010.svg)
+  - [https://github.com/d4t4s3c/SMBploit](https://github.com/d4t4s3c/SMBploit) :  ![starts](https://img.shields.io/github/stars/d4t4s3c/SMBploit.svg) ![forks](https://img.shields.io/github/forks/d4t4s3c/SMBploit.svg)
+  - to more on github...
+
+
+
+##  CVE-2017-0101 (MS17-017)
+
+> The kernel-mode drivers in Transaction Manager in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2; Windows 7 SP1; Windows 8.1, Windows Server 2012 Gold and R2, Windows RT 8.1; Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allow local users to gain privileges via a crafted application, aka "Windows Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://paper.seebug.org/586/
+  - https://bbs.pediy.com/thread-256949.htm
+  - https://bbs.pediy.com/thread-256949.htm
+- **Exp**
+  - https://www.exploit-db.com/exploits/44479/
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0101](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0101) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/kuteminh11/MS17-017-Microsoft-Windows-7-SP1-x86-Privilege-Escalation-Vulnerability](https://github.com/kuteminh11/MS17-017-Microsoft-Windows-7-SP1-x86-Privilege-Escalation-Vulnerability) :  ![starts](https://img.shields.io/github/stars/kuteminh11/MS17-017-Microsoft-Windows-7-SP1-x86-Privilege-Escalation-Vulnerability.svg) ![forks](https://img.shields.io/github/forks/kuteminh11/MS17-017-Microsoft-Windows-7-SP1-x86-Privilege-Escalation-Vulnerability.svg)
+
+## CVE-2017-0100 (MS17-012)
+
+> A DCOM object in Helppane.exe in Microsoft Windows 7 SP1; Windows Server 2008 R2; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows local users to gain privileges via a crafted application, aka "Windows HelpPane Elevation of Privilege Vulnerability."
+
+- **Analyse**
+  - https://ha.cker.in/index.php/Article/22608
+- **Exp**
+  - [https://github.com/Cn33liz/MS17-012](https://github.com/Cn33liz/MS17-012) :  ![starts](https://img.shields.io/github/stars/Cn33liz/MS17-012.svg) ![forks](https://img.shields.io/github/forks/Cn33liz/MS17-012.svg)
+  - [https://github.com/cssxn/CVE-2017-0100](https://github.com/cssxn/CVE-2017-0100) :  ![starts](https://img.shields.io/github/stars/cssxn/CVE-2017-0100.svg) ![forks](https://img.shields.io/github/forks/cssxn/CVE-2017-0100.svg)
+
+## CVE-2017-0005 (MS17-013)
+
+> The Graphics Device Interface (GDI) in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607 allows local users to gain privileges via a crafted application, aka "Windows GDI Elevation of Privilege Vulnerability." This vulnerability is different from those described in CVE-2017-0001, CVE-2017-0025, and CVE-2017-0047.
+
+- **Analyse**
+  - https://www.anquanke.com/post/id/86669
+  - https://www.microsoft.com/security/blog/2017/03/27/detecting-and-mitigating-elevation-of-privilege-exploit-for-cve-2017-0005/?source=mmpc
+- **PoC**
+  - [https://github.com/sheri31/0005poc](https://github.com/sheri31/0005poc) :  ![starts](https://img.shields.io/github/stars/sheri31/0005poc.svg) ![forks](https://img.shields.io/github/forks/sheri31/0005poc.svg)
 
 
 
