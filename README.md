@@ -35,8 +35,6 @@
   - [CVE-2020-1015](#cve-2020-1015)
   - [CVE-2020-0883](#cve-2020-0883)
   - [CVE-2020-0814](#cve-2020-0814)
-  - [CVE-2020-0799](#cve-2020-0799)
-  - [CVE-2020-0797](#cve-2020-0797)
   - [CVE-2020-0796](#cve-2020-0796)
   - [CVE-2020-0787](#cve-2020-0787)
   - [CVE-2020-0754](#cve-2020-0754)
@@ -47,6 +45,28 @@
   - [CVE-2020-0624](#cve-2020-0624)
   - [CVE-2020-0610](#cve-2020-0610)
   - [CVE-2020-0609](#cve-2020-0609)
+- [2019](#2019)
+  - [CVE-2019-1477](#cve-2019-1477)
+  - [CVE-2019-1476](#cve-2019-1476)
+  - [CVE-2019-1458](#cve-2019-1458)
+  - [CVE-2019-1422](#cve-2019-1422)
+  - [CVE-2019-1405](#cve-2019-1405)
+  - [CVE-2019-1388](#cve-2019-1388)
+  - [CVE-2019-1385](#cve-2019-1385)
+  - [CVE-2019-1322](#cve-2019-1322)
+  - [CVE-2019-1315](#cve-2019-1315)
+  - [CVE-2019-1253](#cve-2019-1253)
+  - [CVE-2019-1215](#cve-2019-1215)
+  - [CVE-2019-1132](#cve-2019-1132)
+  - [CVE-2019-1129/1130](#cve-2019-11291130)
+  - [CVE-2019-1064](#cve-2019-1064)
+  - [CVE-2019-1040](#cve-2019-1040)
+  - [CVE-2019-0986](#cve-2019-0986)
+  - [CVE-2019-0863](#cve-2019-0863)
+  - [CVE-2019-0859](#cve-2019-0859)
+  - [CVE-2019-0803](#cve-2019-0803)
+  - [CVE-2019-0708](#cve-2019-0708)
+  - [CVE-2019-0623](#cve-2019-0623)
 - [2018](#2018)
   - [CVE-2018-8639](#cve-2018-8639)
   - [CVE-2018-8453](#cve-2018-8453)
@@ -386,13 +406,6 @@
 - **Exp**
   - [https://github.com/klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814) :  ![starts](https://img.shields.io/github/stars/klinix5/CVE-2020-0814.svg) ![forks](https://img.shields.io/github/forks/klinix5/CVE-2020-0814.svg)
 
-## CVE-2020-0799
-
-> An elevation of privilege vulnerability exists in Microsoft Windows when the Windows kernel fails to properly handle parsing of certain symbolic links, aka 'Windows Kernel Elevation of Privilege Vulnerability'.
-
-## CVE-2020-0797
-
-> An elevation of privilege vulnerability exists when the Windows Work Folder Service improperly handles file operations, aka 'Windows Work Folder Service Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0777, CVE-2020-0800, CVE-2020-0864, CVE-2020-0865, CVE-2020-0866, CVE-2020-0897.
 
 ## CVE-2020-0796
 
@@ -531,6 +544,270 @@
   - [https://github.com/Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609) :  ![starts](https://img.shields.io/github/stars/Archi73ct/CVE-2020-0609.svg) ![forks](https://img.shields.io/github/forks/Archi73ct/CVE-2020-0609.svg)
 
 
+
+# 2019
+
+## CVE-2019-1477
+
+> An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
+
+- **PoC**
+  - [https://github.com/intellee/CVE-2019-1477](https://github.com/intellee/CVE-2019-1477) :  ![starts](https://img.shields.io/github/stars/intellee/CVE-2019-1477.svg) ![forks](https://img.shields.io/github/forks/intellee/CVE-2019-1477.svg)
+
+## CVE-2019-1476
+
+> An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1483.
+
+- **Exp**
+  - [https://github.com/sgabe/CVE-2019-1476](https://github.com/sgabe/CVE-2019-1476) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1476.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1476.svg)
+
+## CVE-2019-1458
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - github https://github.com/piotrflorczyk/cve-2019-1458_POC
+  - https://bbs.pediy.com/thread-260268.htm
+  - https://thunderjie.github.io/2020/03/21/CVE-2019-1458-%E4%BB%8E-%E6%BC%8F%E6%B4%9E%E6%8A%A5%E5%91%8A-%E5%88%B0POC%E7%9A%84%E7%BC%96%E5%86%99%E8%BF%87%E7%A8%8B/
+- **PoC**
+  - [https://github.com/piotrflorczyk/cve-2019-1458_POC](https://github.com/piotrflorczyk/cve-2019-1458_POC) :  ![starts](https://img.shields.io/github/stars/piotrflorczyk/cve-2019-1458_POC.svg) ![forks](https://img.shields.io/github/forks/piotrflorczyk/cve-2019-1458_POC.svg)
+  - [https://github.com/DreamoneOnly/CVE-2019-1458-malware](https://github.com/DreamoneOnly/CVE-2019-1458-malware) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2019-1458-malware.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2019-1458-malware.svg)
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-1458](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-1458) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458) :  ![starts](https://img.shields.io/github/stars/unamer/CVE-2019-1458.svg) ![forks](https://img.shields.io/github/forks/unamer/CVE-2019-1458.svg)
+
+
+
+## CVE-2019-1422
+
+> An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll handles file creation allowing for a file overwrite, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1420, CVE-2019-1423.
+
+- **Exp**
+  - [https://github.com/ze0r/cve-2019-1422](https://github.com/ze0r/cve-2019-1422) :  ![starts](https://img.shields.io/github/stars/ze0r/cve-2019-1422.svg) ![forks](https://img.shields.io/github/forks/ze0r/cve-2019-1422.svg)
+
+
+
+## CVE-2019-1405
+
+> An elevation of privilege vulnerability exists when the Windows Universal Plug and Play (UPnP) service improperly allows COM object creation, aka 'Windows UPnP Service Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/november/cve-2019-1405-and-cve-2019-1322-elevation-to-system-via-the-upnp-device-host-service-and-the-update-orchestrator-service/
+  - https://www.anquanke.com/post/id/193022
+  - https://nosec.org/m/share/3177.html
+- **Exp**
+  - [https://github.com/apt69/COMahawk](https://github.com/apt69/COMahawk) :  ![starts](https://img.shields.io/github/stars/apt69/COMahawk.svg) ![forks](https://img.shields.io/github/forks/apt69/COMahawk.svg)
+  - [https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-1405](https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-1405) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+
+## CVE-2019-1388
+
+>  An elevation of privilege vulnerability exists in the Windows Certificate Dialog when it does not properly enforce user privileges, aka 'Windows Certificate Dialog Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - http://blog.leanote.com/post/snowming/38069f423c76
+  - https://mp.weixin.qq.com/s/q4UICIVwC4HX-ytvWo8Dvw
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-1388](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/jas502n/CVE-2019-1388](https://github.com/jas502n/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/jas502n/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/jas502n/CVE-2019-1388.svg)
+  - [https://github.com/sv3nbeast/CVE-2019-1388](https://github.com/sv3nbeast/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/sv3nbeast/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/sv3nbeast/CVE-2019-1388.svg)
+  - [https://github.com/jaychouzzk/CVE-2019-1388](https://github.com/jaychouzzk/CVE-2019-1388) :  ![starts](https://img.shields.io/github/stars/jaychouzzk/CVE-2019-1388.svg) ![forks](https://img.shields.io/github/forks/jaychouzzk/CVE-2019-1388.svg)
+
+## CVE-2019-1385
+
+> An elevation of privilege vulnerability exists when the Windows AppX Deployment Extensions improperly performs privilege management, resulting in access to system files.To exploit this vulnerability, an authenticated attacker would need to run a specially crafted application to elevate privileges.The security update addresses the vulnerability by correcting how AppX Deployment Extensions manages privileges., aka 'Windows AppX Deployment Extensions Elevation of Privilege Vulnerability'.
+
+- **Exp**
+  - [https://github.com/klinix5/CVE-2019-1385](https://github.com/klinix5/CVE-2019-1385) :  ![starts](https://img.shields.io/github/stars/klinix5/CVE-2019-1385.svg) ![forks](https://img.shields.io/github/forks/klinix5/CVE-2019-1385.svg)
+  - [https://github.com/0x413x4/CVE-2019-1385](https://github.com/0x413x4/CVE-2019-1385) :  ![starts](https://img.shields.io/github/stars/0x413x4/CVE-2019-1385.svg) ![forks](https://img.shields.io/github/forks/0x413x4/CVE-2019-1385.svg)
+
+
+
+## CVE-2019-1322
+
+> An elevation of privilege vulnerability exists when Windows improperly handles authentication requests, aka 'Microsoft Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1320, CVE-2019-1340.
+
+- **Analyse**
+  - https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2019/november/cve-2019-1405-and-cve-2019-1322-elevation-to-system-via-the-upnp-device-host-service-and-the-update-orchestrator-service/
+  - https://www.anquanke.com/post/id/193022
+  - https://nosec.org/m/share/3177.html
+- **Exp**
+  - [https://github.com/apt69/COMahawk](https://github.com/apt69/COMahawk) :  ![starts](https://img.shields.io/github/stars/apt69/COMahawk.svg) ![forks](https://img.shields.io/github/forks/apt69/COMahawk.svg)
+
+## CVE-2019-1315
+
+> An elevation of privilege vulnerability exists when Windows Error Reporting manager improperly handles hard links, aka 'Windows Error Reporting Manager Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1339, CVE-2019-1342.
+
+- **Analyse**
+  - https://offsec.almond.consulting/windows-error-reporting-arbitrary-file-move-eop.html
+  - https://nosec.org/home/detail/3027.html
+- **PoC**
+  - [https://github.com/Mayter/CVE-2019-1315](https://github.com/Mayter/CVE-2019-1315) :  ![starts](https://img.shields.io/github/stars/Mayter/CVE-2019-1315.svg) ![forks](https://img.shields.io/github/forks/Mayter/CVE-2019-1315.svg)
+
+## CVE-2019-1253
+
+>  An elevation of privilege vulnerability exists when the Windows AppX Deployment Server improperly handles junctions.To exploit this vulnerability, an attacker would first have to gain execution on the victim system, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1215, CVE-2019-1278, CVE-2019-1303.
+
+- **Exp**
+  - [https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-1253](https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+  - [https://github.com/padovah4ck/CVE-2019-1253](https://github.com/padovah4ck/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/padovah4ck/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/padovah4ck/CVE-2019-1253.svg)
+  - [https://github.com/rogue-kdc/CVE-2019-1253](https://github.com/rogue-kdc/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/rogue-kdc/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/rogue-kdc/CVE-2019-1253.svg)
+  - [https://github.com/sgabe/CVE-2019-1253](https://github.com/sgabe/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/sgabe/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/sgabe/CVE-2019-1253.svg)
+  - [https://github.com/likescam/CVE-2019-1253](https://github.com/likescam/CVE-2019-1253) :  ![starts](https://img.shields.io/github/stars/likescam/CVE-2019-1253.svg) ![forks](https://img.shields.io/github/forks/likescam/CVE-2019-1253.svg)
+
+
+
+## CVE-2019-1215
+
+> An elevation of privilege vulnerability exists in the way that ws2ifsl.sys (Winsock) handles objects in memory, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1253, CVE-2019-1278, CVE-2019-1303.
+
+- **Analyse**
+  - https://labs.bluefrostsecurity.de/blog/2020/01/07/cve-2019-1215-analysis-of-a-use-after-free-in-ws2ifsl/
+  - https://bbs.pediy.com/thread-257435.htm
+  - https://www.freebuf.com/vuls/226167.html
+  - https://www.163.com/dy/article/FQBEHKLS0511CJ6O.html
+  - https://saturn35.com/2020/01/09/20200109-1/
+  - https://day.fujieace.com/security-research/600.html
+- **Exp**
+  - [https://github.com/bluefrostsecurity/CVE-2019-1215](https://github.com/bluefrostsecurity/CVE-2019-1215) :  ![starts](https://img.shields.io/github/stars/bluefrostsecurity/CVE-2019-1215.svg) ![forks](https://img.shields.io/github/forks/bluefrostsecurity/CVE-2019-1215.svg)
+
+## CVE-2019-1132
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - https://zhuanlan.zhihu.com/p/335166796
+  - https://ti.qianxin.com/blog/articles/buhtrap-cve-2019-1132-attack-event-related-vulnerability-sample-analysis/
+  - https://www.welivesecurity.com/2019/07/10/windows-zero-day-cve-2019-1132-exploit/
+  - https://www.anquanke.com/post/id/181794
+- **Exp**
+  - [https://github.com/Vlad-tri/CVE-2019-1132](https://github.com/Vlad-tri/CVE-2019-1132) :  ![starts](https://img.shields.io/github/stars/Vlad-tri/CVE-2019-1132.svg) ![forks](https://img.shields.io/github/forks/Vlad-tri/CVE-2019-1132.svg)
+  - [https://github.com/petercc/CVE-2019-1132](https://github.com/petercc/CVE-2019-1132) :  ![starts](https://img.shields.io/github/stars/petercc/CVE-2019-1132.svg) ![forks](https://img.shields.io/github/forks/petercc/CVE-2019-1132.svg)
+
+## CVE-2019-1129/1130
+
+> An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1130.
+
+- **Exp**
+  - [https://github.com/S3cur3Th1sSh1t/SharpByeBear](https://github.com/S3cur3Th1sSh1t/SharpByeBear) :  ![starts](https://img.shields.io/github/stars/S3cur3Th1sSh1t/SharpByeBear.svg) ![forks](https://img.shields.io/github/forks/S3cur3Th1sSh1t/SharpByeBear.svg)
+
+## CVE-2019-1064
+
+> An elevation of privilege vulnerability exists when Windows AppX Deployment Service (AppXSVC) improperly handles hard links, aka 'Windows Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - http://cn-sec.com/archives/74164.html
+- **PoC**
+  - [https://github.com/RythmStick/CVE-2019-1064](https://github.com/RythmStick/CVE-2019-1064) :  ![starts](https://img.shields.io/github/stars/RythmStick/CVE-2019-1064.svg) ![forks](https://img.shields.io/github/forks/RythmStick/CVE-2019-1064.svg)
+  - [https://github.com/0x00-0x00/CVE-2019-1064](https://github.com/0x00-0x00/CVE-2019-1064) :  ![starts](https://img.shields.io/github/stars/0x00-0x00/CVE-2019-1064.svg) ![forks](https://img.shields.io/github/forks/0x00-0x00/CVE-2019-1064.svg)
+
+## CVE-2019-1040
+
+> A tampering vulnerability exists in Microsoft Windows when a man-in-the-middle attacker is able to successfully bypass the NTLM MIC (Message Integrity Check) protection, aka 'Windows NTLM Tampering Vulnerability'.
+
+- **Analyse**
+  - https://bbs.pediy.com/thread-252018.htm
+  - https://zhuanlan.zhihu.com/p/345406848
+- **PoC**
+  - [https://github.com/fox-it/cve-2019-1040-scanner](https://github.com/fox-it/cve-2019-1040-scanner) :  ![starts](https://img.shields.io/github/stars/fox-it/cve-2019-1040-scanner.svg) ![forks](https://img.shields.io/github/forks/fox-it/cve-2019-1040-scanner.svg)
+  - [https://github.com/lazaars/UltraRealy_with_CVE-2019-1040](https://github.com/lazaars/UltraRealy_with_CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/lazaars/UltraRealy_with_CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/lazaars/UltraRealy_with_CVE-2019-1040.svg)
+- **Exp**
+  - [https://github.com/Ridter/CVE-2019-1040](https://github.com/Ridter/CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2019-1040.svg)
+  - [https://github.com/QAX-A-Team/dcpwn](https://github.com/QAX-A-Team/dcpwn) :  ![starts](https://img.shields.io/github/stars/QAX-A-Team/dcpwn.svg) ![forks](https://img.shields.io/github/forks/QAX-A-Team/dcpwn.svg)
+  - [https://github.com/Ridter/CVE-2019-1040-dcpwn](https://github.com/Ridter/CVE-2019-1040-dcpwn) :  ![starts](https://img.shields.io/github/stars/Ridter/CVE-2019-1040-dcpwn.svg) ![forks](https://img.shields.io/github/forks/Ridter/CVE-2019-1040-dcpwn.svg)
+  - [https://github.com/wzxmt/CVE-2019-1040](https://github.com/wzxmt/CVE-2019-1040) :  ![starts](https://img.shields.io/github/stars/wzxmt/CVE-2019-1040.svg) ![forks](https://img.shields.io/github/forks/wzxmt/CVE-2019-1040.svg)
+
+## CVE-2019-0986
+
+> An elevation of privilege vulnerability exists when the Windows User Profile Service (ProfSvc) improperly handles symlinks, aka 'Windows User Profile Service Elevation of Privilege Vulnerability'.
+
+- **PoC**
+  - [https://github.com/padovah4ck/CVE-2019-0986](https://github.com/padovah4ck/CVE-2019-0986) :  ![starts](https://img.shields.io/github/stars/padovah4ck/CVE-2019-0986.svg) ![forks](https://img.shields.io/github/forks/padovah4ck/CVE-2019-0986.svg)
+
+## CVE-2019-0863
+
+> An elevation of privilege vulnerability exists in the way Windows Error Reporting (WER) handles files, aka 'Windows Error Reporting Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - https://xz.aliyun.com/t/5571
+  - https://unit42.paloaltonetworks.com/tale-of-a-windows-error-reporting-zero-day-cve-2019-0863/
+  - https://www.anquanke.com/post/id/181457
+- **Exp**
+  - [https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-0863/WerTrigger-master](https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-0863/WerTrigger-master) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+  - [https://github.com/sailay1996/WerTrigger](https://github.com/sailay1996/WerTrigger) :  ![starts](https://img.shields.io/github/stars/sailay1996/WerTrigger.svg) ![forks](https://img.shields.io/github/forks/sailay1996/WerTrigger.svg)
+
+
+
+## CVE-2019-0859
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0685, CVE-2019-0803.
+
+- **Analyse**
+  - https://www.secrss.com/articles/9942
+  - https://blog.csdn.net/blackorbird/article/details/102462546
+  - https://www.4hou.com/posts/3jRO
+  - https://nosec.org/home/detail/2490.html
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-0859](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-0859) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/Sheisback/CVE-2019-0859-1day-Exploit](https://github.com/Sheisback/CVE-2019-0859-1day-Exploit) :  ![starts](https://img.shields.io/github/stars/Sheisback/CVE-2019-0859-1day-Exploit.svg) ![forks](https://img.shields.io/github/forks/Sheisback/CVE-2019-0859-1day-Exploit.svg)
+
+## CVE-2019-0803
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-0685, CVE-2019-0859.
+
+- **Analyse**
+  - https://bbs.pediy.com/thread-260289.htm
+  - https://www.jianshu.com/p/91e0f79f36eb
+  - https://zhuanlan.zhihu.com/p/62520006
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-0803](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-0803) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-0803](https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-0803) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
+  - [https://github.com/ExpLife0011/CVE-2019-0803](https://github.com/ExpLife0011/CVE-2019-0803) :  ![starts](https://img.shields.io/github/stars/ExpLife0011/CVE-2019-0803.svg) ![forks](https://img.shields.io/github/forks/ExpLife0011/CVE-2019-0803.svg)
+
+
+
+## CVE-2019-0708
+
+> A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
+
+- **Analyse**
+  - https://xz.aliyun.com/t/5243
+  - https://bbs.pediy.com/thread-256734.htm
+  - https://www.anquanke.com/post/id/178964
+  - https://www.cnblogs.com/backlion/p/11482322.html
+- **PoC**
+  - [https://github.com/Ekultek/BlueKeep](https://github.com/Ekultek/BlueKeep) :  ![starts](https://img.shields.io/github/stars/Ekultek/BlueKeep.svg) ![forks](https://img.shields.io/github/forks/Ekultek/BlueKeep.svg)
+  - [https://github.com/zerosum0x0/CVE-2019-0708](https://github.com/zerosum0x0/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/zerosum0x0/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/zerosum0x0/CVE-2019-0708.svg)
+  - [https://github.com/robertdavidgraham/rdpscan](https://github.com/robertdavidgraham/rdpscan) :  ![starts](https://img.shields.io/github/stars/robertdavidgraham/rdpscan.svg) ![forks](https://img.shields.io/github/forks/robertdavidgraham/rdpscan.svg)
+  - [https://github.com/n1xbyte/CVE-2019-0708](https://github.com/n1xbyte/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/n1xbyte/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/n1xbyte/CVE-2019-0708.svg)
+  - [https://github.com/k8gege/CVE-2019-0708](https://github.com/k8gege/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/k8gege/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/k8gege/CVE-2019-0708.svg)
+  - [https://github.com/0xeb-bp/bluekeep](https://github.com/0xeb-bp/bluekeep) :  ![starts](https://img.shields.io/github/stars/0xeb-bp/bluekeep.svg) ![forks](https://img.shields.io/github/forks/0xeb-bp/bluekeep.svg)
+  - [https://github.com/nccgroup/BKScan](https://github.com/nccgroup/BKScan) :  ![starts](https://img.shields.io/github/stars/nccgroup/BKScan.svg) ![forks](https://img.shields.io/github/forks/nccgroup/BKScan.svg)
+  - [https://github.com/Leoid/CVE-2019-0708](https://github.com/Leoid/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/Leoid/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/Leoid/CVE-2019-0708.svg)
+  - [https://github.com/worawit/CVE-2019-0708](https://github.com/worawit/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/worawit/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/worawit/CVE-2019-0708.svg)
+  - [https://github.com/biggerwing/CVE-2019-0708-poc](https://github.com/biggerwing/CVE-2019-0708-poc) :  ![starts](https://img.shields.io/github/stars/biggerwing/CVE-2019-0708-poc.svg) ![forks](https://img.shields.io/github/forks/biggerwing/CVE-2019-0708-poc.svg)
+  - [https://github.com/umarfarook882/CVE-2019-0708](https://github.com/umarfarook882/CVE-2019-0708) :  ![starts](https://img.shields.io/github/stars/umarfarook882/CVE-2019-0708.svg) ![forks](https://img.shields.io/github/forks/umarfarook882/CVE-2019-0708.svg)
+  - [https://github.com/Jaky5155/cve-2019-0708-exp](https://github.com/Jaky5155/cve-2019-0708-exp) :  ![starts](https://img.shields.io/github/stars/Jaky5155/cve-2019-0708-exp.svg) ![forks](https://img.shields.io/github/forks/Jaky5155/cve-2019-0708-exp.svg)
+- **Exp**
+  - https://www.rapid7.com/blog/post/2019/09/06/initial-metasploit-exploit-module-for-bluekeep-cve-2019-0708/
+  - [https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit](https://github.com/algo7/bluekeep_CVE-2019-0708_poc_to_exploit) :  ![starts](https://img.shields.io/github/stars/algo7/bluekeep_CVE-2019-0708_poc_to_exploit.svg) ![forks](https://img.shields.io/github/forks/algo7/bluekeep_CVE-2019-0708_poc_to_exploit.svg)
+  - [https://github.com/cbwang505/CVE-2019-0708-EXP-Windows](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows) :  ![starts](https://img.shields.io/github/stars/cbwang505/CVE-2019-0708-EXP-Windows.svg) ![forks](https://img.shields.io/github/forks/cbwang505/CVE-2019-0708-EXP-Windows.svg)
+  - [https://github.com/Cyb0r9/ispy](https://github.com/Cyb0r9/ispy) :  ![starts](https://img.shields.io/github/stars/Cyb0r9/ispy.svg) ![forks](https://img.shields.io/github/forks/Cyb0r9/ispy.svg)
+  - [https://github.com/NAXG/cve_2019_0708_bluekeep_rce](https://github.com/NAXG/cve_2019_0708_bluekeep_rce) :  ![starts](https://img.shields.io/github/stars/NAXG/cve_2019_0708_bluekeep_rce.svg) ![forks](https://img.shields.io/github/forks/NAXG/cve_2019_0708_bluekeep_rce.svg)
+  - [https://github.com/dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-](https://github.com/dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-) :  ![starts](https://img.shields.io/github/stars/dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-.svg) ![forks](https://img.shields.io/github/forks/dorkerdevil/Remote-Desktop-Services-Remote-Code-Execution-Vulnerability-CVE-2019-0708-.svg)
+  - [https://github.com/TinToSer/bluekeep-exploit](https://github.com/TinToSer/bluekeep-exploit) :  ![starts](https://img.shields.io/github/stars/TinToSer/bluekeep-exploit.svg) ![forks](https://img.shields.io/github/forks/TinToSer/bluekeep-exploit.svg)
+  - [https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce](https://github.com/coolboy4me/cve-2019-0708_bluekeep_rce) :  ![starts](https://img.shields.io/github/stars/coolboy4me/cve-2019-0708_bluekeep_rce.svg) ![forks](https://img.shields.io/github/forks/coolboy4me/cve-2019-0708_bluekeep_rce.svg)
+  - [https://github.com/mai-lang-chai/CVE-2019-0708-RCE](https://github.com/mai-lang-chai/CVE-2019-0708-RCE) :  ![starts](https://img.shields.io/github/stars/mai-lang-chai/CVE-2019-0708-RCE.svg) ![forks](https://img.shields.io/github/forks/mai-lang-chai/CVE-2019-0708-RCE.svg)
+  - [https://github.com/rockmelodies/CVE-2019-0708-Exploit](https://github.com/rockmelodies/CVE-2019-0708-Exploit) :  ![starts](https://img.shields.io/github/stars/rockmelodies/CVE-2019-0708-Exploit.svg) ![forks](https://img.shields.io/github/forks/rockmelodies/CVE-2019-0708-Exploit.svg)
+  - to more on github...
+
+## CVE-2019-0623
+
+> An elevation of privilege vulnerability exists in Windows when the Win32k component fails to properly handle objects in memory, aka 'Win32k Elevation of Privilege Vulnerability'.
+
+- **Analyse**
+  - https://paper.seebug.org/832/
+- **Exp**
+  - [https://github.com/DreamoneOnly/CVE-2019-0623-32-exp](https://github.com/DreamoneOnly/CVE-2019-0623-32-exp) :  ![starts](https://img.shields.io/github/stars/DreamoneOnly/CVE-2019-0623-32-exp.svg) ![forks](https://img.shields.io/github/forks/DreamoneOnly/CVE-2019-0623-32-exp.svg)
 
 
 
@@ -703,15 +980,10 @@
 > Buffer overflow in the ScStoragePathFromUrl function in the WebDAV service in Internet Information Services (IIS) 6.0 in Microsoft Windows Server 2003 R2 allows remote attackers to execute arbitrary code via a long header beginning with "If: <http://" in a PROPFIND request, as exploited in the wild in July or August 2016.
 
 - **Analyse**
-
   - https://paper.seebug.org/259/
-
 - **PoC**
-
   - [https://github.com/lcatro/CVE-2017-7269-Echo-PoC](https://github.com/lcatro/CVE-2017-7269-Echo-PoC) :  ![starts](https://img.shields.io/github/stars/lcatro/CVE-2017-7269-Echo-PoC.svg) ![forks](https://img.shields.io/github/forks/lcatro/CVE-2017-7269-Echo-PoC.svg)
-
 - **Exp**
-
   - [https://github.com/zcgonvh/cve-2017-7269](https://github.com/zcgonvh/cve-2017-7269) :  ![starts](https://img.shields.io/github/stars/zcgonvh/cve-2017-7269.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/cve-2017-7269.svg)
   - [https://github.com/zcgonvh/cve-2017-7269-tool](https://github.com/zcgonvh/cve-2017-7269-tool) :  ![starts](https://img.shields.io/github/stars/zcgonvh/cve-2017-7269-tool.svg) ![forks](https://img.shields.io/github/forks/zcgonvh/cve-2017-7269-tool.svg)
   - [https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269](https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269) :  ![starts](https://img.shields.io/github/stars/g0rx/iis6-exploit-2017-CVE-2017-7269.svg) ![forks](https://img.shields.io/github/forks/g0rx/iis6-exploit-2017-CVE-2017-7269.svg)
@@ -720,7 +992,6 @@
   - [https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby](https://github.com/slimpagey/IIS_6.0_WebDAV_Ruby) :  ![starts](https://img.shields.io/github/stars/slimpagey/IIS_6.0_WebDAV_Ruby.svg) ![forks](https://img.shields.io/github/forks/slimpagey/IIS_6.0_WebDAV_Ruby.svg)
   - [https://github.com/caicai1355/CVE-2017-7269-exploit](https://github.com/caicai1355/CVE-2017-7269-exploit) :  ![starts](https://img.shields.io/github/stars/caicai1355/CVE-2017-7269-exploit.svg) ![forks](https://img.shields.io/github/forks/caicai1355/CVE-2017-7269-exploit.svg)
 
-  
 
 ## CVE-2017-0290
 
@@ -761,8 +1032,6 @@
   - [https://github.com/Jos675/CVE-2017-0213-Exploit](https://github.com/Jos675/CVE-2017-0213-Exploit) :  ![starts](https://img.shields.io/github/stars/Jos675/CVE-2017-0213-Exploit.svg) ![forks](https://img.shields.io/github/forks/Jos675/CVE-2017-0213-Exploit.svg)
   - [https://github.com/shaheemirza/CVE-2017-0213-](https://github.com/shaheemirza/CVE-2017-0213-) :  ![starts](https://img.shields.io/github/stars/shaheemirza/CVE-2017-0213-.svg) ![forks](https://img.shields.io/github/forks/shaheemirza/CVE-2017-0213-.svg)
 
-
-
 ## CVE-2017-0143 (MS17-010)
 
 > The SMBv1 server in Microsoft Windows Vista SP2; Windows Server 2008 SP2 and R2 SP1; Windows 7 SP1; Windows 8.1; Windows Server 2012 Gold and R2; Windows RT 8.1; and Windows 10 Gold, 1511, and 1607; and Windows Server 2016 allows remote attackers to execute arbitrary code via crafted packets, aka "Windows SMB Remote Code Execution Vulnerability." This vulnerability is different from those described in CVE-2017-0143, CVE-2017-0144, CVE-2017-0146, and CVE-2017-0148.
@@ -786,8 +1055,7 @@
   - [https://github.com/povlteksttv/Eternalblue](https://github.com/povlteksttv/Eternalblue) :  ![starts](https://img.shields.io/github/stars/povlteksttv/Eternalblue.svg) ![forks](https://img.shields.io/github/forks/povlteksttv/Eternalblue.svg)
   - [https://github.com/pythonone/MS17-010](https://github.com/pythonone/MS17-010) :  ![starts](https://img.shields.io/github/stars/pythonone/MS17-010.svg) ![forks](https://img.shields.io/github/forks/pythonone/MS17-010.svg)
   - [https://github.com/d4t4s3c/SMBploit](https://github.com/d4t4s3c/SMBploit) :  ![starts](https://img.shields.io/github/stars/d4t4s3c/SMBploit.svg) ![forks](https://img.shields.io/github/forks/d4t4s3c/SMBploit.svg)
-  - to more on github...
-
+  - too more on github...
 
 
 ##  CVE-2017-0101 (MS17-017)
