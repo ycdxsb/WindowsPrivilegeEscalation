@@ -14,6 +14,13 @@
 </p>
 
 > A collection of Windows Privilege Escalation vulnerabilities (Analyse / PoC / Exp )
+>
+> Based on:
+>
+> - [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github/)
+> - [KernelHub](https://github.com/Ascotbe/Kernelhub)
+> - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
+> - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
 
 - [2021](#2021)
   - [CVE-2021-28310](#cve-2021-28310)
@@ -834,6 +841,7 @@
   - github https://github.com/thepwnrip/leHACK-Analysis-of-CVE-2018-8453
   - https://www.anquanke.com/post/id/162894
   - https://paper.seebug.org/784/
+  - https://paper.seebug.org/798/
   - https://bbs.pediy.com/thread-249021.htm
   - https://www.jianshu.com/p/082bd9992b57
   - https://www.whsgwl.net/blog/CVE-2018-8453_0.html
