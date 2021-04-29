@@ -22,6 +22,10 @@
 > - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
 > - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
 
+[PDF版本](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20210429/README.pdf)
+
+
+
 - [2021](#2021)
   - [CVE-2021-28310](#cve-2021-28310)
   - [CVE-2021-24096](#cve-2021-24096)
