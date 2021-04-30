@@ -1077,7 +1077,6 @@
 - **Analyse**
   - https://paper.seebug.org/586/
   - https://bbs.pediy.com/thread-256949.htm
-  - https://bbs.pediy.com/thread-256949.htm
 - **Exp**
   - https://www.exploit-db.com/exploits/44479/
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0101](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2017-0101) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
@@ -1695,7 +1694,8 @@
 > Unspecified vulnerability in the kernel in Microsoft Windows 2000 SP4, XP SP2, Server 2003 SP1 and SP2, through Vista SP1, and Server 2008 allows local users to execute arbitrary code via unknown vectors related to improper input validation. NOTE: it was later reported that one affected function is NtUserFnOUTSTRING in win32k.sys.
 
 - **Analyse**
-  - github https://github.com/lyshark/Windows-exploits/blob/master/Windows%20%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%20ms08025%20%E5%88%86%E6%9E%90.7zhttps://bbs.pediy.com/thread-63099.htm
+  - github https://github.com/lyshark/Windows-exploits/blob/master/Windows%20%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%20ms08025%20%E5%88%86%E6%9E%90.7z
+  - https://bbs.pediy.com/thread-63099.htm
 - **Exp**
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
