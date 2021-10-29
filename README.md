@@ -22,11 +22,18 @@
 > - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
 > - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
 
-[PDF版本](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20210514/README.pdf)
-
+[PDF版本](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20211029/README.pdf)
 
 - [2021](#2021)
+  - [CVE-2021-40449](#cve-2021-40449)
+  - [CVE-2021-40444](#cve-2021-40444)
+  - [CVE-2021-38639](#cve-2021-38639)
+  - [CVE-2021-36934](#cve-2021-36934)
+  - [CVE-2021-34527](#cve-2021-34527)
+  - [CVE-2021-34486](#cve-2021-34486)
+  - [CVE-2021-33739](#cve-2021-33739)
   - [CVE-2021-28310](#cve-2021-28310)
+  - [CVE-2021-26868](#cve-2021-26868)
   - [CVE-2021-24096](#cve-2021-24096)
   - [CVE-2021-21551](#cve-2021-21551)
   - [CVE-2021-1732](#cve-2021-1732)
@@ -50,7 +57,6 @@
   - [CVE-2020-0787](#cve-2020-0787)
   - [CVE-2020-0754](#cve-2020-0754)
   - [CVE-2020-0753](#cve-2020-0753)
-  - [CVE-2020-0708](#cve-2020-0708)
   - [CVE-2020-0683](#cve-2020-0683)
   - [CVE-2020-0668](#cve-2020-0668)
   - [CVE-2020-0624](#cve-2020-0624)
@@ -173,7 +179,88 @@
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
 
+
 # 2021
+
+## CVE-2021-40449
+
+> Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-40450, CVE-2021-41357.
+
+- **Analyse**
+  - https://www.secrss.com/articles/35266
+  - https://bbs.pediy.com/thread-269930.htm
+  - https://www.freebuf.com/articles/paper/292528.html
+- **PoC**
+  - [https://github.com/ly4k/CallbackHell](https://github.com/ly4k/CallbackHell) :  ![starts](https://img.shields.io/github/stars/ly4k/CallbackHell.svg) ![forks](https://img.shields.io/github/forks/ly4k/CallbackHell.svg)
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/KaLendsi/CVE-2021-40449-Exploit](https://github.com/KaLendsi/CVE-2021-40449-Exploit) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2021-40449-Exploit.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2021-40449-Exploit.svg)
+  - [https://github.com/hakivvi/CVE-2021-40449](https://github.com/hakivvi/CVE-2021-40449) :  ![starts](https://img.shields.io/github/stars/hakivvi/CVE-2021-40449.svg) ![forks](https://img.shields.io/github/forks/hakivvi/CVE-2021-40449.svg)
+
+## CVE-2021-40444
+
+> Microsoft MSHTML Remote Code Execution Vulnerability
+
+- **Analyse**
+  - https://paper.seebug.org/1718/
+  - https://bbs.pediy.com/thread-270017.htm
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/lockedbyte/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/lockedbyte/CVE-2021-40444.svg)
+  - [https://github.com/klezVirus/CVE-2021-40444](https://github.com/klezVirus/CVE-2021-40444) :  ![starts](https://img.shields.io/github/stars/klezVirus/CVE-2021-40444.svg) ![forks](https://img.shields.io/github/forks/klezVirus/CVE-2021-40444.svg)
+
+## CVE-2021-38639
+
+> Win32k Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-36975.
+
+- **PoC**
+  - [https://github.com/DarkSprings/CVE-2021-38639](https://github.com/DarkSprings/CVE-2021-38639) :  ![starts](https://img.shields.io/github/stars/DarkSprings/CVE-2021-38639.svg) ![forks](https://img.shields.io/github/forks/DarkSprings/CVE-2021-38639.svg)
+
+## CVE-2021-36934
+
+> Windows Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.jianshu.com/p/979ea7a93531
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/cube0x0/CVE-2021-36934](https://github.com/cube0x0/CVE-2021-36934) :  ![starts](https://img.shields.io/github/stars/cube0x0/CVE-2021-36934.svg) ![forks](https://img.shields.io/github/forks/cube0x0/CVE-2021-36934.svg)
+  - [https://github.com/HuskyHacks/ShadowSteal](https://github.com/HuskyHacks/ShadowSteal) :  ![starts](https://img.shields.io/github/stars/HuskyHacks/ShadowSteal.svg) ![forks](https://img.shields.io/github/forks/HuskyHacks/ShadowSteal.svg)
+
+## CVE-2021-34527
+
+> Windows Print Spooler Remote Code Execution Vulnerability
+
+- **Analyse**
+- **PoC**
+  - [https://github.com/byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream) :  ![starts](https://img.shields.io/github/stars/byt3bl33d3r/ItWasAllADream.svg) ![forks](https://img.shields.io/github/forks/byt3bl33d3r/ItWasAllADream.svg)
+- **Exp**
+  - [https://github.com/JohnHammond/CVE-2021-34527](https://github.com/JohnHammond/CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/JohnHammond/CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/JohnHammond/CVE-2021-34527.svg)
+  - [https://github.com/BeetleChunks/SpoolSploit](https://github.com/BeetleChunks/SpoolSploit) :  ![starts](https://img.shields.io/github/stars/BeetleChunks/SpoolSploit.svg) ![forks](https://img.shields.io/github/forks/BeetleChunks/SpoolSploit.svg)
+  - [https://github.com/ly4k/PrintNightmare](https://github.com/ly4k/PrintNightmare) :  ![starts](https://img.shields.io/github/stars/ly4k/PrintNightmare.svg) ![forks](https://img.shields.io/github/forks/ly4k/PrintNightmare.svg)
+  - [https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527](https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527) :  ![starts](https://img.shields.io/github/stars/nemo-wq/PrintNightmare-CVE-2021-34527.svg) ![forks](https://img.shields.io/github/forks/nemo-wq/PrintNightmare-CVE-2021-34527.svg)
+
+## CVE-2021-34486
+
+> Windows Event Tracing Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-26425, CVE-2021-34487.
+
+- **Analyse**
+  - https://www.pixiepointsecurity.com/blog/advisory-cve-2021-34486.html
+- **Exp**
+  - [https://github.com/KaLendsi/CVE-2021-34486](https://github.com/KaLendsi/CVE-2021-34486) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2021-34486.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2021-34486.svg)
+  - [https://github.com/b1tg/CVE-2021-34486-exp](https://github.com/b1tg/CVE-2021-34486-exp) :  ![starts](https://img.shields.io/github/stars/b1tg/CVE-2021-34486-exp.svg) ![forks](https://img.shields.io/github/forks/b1tg/CVE-2021-34486-exp.svg)
+
+## CVE-2021-33739
+
+> Microsoft DWM Core Library Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.cnblogs.com/zUotTe0/p/15227947.html
+  - https://zhuanlan.zhihu.com/p/384636717
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/giwon9977/CVE-2021-33739_PoC](https://github.com/giwon9977/CVE-2021-33739_PoC) :  ![starts](https://img.shields.io/github/stars/giwon9977/CVE-2021-33739_PoC.svg) ![forks](https://img.shields.io/github/forks/giwon9977/CVE-2021-33739_PoC.svg)
+  - [https://github.com/freeide2017/CVE-2021-33739-POC](https://github.com/freeide2017/CVE-2021-33739-POC) :  ![starts](https://img.shields.io/github/stars/freeide2017/CVE-2021-33739-POC.svg) ![forks](https://img.shields.io/github/forks/freeide2017/CVE-2021-33739-POC.svg)
 
 ## CVE-2021-28310
 
@@ -181,6 +268,16 @@
 
 - **Analyse**
   - https://securelist.com/zero-day-vulnerability-in-desktop-window-manager-cve-2021-28310-used-in-the-wild/101898/
+
+## CVE-2021-26868
+
+> Windows Graphics Component Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://zhuanlan.zhihu.com/p/384636717
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/KangD1W2/CVE-2021-26868](https://github.com/KangD1W2/CVE-2021-26868) :  ![starts](https://img.shields.io/github/stars/KangD1W2/CVE-2021-26868.svg) ![forks](https://img.shields.io/github/forks/KangD1W2/CVE-2021-26868.svg)
 
 ## CVE-2021-24096
 
@@ -232,8 +329,6 @@
   - [https://github.com/TinToSer/CVE2020-17087](https://github.com/TinToSer/CVE2020-17087) :  ![starts](https://img.shields.io/github/stars/TinToSer/CVE2020-17087.svg) ![forks](https://img.shields.io/github/forks/TinToSer/CVE2020-17087.svg)
   - [https://github.com/revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087) :  ![starts](https://img.shields.io/github/stars/revengsh/CVE-2020-17087.svg) ![forks](https://img.shields.io/github/forks/revengsh/CVE-2020-17087.svg)
 
-
-
 ## CVE-2020-17057
 
 > Windows Win32k Elevation of Privilege Vulnerability
@@ -243,8 +338,6 @@
 - **PoC**
   - [https://github.com/ze0r/cve-2020-17057](https://github.com/ze0r/cve-2020-17057) :  ![starts](https://img.shields.io/github/stars/ze0r/cve-2020-17057.svg) ![forks](https://img.shields.io/github/forks/ze0r/cve-2020-17057.svg)
   - [https://github.com/lsw29475/CVE-2020-17057](https://github.com/lsw29475/CVE-2020-17057) :  ![starts](https://img.shields.io/github/stars/lsw29475/CVE-2020-17057.svg) ![forks](https://img.shields.io/github/forks/lsw29475/CVE-2020-17057.svg)
-
-
 
 ## CVE-2020-16898
 
@@ -282,8 +375,6 @@
 - **Exp**
   - [https://github.com/Q4n/CVE-2020-1362](https://github.com/Q4n/CVE-2020-1362) :  ![starts](https://img.shields.io/github/stars/Q4n/CVE-2020-1362.svg) ![forks](https://img.shields.io/github/forks/Q4n/CVE-2020-1362.svg)
   - [https://github.com/Al1ex/WindowsElevation](https://github.com/Al1ex/WindowsElevation) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
-
-
 
 ## CVE-2020-1350
 
@@ -423,7 +514,6 @@
 - **Exp**
   - [https://github.com/klinix5/CVE-2020-0814](https://github.com/klinix5/CVE-2020-0814) :  ![starts](https://img.shields.io/github/stars/klinix5/CVE-2020-0814.svg) ![forks](https://img.shields.io/github/forks/klinix5/CVE-2020-0814.svg)
 
-
 ## CVE-2020-0796
 
 > A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'.
@@ -494,10 +584,6 @@
 - **Exp**
   - [https://github.com/afang5472/CVE-2020-0753-and-CVE-2020-0754](https://github.com/afang5472/CVE-2020-0753-and-CVE-2020-0754) :  ![starts](https://img.shields.io/github/stars/afang5472/CVE-2020-0753-and-CVE-2020-0754.svg) ![forks](https://img.shields.io/github/forks/afang5472/CVE-2020-0753-and-CVE-2020-0754.svg)
 
-## CVE-2020-0708
-
-> A remote code execution vulnerability exists when the Windows Imaging Library improperly handles memory.To exploit this vulnerability, an attacker would first have to coerce a victim to open a specially crafted file.The security update addresses the vulnerability by correcting how the Windows Imaging Library handles memory., aka 'Windows Imaging Library Remote Code Execution Vulnerability'.
-
 ## CVE-2020-0683
 
 > An elevation of privilege vulnerability exists in the Windows Installer when MSI packages process symbolic links, aka 'Windows Installer Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2020-0686.
@@ -560,8 +646,6 @@
   - [https://github.com/2d4d/rdg_scanner_cve-2020-0609](https://github.com/2d4d/rdg_scanner_cve-2020-0609) :  ![starts](https://img.shields.io/github/stars/2d4d/rdg_scanner_cve-2020-0609.svg) ![forks](https://img.shields.io/github/forks/2d4d/rdg_scanner_cve-2020-0609.svg)
   - [https://github.com/Archi73ct/CVE-2020-0609](https://github.com/Archi73ct/CVE-2020-0609) :  ![starts](https://img.shields.io/github/stars/Archi73ct/CVE-2020-0609.svg) ![forks](https://img.shields.io/github/forks/Archi73ct/CVE-2020-0609.svg)
 
-
-
 # 2019
 
 ## CVE-2019-1477
@@ -593,16 +677,12 @@
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-1458](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2019-1458) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   - [https://github.com/unamer/CVE-2019-1458](https://github.com/unamer/CVE-2019-1458) :  ![starts](https://img.shields.io/github/stars/unamer/CVE-2019-1458.svg) ![forks](https://img.shields.io/github/forks/unamer/CVE-2019-1458.svg)
 
-
-
 ## CVE-2019-1422
 
 > An elevation of privilege vulnerability exists in the way that the iphlpsvc.dll handles file creation allowing for a file overwrite, aka 'Windows Elevation of Privilege Vulnerability'. This CVE ID is unique from CVE-2019-1420, CVE-2019-1423.
 
 - **Exp**
   - [https://github.com/ze0r/cve-2019-1422](https://github.com/ze0r/cve-2019-1422) :  ![starts](https://img.shields.io/github/stars/ze0r/cve-2019-1422.svg) ![forks](https://img.shields.io/github/forks/ze0r/cve-2019-1422.svg)
-
-
 
 ## CVE-2019-1405
 
@@ -780,8 +860,6 @@
   - [https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-0803](https://github.com/Al1ex/WindowsElevation/tree/master/CVE-2019-0803) :  ![starts](https://img.shields.io/github/stars/Al1ex/WindowsElevation.svg) ![forks](https://img.shields.io/github/forks/Al1ex/WindowsElevation.svg)
   - [https://github.com/ExpLife0011/CVE-2019-0803](https://github.com/ExpLife0011/CVE-2019-0803) :  ![starts](https://img.shields.io/github/stars/ExpLife0011/CVE-2019-0803.svg) ![forks](https://img.shields.io/github/forks/ExpLife0011/CVE-2019-0803.svg)
 
-
-
 ## CVE-2019-0708
 
 > A remote code execution vulnerability exists in Remote Desktop Services formerly known as Terminal Services when an unauthenticated attacker connects to the target system using RDP and sends specially crafted requests, aka 'Remote Desktop Services Remote Code Execution Vulnerability'.
@@ -881,8 +959,6 @@
   - https://www.cnblogs.com/backlion/p/9642241.html
 - **Exp**
   - [https://github.com/whereisr0da/CVE-2018-8414-POC](https://github.com/whereisr0da/CVE-2018-8414-POC) :  ![starts](https://img.shields.io/github/stars/whereisr0da/CVE-2018-8414-POC.svg) ![forks](https://img.shields.io/github/forks/whereisr0da/CVE-2018-8414-POC.svg)
-
-
 
 ## CVE-2018-8120
 
@@ -1108,8 +1184,6 @@
 - **PoC**
   - [https://github.com/sheri31/0005poc](https://github.com/sheri31/0005poc) :  ![starts](https://img.shields.io/github/stars/sheri31/0005poc.svg) ![forks](https://img.shields.io/github/forks/sheri31/0005poc.svg)
 
-
-
 # 2016
 
 ## CVE-2016-7255 (MS16-135)
@@ -1232,8 +1306,6 @@
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2546](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-2546) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   - [https://github.com/k0keoyo/CVE-2015-2546-Exploit](https://github.com/k0keoyo/CVE-2015-2546-Exploit) :  ![starts](https://img.shields.io/github/stars/k0keoyo/CVE-2015-2546-Exploit.svg) ![forks](https://img.shields.io/github/forks/k0keoyo/CVE-2015-2546-Exploit.svg)
 
-
-
 ## CVE-2015-2387 (MS15-077)
 
 > ATMFD.DLL in the Adobe Type Manager Font Driver in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka "ATMFD.DLL Memory Corruption Vulnerability."
@@ -1276,8 +1348,6 @@
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1701](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   - [https://github.com/hfiref0x/CVE-2015-1701](https://github.com/hfiref0x/CVE-2015-1701) :  ![starts](https://img.shields.io/github/stars/hfiref0x/CVE-2015-1701.svg) ![forks](https://img.shields.io/github/forks/hfiref0x/CVE-2015-1701.svg)
 
-
-
 ## CVE-2015-0062 (MS15-015)
 
 > Microsoft Windows Server 2008 R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allow local users to gain privileges via a crafted application that leverages incorrect impersonation handling in a process that uses the SeAssignPrimaryTokenPrivilege privilege, aka "Windows Create Process Elevation of Privilege Vulnerability."
@@ -1301,8 +1371,6 @@
   - https://www.exploit-db.com/exploits/37098
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0057](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   - [https://github.com/55-AA/CVE-2015-0057](https://github.com/55-AA/CVE-2015-0057) :  ![starts](https://img.shields.io/github/stars/55-AA/CVE-2015-0057.svg) ![forks](https://img.shields.io/github/forks/55-AA/CVE-2015-0057.svg)
-
-
 
 ## CVE-2015-0003 (MS15-010)
 
@@ -1382,8 +1450,6 @@
   - [https://github.com/dev-zzo/exploits-nt-privesc/MS14-070](https://github.com/dev-zzo/exploits-nt-privesc/MS14-070) :  ![starts](https://img.shields.io/github/stars/dev-zzo/exploits-nt-privesc.svg) ![forks](https://img.shields.io/github/forks/dev-zzo/exploits-nt-privesc.svg)
   - [https://github.com/fungoshacks/CVE-2014-4076](https://github.com/fungoshacks/CVE-2014-4076) :  ![starts](https://img.shields.io/github/stars/fungoshacks/CVE-2014-4076.svg) ![forks](https://img.shields.io/github/forks/fungoshacks/CVE-2014-4076.svg)
 
-
-
 ## CVE-2014-1767 (MS14-040)
 
 > Double free vulnerability in the Ancillary Function Driver (AFD) in afd.sys in the kernel-mode drivers in Microsoft Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows local users to gain privileges via a crafted application, aka "Ancillary Function Driver Elevation of Privilege Vulnerability."
@@ -1429,8 +1495,6 @@
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-046](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS13-046) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-1332](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2013-1332) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
-
-
 ## CVE-2013-1300 (MS13-053)
 
 > win32k.sys in the kernel-mode drivers in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows Server 2012, and Windows RT does not properly handle objects in memory, which allows local users to gain privileges via a crafted application, aka "Win32k Memory Allocation Vulnerability."
@@ -1458,8 +1522,6 @@
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-042](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-042) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2012-0217](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2012-0217) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
-
-
 ## CVE-2012-0152 (MS12-020)
 
 > The Remote Desktop Protocol (RDP) service in Microsoft Windows Server 2008 R2 and R2 SP1 and Windows 7 Gold and SP1 allows remote attackers to cause a denial of service (application hang) via a series of crafted packets, aka "Terminal Server Denial of Service Vulnerability."
@@ -1469,17 +1531,12 @@
   - [https://github.com/rutvijjethwa/RDP_jammer](https://github.com/rutvijjethwa/RDP_jammer) :  ![starts](https://img.shields.io/github/stars/rutvijjethwa/RDP_jammer.svg) ![forks](https://img.shields.io/github/forks/rutvijjethwa/RDP_jammer.svg)
   - [https://github.com/anmolksachan/MS12-020](https://github.com/anmolksachan/MS12-020) :  ![starts](https://img.shields.io/github/stars/anmolksachan/MS12-020.svg) ![forks](https://img.shields.io/github/forks/anmolksachan/MS12-020.svg)
 
-
-
 ## CVE-2012-0002 (MS12-020)
 
 > The Remote Desktop Protocol (RDP) implementation in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP2, Windows Server 2008 SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly process packets in memory, which allows remote attackers to execute arbitrary code by sending crafted RDP packets triggering access to an object that (1) was not properly initialized or (2) is deleted, aka "Remote Desktop Protocol Vulnerability."
 
 - **Exp**
-
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-020](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS12-020) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-
-  
 
 # 2011
 
@@ -1501,15 +1558,12 @@
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-062](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-062) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1974](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1974) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
-
-
 ## CVE-2011-1249 (MS11-046)
 
 > The Ancillary Function Driver (AFD) in afd.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, R2, and R2 SP1, and Windows 7 Gold and SP1 does not properly validate user-mode input, which allows local users to gain privileges via a crafted application, aka "Ancillary Function Driver Elevation of Privilege Vulnerability."
 
 - **Analyse**
   - github https://github.com/Madusanka99/OHTS/blob/master/IT16075504%20-OHTS%20Report.pdf
-
 - **Exp**
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-046](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS11-046) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1249](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2011-1249) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
@@ -1522,8 +1576,6 @@
   - https://lse.epita.fr/lse-summer-week-2013/slides/lse-summer-week-2013-26-Bruno%20Pujos-A%20Look%20into%20the%20Windows%20Kernel.pdf
 - **Exp**
   - [https://github.com/BrunoPujos/CVE-2011-1237](https://github.com/BrunoPujos/CVE-2011-1237) :  ![starts](https://img.shields.io/github/stars/BrunoPujos/CVE-2011-1237.svg) ![forks](https://img.shields.io/github/forks/BrunoPujos/CVE-2011-1237.svg)
-
-
 
 ## CVE-2011-0045 (MS11-011)
 
@@ -1569,7 +1621,6 @@
 > The Windows kernel-mode drivers in win32k.sys in Microsoft Windows XP SP2 and SP3, Windows Server 2003 SP2, Windows Vista SP1 and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 do not properly validate pseudo-handle values in callback parameters during window creation, which allows local users to gain privileges via a crafted application, aka "Win32k Window Creation Vulnerability."
 
 - **Exp**
-
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-1897](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-1897) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
 ## CVE-2010-1887 (MS10-048)
@@ -1587,8 +1638,6 @@
   - [https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-012/MS10-020.py](https://github.com/SecWiki/windows-kernel-exploits/blob/master/MS10-012/MS10-020.py) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-0270](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-0270) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
 
-
-
 ## CVE-2010-0233 (MS10-015)
 
 > Double free vulnerability in the kernel in Microsoft Windows 2000 SP4, XP SP2 and SP3, Server 2003 SP2, Vista Gold, SP1, and SP2, and Server 2008 Gold and SP2 allows local users to gain privileges via a crafted application, aka "Windows Kernel Double Free Vulnerability."
@@ -1596,8 +1645,6 @@
 - **Exp**
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS10-015](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS10-015) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-0233](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2010-0233) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-
-
 
 ## CVE-2010-0020 (MS10-012)
 
@@ -1645,17 +1692,10 @@
 > The RPCSS service in Microsoft Windows XP SP2 and SP3 and Server 2003 SP1 and SP2 does not properly implement isolation among a set of distinct processes that (1) all run under the NetworkService account or (2) all run under the LocalService account, which allows local users to gain privileges by accessing the resources of one of the processes, aka "Windows RPCSS Service Isolation Vulnerability."
 
 - **Analyse**
-
   - https://xz.aliyun.com/t/8091
-
 - **Exp**
-
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS09-012](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS09-012) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2009-0079](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2009-0079) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-
-  
-
-
 
 # 2008
 
@@ -1670,7 +1710,6 @@
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-067](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-067) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-4250](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-4250) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   - [https://github.com/andyacer/ms08_067](https://github.com/andyacer/ms08_067) :  ![starts](https://img.shields.io/github/stars/andyacer/ms08_067.svg) ![forks](https://img.shields.io/github/forks/andyacer/ms08_067.svg)
-  
   - [https://github.com/dnkls/ms08-067automation](https://github.com/dnkls/ms08-067automation) :  ![starts](https://img.shields.io/github/stars/dnkls/ms08-067automation.svg) ![forks](https://img.shields.io/github/forks/dnkls/ms08-067automation.svg)
 
 ## CVE-2008-4037 (MS08-068)
@@ -1686,14 +1725,11 @@
 > afd.sys in the Ancillary Function Driver (AFD) component in Microsoft Windows XP SP2 and SP3 and Windows Server 2003 SP1 and SP2 does not properly validate input sent from user mode to the kernel, which allows local users to gain privileges via a crafted application, as demonstrated using crafted pointers and lengths that bypass intended ProbeForRead and ProbeForWrite restrictions, aka "AFD Kernel Overwrite Vulnerability."
 
 - **Analyse**
-  
   - https://bbs.pediy.com/thread-74811.htm
 - **Exp**
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-066](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-066) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
-  
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-3464](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-3464) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   
-    
 
 ## CVE-2008-1084 (MS08-025)
 
@@ -1705,8 +1741,6 @@
 - **Exp**
   - [https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025](https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS08-025) :  ![starts](https://img.shields.io/github/stars/SecWiki/windows-kernel-exploits.svg) ![forks](https://img.shields.io/github/forks/SecWiki/windows-kernel-exploits.svg)
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2008-1084) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
-
-
 
 # 2007
 
@@ -1755,9 +1789,6 @@
   
   - [https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983](https://github.com/Ascotbe/Kernelhub/tree/master/CVE-2005-1983) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   
-    
-  
-    
 
 # 2003
 
