@@ -22,9 +22,12 @@
 > - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
 > - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
 
-[PDF版本](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20211029/README.pdf)
+[PDF版本](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20211223/README.pdf)
 
 - [2021](#2021)
+  - [CVE-2021-43883/CVE-2021-41379](#cve-2021-43883cve-2021-41379)
+  - [CVE-2021-43224](#cve-2021-43224)
+  - [CVE-2021-42278/CVE-2021-42278](#cve-2021-42278cve-2021-42278)
   - [CVE-2021-40449](#cve-2021-40449)
   - [CVE-2021-40444](#cve-2021-40444)
   - [CVE-2021-38639](#cve-2021-38639)
@@ -32,6 +35,7 @@
   - [CVE-2021-34527](#cve-2021-34527)
   - [CVE-2021-34486](#cve-2021-34486)
   - [CVE-2021-33739](#cve-2021-33739)
+  - [CVE-2021-31956](#cve-2021-31956)
   - [CVE-2021-28310](#cve-2021-28310)
   - [CVE-2021-26868](#cve-2021-26868)
   - [CVE-2021-24096](#cve-2021-24096)
@@ -179,8 +183,41 @@
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
 
-
 # 2021
+
+## CVE-2021-43883/CVE-2021-41379
+
+> Windows Installer Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://attackerkb.com/topics/7LstI2clmF/cve-2021-41379/rapid7-analysis
+- **Exp**
+  - [https://github.com/klinix5/InstallerFileTakeOver](https://github.com/klinix5/InstallerFileTakeOver) :  ![starts](https://img.shields.io/github/stars/klinix5/InstallerFileTakeOver.svg) ![forks](https://img.shields.io/github/forks/klinix5/InstallerFileTakeOver.svg)
+  - [https://github.com/jbaines-r7/shakeitoff](https://github.com/jbaines-r7/shakeitoff) :  ![starts](https://img.shields.io/github/stars/jbaines-r7/shakeitoff.svg) ![forks](https://img.shields.io/github/forks/jbaines-r7/shakeitoff.svg)
+
+
+
+## CVE-2021-43224
+
+> Windows Common Log File System Driver Information Disclosure Vulnerability
+
+- **PoC**
+  - [https://github.com/KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2021-43224-POC.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2021-43224-POC.svg)
+
+
+## CVE-2021-42278/CVE-2021-42278
+
+> Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42282, CVE-2021-42287, CVE-2021-42291.
+
+- **Analyse**
+  - https://xz.aliyun.com/t/10666
+- **Exp**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/cube0x0/noPac](https://github.com/cube0x0/noPac) :  ![starts](https://img.shields.io/github/stars/cube0x0/noPac.svg) ![forks](https://img.shields.io/github/forks/cube0x0/noPac.svg)
+  - [https://github.com/WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin) :  ![starts](https://img.shields.io/github/stars/WazeHell/sam-the-admin.svg) ![forks](https://img.shields.io/github/forks/WazeHell/sam-the-admin.svg)
+  - [https://github.com/ly4k/Pachine](https://github.com/ly4k/Pachine) :  ![starts](https://img.shields.io/github/stars/ly4k/Pachine.svg) ![forks](https://img.shields.io/github/forks/ly4k/Pachine.svg)
+  - [https://github.com/Ridter/noPac](https://github.com/Ridter/noPac) :  ![starts](https://img.shields.io/github/stars/Ridter/noPac.svg) ![forks](https://img.shields.io/github/forks/Ridter/noPac.svg)
+  - [https://github.com/waterrr/noPac](https://github.com/waterrr/noPac) :  ![starts](https://img.shields.io/github/stars/waterrr/noPac.svg) ![forks](https://img.shields.io/github/forks/waterrr/noPac.svg)
 
 ## CVE-2021-40449
 
@@ -261,6 +298,16 @@
   - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
   - [https://github.com/giwon9977/CVE-2021-33739_PoC](https://github.com/giwon9977/CVE-2021-33739_PoC) :  ![starts](https://img.shields.io/github/stars/giwon9977/CVE-2021-33739_PoC.svg) ![forks](https://img.shields.io/github/forks/giwon9977/CVE-2021-33739_PoC.svg)
   - [https://github.com/freeide2017/CVE-2021-33739-POC](https://github.com/freeide2017/CVE-2021-33739-POC) :  ![starts](https://img.shields.io/github/stars/freeide2017/CVE-2021-33739-POC.svg) ![forks](https://img.shields.io/github/forks/freeide2017/CVE-2021-33739-POC.svg)
+
+## CVE-2021-31956
+
+> Windows NTFS Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://research.nccgroup.com/2021/07/15/cve-2021-31956-exploiting-the-windows-kernel-ntfs-with-wnf-part-1/
+  - https://research.nccgroup.com/2021/08/17/cve-2021-31956-exploiting-the-windows-kernel-ntfs-with-wnf-part-2/
+
+
 
 ## CVE-2021-28310
 
