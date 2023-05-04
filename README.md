@@ -22,9 +22,10 @@
 > - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
 > - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
 
-[PDF版本](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20211223/README.pdf)
+[PDF Version](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20211223/README.pdf)
 
 - [2021](#2021)
+  - [CVE-2021-43893](#cve-2021-43893)
   - [CVE-2021-43883/CVE-2021-41379](#cve-2021-43883cve-2021-41379)
   - [CVE-2021-43224](#cve-2021-43224)
   - [CVE-2021-42278/CVE-2021-42278](#cve-2021-42278cve-2021-42278)
@@ -184,6 +185,17 @@
   - [CVE-2000-0979](#cve-2000-0979)
 
 # 2021
+
+## CVE-2021-43893
+
+> Windows Encrypting File System (EFS) Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.rapid7.com/blog/post/2022/02/14/dropping-files-on-a-domain-controller-using-cve-2021-43893/
+- **Exp**
+  - [https://github.com/jbaines-r7/blankspace](https://github.com/jbaines-r7/blankspace) :  ![starts](https://img.shields.io/github/stars/jbaines-r7/blankspace.svg) ![forks](https://img.shields.io/github/forks/jbaines-r7/blankspace.svg)
+
+
 
 ## CVE-2021-43883/CVE-2021-41379
 
