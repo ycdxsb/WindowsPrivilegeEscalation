@@ -22,8 +22,27 @@
 > - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
 > - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
 
-[PDF Version](https://github.com/ycdxsb/WindowsPrivilegeEscalation/releases/download/20211223/README.pdf)
 
+
+
+- [2023](#2023)
+  - [CVE-2023-21823](#cve-2023-21823)
+  - [CVE-2023-21768](#cve-2023-21768)
+  - [CVE-2023-21752](#cve-2023-21752)
+- [2022](#2022)
+  - [CVE-2022-37969](#cve-2022-37969)
+  - [CVE-2022-37967](#cve-2022-37967)
+  - [CVE-2022-35841](#cve-2022-35841)
+  - [CVE-2022-34718](#cve-2022-34718)
+  - [CVE-2022-34715](#cve-2022-34715)
+  - [CVE-2022-33679](#cve-2022-33679)
+  - [CVE-2022-30206](#cve-2022-30206)
+  - [CVE-2022-30136](#cve-2022-30136)
+  - [CVE-2022-26937](#cve-2022-26937)
+  - [CVE-2022-26923](#cve-2022-26923)
+  - [CVE-2022-26809](#cve-2022-26809)
+  - [CVE-2022-24494](#cve-2022-24494)
+  - [CVE-2022-24483](#cve-2022-24483)
 - [2021](#2021)
   - [CVE-2021-43893](#cve-2021-43893)
   - [CVE-2021-43883/CVE-2021-41379](#cve-2021-43883cve-2021-41379)
@@ -183,6 +202,195 @@
   - [CVE-2003-0352 (MS03-026)](#cve-2003-0352-ms03-026)
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
+
+# 2023
+
+## CVE-2023-21823
+
+> Windows Graphics Component Remote Code Execution Vulnerability
+
+- **Exp**
+  - [https://github.com/Elizarfish/CVE-2023-21823](https://github.com/Elizarfish/CVE-2023-21823) :  ![starts](https://img.shields.io/github/stars/Elizarfish/CVE-2023-21823.svg) ![forks](https://img.shields.io/github/forks/Elizarfish/CVE-2023-21823.svg)
+
+
+
+## CVE-2023-21768
+
+> Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.zoemurmure.top/posts/cve_2023_21768/
+  - https://securityintelligence.com/posts/patch-tuesday-exploit-wednesday-pwning-windows-ancillary-function-driver-winsock/
+  - https://mp.weixin.qq.com/s/9W9puJltbK-xto2A1duqgQ
+- **Exp**
+  - [https://github.com/SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap) :  ![starts](https://img.shields.io/github/stars/SamuelTulach/nullmap.svg) ![forks](https://img.shields.io/github/forks/SamuelTulach/nullmap.svg)
+  - [https://github.com/Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2023-21768.svg)
+  - [https://github.com/CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-21768-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-21768-POC.svg)
+  - [https://github.com/cl4ym0re/cve-2023-21768-compiled](https://github.com/cl4ym0re/cve-2023-21768-compiled) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/cve-2023-21768-compiled.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/cve-2023-21768-compiled.svg)
+  - [https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit) :  ![starts](https://img.shields.io/github/stars/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit.svg) ![forks](https://img.shields.io/github/forks/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit.svg)
+  - [https://github.com/h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2023-21768.svg)
+  - [https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768.svg)
+
+## CVE-2023-21752
+
+> Windows Backup Service Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://blog.0patch.com/2023/01/micropatching-arbitrary-file-delete.html
+- **Exp**
+  - [https://github.com/Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-21752.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-21752.svg)
+
+
+# 2022
+
+## CVE-2022-37969
+
+> Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.coresecurity.com/core-labs/articles/understanding-cve-2022-37969-windows-clfs-lpe
+  - https://www.zscaler.com/blogs/security-research/technical-analysis-windows-clfs-zero-day-vulnerability-cve-2022-37969-part
+- **PoC**
+  - [https://github.com/fortra/CVE-2022-37969](https://github.com/fortra/CVE-2022-37969) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2022-37969.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2022-37969.svg)
+
+## CVE-2022-37967
+
+> Windows Kerberos Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://geekmungus.co.uk/?p=3619
+- **PoC**
+  - [https://github.com/bmcmcm/Get-msDSSupportedEncryptionTypes](https://github.com/bmcmcm/Get-msDSSupportedEncryptionTypes) :  ![starts](https://img.shields.io/github/stars/bmcmcm/Get-msDSSupportedEncryptionTypes.svg) ![forks](https://img.shields.io/github/forks/bmcmcm/Get-msDSSupportedEncryptionTypes.svg)
+
+## CVE-2022-35841
+
+> Windows Enterprise App Management Service Remote Code Execution Vulnerability
+
+- **Analyse**
+  - [https://github.com/Wack0/CVE-2022-35841](https://github.com/Wack0/CVE-2022-35841) :  ![starts](https://img.shields.io/github/stars/Wack0/CVE-2022-35841.svg) ![forks](https://img.shields.io/github/forks/Wack0/CVE-2022-35841.svg)
+
+
+
+
+## CVE-2022-34718
+
+> Windows TCP/IP Remote Code Execution Vulnerability
+
+- **Analyse**
+  - https://medium.com/numen-cyber-labs/analysis-and-summary-of-tcp-ip-protocol-remote-code-execution-vulnerability-cve-2022-34718-8fcc28538acf
+  - https://securityonline.info/researchers-release-poc-for-windows-tcp-ip-rce-flaw-cve-2022-34718/
+  - https://securityintelligence.com/posts/dissecting-exploiting-tcp-ip-rce-vulnerability-evilesp/
+- **PoC**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/SecLabResearchBV/CVE-2022-34718-PoC](https://github.com/SecLabResearchBV/CVE-2022-34718-PoC) :  ![starts](https://img.shields.io/github/stars/SecLabResearchBV/CVE-2022-34718-PoC.svg) ![forks](https://img.shields.io/github/forks/SecLabResearchBV/CVE-2022-34718-PoC.svg)
+
+## CVE-2022-34715
+
+> Windows Network File System Remote Code Execution Vulnerability.
+
+- **Analyse**
+  - https://www.thezdi.com/blog/2022/8/31/cve-2022-34715-more-microsoft-windows-nfs-v4-remote-code-execution
+- **PoC**
+  - [https://github.com/Starssgo/CVE-2022-34715-POC](https://github.com/Starssgo/CVE-2022-34715-POC) :  ![starts](https://img.shields.io/github/stars/Starssgo/CVE-2022-34715-POC.svg) ![forks](https://img.shields.io/github/forks/Starssgo/CVE-2022-34715-POC.svg)
+
+
+## CVE-2022-33679
+
+> Windows Kerberos Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://googleprojectzero.blogspot.com/2022/10/rc4-is-still-considered-harmful.html
+  - https://bugs.chromium.org/p/project-zero/issues/detail?id=2310
+  - https://www.silverfort.com/blog/technical-analysis-of-cve-2022-33679-and-cve-2022-33647-kerberos-vulnerabilities/
+  - https://www.horizon3.ai/from-cve-2022-33679-to-unauthenticated-kerberoasting/
+- **PoC**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/Bdenneu/CVE-2022-33679](https://github.com/Bdenneu/CVE-2022-33679) :  ![starts](https://img.shields.io/github/stars/Bdenneu/CVE-2022-33679.svg) ![forks](https://img.shields.io/github/forks/Bdenneu/CVE-2022-33679.svg)
+  - [https://github.com/Amulab/CVE-2022-33679](https://github.com/Amulab/CVE-2022-33679) :  ![starts](https://img.shields.io/github/stars/Amulab/CVE-2022-33679.svg) ![forks](https://img.shields.io/github/forks/Amulab/CVE-2022-33679.svg)
+  - [https://github.com/notareaperbutDR34P3r/Kerberos_CVE-2022-33679](https://github.com/notareaperbutDR34P3r/Kerberos_CVE-2022-33679) :  ![starts](https://img.shields.io/github/stars/notareaperbutDR34P3r/Kerberos_CVE-2022-33679.svg) ![forks](https://img.shields.io/github/forks/notareaperbutDR34P3r/Kerberos_CVE-2022-33679.svg)
+  - [https://github.com/Blyth0He/CVE-2022-33679](https://github.com/Blyth0He/CVE-2022-33679) :  ![starts](https://img.shields.io/github/stars/Blyth0He/CVE-2022-33679.svg) ![forks](https://img.shields.io/github/forks/Blyth0He/CVE-2022-33679.svg)
+
+
+
+## CVE-2022-30206
+
+> Windows Print Spooler Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-22022, CVE-2022-22041, CVE-2022-30226.
+
+- **PoC**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+  - [https://github.com/Pwnrin/CVE-2022-30206](https://github.com/Pwnrin/CVE-2022-30206) :  ![starts](https://img.shields.io/github/stars/Pwnrin/CVE-2022-30206.svg) ![forks](https://img.shields.io/github/forks/Pwnrin/CVE-2022-30206.svg)
+  - [https://github.com/Malwareman007/CVE-2022-30206](https://github.com/Malwareman007/CVE-2022-30206) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2022-30206.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2022-30206.svg)
+
+
+
+## CVE-2022-30136
+
+Windows Network File System Remote Code Execution Vulnerability.
+
+- **Analyse**
+  - https://www.coresecurity.com/core-labs/articles/analysis-cve-2022-30136-windows-network-file-system-vulnerability
+  - https://www.zerodayinitiative.com/blog/2022/7/13/cve-2022-30136-microsoft-windows-network-file-system-v4-remote-code-execution-vulnerability
+  - [https://github.com/fortra/CVE-2022-30136](https://github.com/fortra/CVE-2022-30136) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2022-30136.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2022-30136.svg)
+- **PoC**
+  - [https://github.com/fortra/CVE-2022-30136](https://github.com/fortra/CVE-2022-30136) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2022-30136.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2022-30136.svg)
+
+
+## CVE-2022-26937
+
+> Windows Network File System Remote Code Execution Vulnerability.
+
+- **Analyse**
+  - https://www.zerodayinitiative.com/blog/2022/6/7/cve-2022-26937-microsoft-windows-network-file-system-nlm-portmap-stack-buffer-overflow
+- **PoC**
+  - [https://github.com/Ascotbe/Kernelhub](https://github.com/Ascotbe/Kernelhub) :  ![starts](https://img.shields.io/github/stars/Ascotbe/Kernelhub.svg) ![forks](https://img.shields.io/github/forks/Ascotbe/Kernelhub.svg)
+
+  - [https://github.com/omair2084/CVE-2022-26937](https://github.com/omair2084/CVE-2022-26937) :  ![starts](https://img.shields.io/github/stars/omair2084/CVE-2022-26937.svg) ![forks](https://img.shields.io/github/forks/omair2084/CVE-2022-26937.svg)
+
+  - [https://github.com/Malwareman007/CVE-2022-26937](https://github.com/Malwareman007/CVE-2022-26937) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2022-26937.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2022-26937.svg)
+
+
+
+## CVE-2022-26923
+
+> Active Directory Domain Services Elevation of Privilege Vulnerability.
+
+- **Analyse**
+  - https://research.ifcr.dk/certifried-active-directory-domain-privilege-escalation-cve-2022-26923-9e098fe298f4
+- **PoC**
+  - [https://github.com/LudovicPatho/CVE-2022-26923_AD-Certificate-Services](https://github.com/LudovicPatho/CVE-2022-26923_AD-Certificate-Services) :  ![starts](https://img.shields.io/github/stars/LudovicPatho/CVE-2022-26923_AD-Certificate-Services.svg) ![forks](https://img.shields.io/github/forks/LudovicPatho/CVE-2022-26923_AD-Certificate-Services.svg)
+  - [https://github.com/lsecqt/CVE-2022-26923-Powershell-POC](https://github.com/lsecqt/CVE-2022-26923-Powershell-POC) :  ![starts](https://img.shields.io/github/stars/lsecqt/CVE-2022-26923-Powershell-POC.svg) ![forks](https://img.shields.io/github/forks/lsecqt/CVE-2022-26923-Powershell-POC.svg)
+
+
+## CVE-2022-26809
+
+> Remote Procedure Call Runtime Remote Code Execution Vulnerability. This CVE ID is unique from CVE-2022-24492, CVE-2022-24528.
+
+- **Analyse**
+  - https://medium.com/@knownsec404team/recurrence-and-analysis-of-rpc-high-risk-vulnerability-cve-2022-26809-7851cc88f81c
+  - https://s1ckb017.github.io/2022/06/17/CVE-2022-26809-Server-Side-vulnerable-point-reachability.html
+  - https://www.linkedin.com/pulse/cve-2022-26809-dynamics-around-security-community-microsoft-analyzing-?trk=organization-update-content_share-article
+- **PoC**
+  - [https://github.com/s1ckb017/PoC-CVE-2022-26809](https://github.com/s1ckb017/PoC-CVE-2022-26809) :  ![starts](https://img.shields.io/github/stars/s1ckb017/PoC-CVE-2022-26809.svg) ![forks](https://img.shields.io/github/forks/s1ckb017/PoC-CVE-2022-26809.svg)
+  - [https://github.com/yuanLink/CVE-2022-26809](https://github.com/yuanLink/CVE-2022-26809) :  ![starts](https://img.shields.io/github/stars/yuanLink/CVE-2022-26809.svg) ![forks](https://img.shields.io/github/forks/yuanLink/CVE-2022-26809.svg)
+  - [https://github.com/michealadams30/Cve-2022-26809](https://github.com/michealadams30/Cve-2022-26809) :  ![starts](https://img.shields.io/github/stars/michealadams30/Cve-2022-26809.svg) ![forks](https://img.shields.io/github/forks/michealadams30/Cve-2022-26809.svg)
+
+## CVE-2022-24494
+
+> Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability.
+
+- **PoC**
+  - [https://github.com/vportal/AFD](https://github.com/vportal/AFD) :  ![starts](https://img.shields.io/github/stars/vportal/AFD.svg) ![forks](https://img.shields.io/github/forks/vportal/AFD.svg)
+
+
+## CVE-2022-24483
+
+> Windows Kernel Information Disclosure Vulnerability.
+
+- **PoC**
+  - [https://github.com/waleedassar/CVE-2022-24483](https://github.com/waleedassar/CVE-2022-24483) :  ![starts](https://img.shields.io/github/stars/waleedassar/CVE-2022-24483.svg) ![forks](https://img.shields.io/github/forks/waleedassar/CVE-2022-24483.svg)
+
+
+
 
 # 2021
 
