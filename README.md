@@ -920,7 +920,7 @@ Windows Network File System Remote Code Execution Vulnerability.
 > An elevation of privilege vulnerability exists when the Windows Printer Service improperly validates file paths while loading printer drivers, aka 'Windows Printer Service Elevation of Privilege Vulnerability'.
 
 - **PoC**
-  - [https://github.com/intellee/CVE-2019-1477](https://github.com/intellee/CVE-2019-1477) :  ![starts](https://img.shields.io/github/stars/intellee/CVE-2019-1477.svg) ![forks](https://img.shields.io/github/forks/intellee/CVE-2019-1477.svg)
+  - - [https://github.com/2yong1/CVE-2019-1477](https://github.com/2yong1/CVE-2019-1477) :  ![starts](https://img.shields.io/github/stars/2yong1/CVE-2019-1477.svg) ![forks](https://img.shields.io/github/forks/2yong1/CVE-2019-1477.svg)
 
 ## CVE-2019-1476
 
