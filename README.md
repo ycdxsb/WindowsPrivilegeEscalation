@@ -17,18 +17,40 @@
 >
 > Based on:
 >
-> - [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github/)
+> - [PocOrExp_in_Github](https://github.com/ycdxsb/PocOrExp_in_Github)
 > - [KernelHub](https://github.com/Ascotbe/Kernelhub)
 > - [Windows_kernel_exploits](https://github.com/SecWiki/windows-kernel-exploits)
-> - [exploitdb](https://github.com/offensive-security/exploitdb/tree/master/exploits)
-
-
-
+> - [exploitdb](https://github.com/offensive-security/exploitdb)
+> - [Exploit-Street](https://github.com/MzHmO/Exploit-Street)
 
 - [2023](#2023)
-  - [CVE-2023-21823](#cve-2023-21823)
+  - [CVE-2023-38146](#cve-2023-38146)
+  - [CVE-2023-36900](#cve-2023-36900)
+  - [CVE-2023-36884](#cve-2023-36884)
+  - [CVE-2023-36874](#cve-2023-36874)
+  - [CVE-2023-36802](#cve-2023-36802)
+  - [CVE-2023-36723](#cve-2023-36723)
+  - [CVE-2023-36427](#cve-2023-36427)
+  - [CVE-2023-36424](#cve-2023-36424)
+  - [CVE-2023-36407](#cve-2023-36407)
+  - [CVE-2023-36025](#cve-2023-36025)
+  - [CVE-2023-29360](#cve-2023-29360)
+  - [CVE-2023-29336](#cve-2023-29336)
+  - [CVE-2023-28252](#cve-2023-28252)
+  - [CVE-2023-28244](#cve-2023-28244)
+  - [CVE-2023-28229](#cve-2023-28229)
+  - [CVE-2023-28218](#cve-2023-28218)
+  - [CVE-2023-24871](#cve-2023-24871)
+  - [CVE-2023-23388](#cve-2023-23388)
+  - [CVE-2023-21822](#cve-2023-21822)
+  - [CVE-2023-21817](#cve-2023-21817)
   - [CVE-2023-21768](#cve-2023-21768)
+  - [CVE-2023-21766](#cve-2023-21766)
   - [CVE-2023-21752](#cve-2023-21752)
+  - [CVE-2023-21746](#cve-2023-21746)
+  - [CVE-2023-21674](#cve-2023-21674)
+  - [CVE-2023-21554](#cve-2023-21554)
+  - [CVE-2023-21823](#cve-2023-21823)
 - [2022](#2022)
   - [CVE-2022-37969](#cve-2022-37969)
   - [CVE-2022-37967](#cve-2022-37967)
@@ -47,7 +69,7 @@
   - [CVE-2021-43893](#cve-2021-43893)
   - [CVE-2021-43883/CVE-2021-41379](#cve-2021-43883cve-2021-41379)
   - [CVE-2021-43224](#cve-2021-43224)
-  - [CVE-2021-42278/CVE-2021-42278](#cve-2021-42278cve-2021-42278)
+  - [CVE-2021-42287/CVE-2021-42278](#cve-2021-42287cve-2021-42278)
   - [CVE-2021-40449](#cve-2021-40449)
   - [CVE-2021-40444](#cve-2021-40444)
   - [CVE-2021-38639](#cve-2021-38639)
@@ -204,16 +226,205 @@
   - [CVE-2000-0979](#cve-2000-0979)
 
 # 2023
+## CVE-2023-38146
 
-## CVE-2023-21823
-
-> Windows Graphics Component Remote Code Execution Vulnerability
+> Windows Themes Remote Code Execution Vulnerability
 
 - **Exp**
-  - [https://github.com/Elizarfish/CVE-2023-21823](https://github.com/Elizarfish/CVE-2023-21823) :  ![starts](https://img.shields.io/github/stars/Elizarfish/CVE-2023-21823.svg) ![forks](https://img.shields.io/github/forks/Elizarfish/CVE-2023-21823.svg)
+  - [https://github.com/exploits-forsale/themebleed](https://github.com/exploits-forsale/themebleed) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/themebleed.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/themebleed.svg)
+  - [https://github.com/Jnnshschl/CVE-2023-38146](https://github.com/Jnnshschl/CVE-2023-38146) :  ![starts](https://img.shields.io/github/stars/Jnnshschl/CVE-2023-38146.svg) ![forks](https://img.shields.io/github/forks/Jnnshschl/CVE-2023-38146.svg)
+  - [https://github.com/Durge5/ThemeBleedPy](https://github.com/Durge5/ThemeBleedPy) :  ![starts](https://img.shields.io/github/stars/Durge5/ThemeBleedPy.svg) ![forks](https://img.shields.io/github/forks/Durge5/ThemeBleedPy.svg)
+
+## CVE-2023-36900
+
+> Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://github.com/RomanRybachek/CVE-2023-36900/blob/main/writeup/eng/writeup_eng.md
+- **PoC**
+  - [https://github.com/RomanRybachek/CVE-2023-36900](https://github.com/RomanRybachek/CVE-2023-36900) :  ![starts](https://img.shields.io/github/stars/RomanRybachek/CVE-2023-36900.svg) ![forks](https://img.shields.io/github/forks/RomanRybachek/CVE-2023-36900.svg)
+
+## CVE-2023-36884
+
+> Windows Search Remote Code Execution Vulnerability
+
+- **Analyse**
+  - https://www.trellix.com/blogs/research/breaking-down-cve-2023-36884-and-the-infection-chain/
+- **Exp**
+  - [https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE](https://github.com/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE) :  ![starts](https://img.shields.io/github/stars/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg) ![forks](https://img.shields.io/github/forks/jakabakos/CVE-2023-36884-MS-Office-HTML-RCE.svg)
 
 
+## CVE-2023-36874
 
+> Windows Error Reporting Service Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.crowdstrike.com/en-us/blog/falcon-complete-zero-day-exploit-cve-2023-36874/
+- **Exp**
+  - [https://github.com/Wh04m1001/CVE-2023-36874](https://github.com/Wh04m1001/CVE-2023-36874) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-36874.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-36874.svg)
+  - [https://github.com/Octoberfest7/CVE-2023-36874_BOF](https://github.com/Octoberfest7/CVE-2023-36874_BOF) :  ![starts](https://img.shields.io/github/stars/Octoberfest7/CVE-2023-36874_BOF.svg) ![forks](https://img.shields.io/github/forks/Octoberfest7/CVE-2023-36874_BOF.svg)
+- **PoC**
+  - [https://github.com/d0rb/CVE-2023-36874](https://github.com/d0rb/CVE-2023-36874) :  ![starts](https://img.shields.io/github/stars/d0rb/CVE-2023-36874.svg) ![forks](https://img.shields.io/github/forks/d0rb/CVE-2023-36874.svg)
+  - [https://github.com/crisprss/CVE-2023-36874](https://github.com/crisprss/CVE-2023-36874) :  ![starts](https://img.shields.io/github/stars/crisprss/CVE-2023-36874.svg) ![forks](https://img.shields.io/github/forks/crisprss/CVE-2023-36874.svg)
+
+## CVE-2023-36802
+
+> Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://securityintelligence.com/x-force/critically-close-to-zero-day-exploiting-microsoft-kernel-streaming-service/
+  - https://googleprojectzero.github.io/0days-in-the-wild/0day-RCAs/2023/CVE-2023-36802.html
+  - https://dev.to/tutorialboy/analysis-of-microsoft-streaming-agent-privilege-elevation-vulnerability-cve-2023-36802-757
+- **Exp**
+  - [https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802](https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.svg)
+  - [https://github.com/Nero22k/cve-2023-36802](https://github.com/Nero22k/cve-2023-36802) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-36802.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-36802.svg)
+  - [https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE](https://github.com/x0rb3l/CVE-2023-36802-MSKSSRV-LPE) :  ![starts](https://img.shields.io/github/stars/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg) ![forks](https://img.shields.io/github/forks/x0rb3l/CVE-2023-36802-MSKSSRV-LPE.svg)
+  - [https://github.com/4zur-0312/CVE-2023-36802](https://github.com/4zur-0312/CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/4zur-0312/CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/4zur-0312/CVE-2023-36802.svg)
+  - [https://github.com/ISH2YU/CVE-2023-36802](https://github.com/ISH2YU/CVE-2023-36802) :  ![starts](https://img.shields.io/github/stars/ISH2YU/CVE-2023-36802.svg) ![forks](https://img.shields.io/github/forks/ISH2YU/CVE-2023-36802.svg)
+
+## CVE-2023-36723
+
+> Windows Container Manager Service Elevation of Privilege Vulnerability
+
+- **PoC**
+  - [https://github.com/Wh04m1001/CVE-2023-36723](https://github.com/Wh04m1001/CVE-2023-36723) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-36723.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-36723.svg)
+
+## CVE-2023-36427
+
+> Windows Hyper-V Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://github.com/tandasat/CVE-2023-36427/blob/main/report.md
+- **PoC**
+  - [https://github.com/tandasat/CVE-2023-36427](https://github.com/tandasat/CVE-2023-36427) :  ![starts](https://img.shields.io/github/stars/tandasat/CVE-2023-36427.svg) ![forks](https://img.shields.io/github/forks/tandasat/CVE-2023-36427.svg)
+
+## CVE-2023-36424
+
+> Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+- **Exp**
+  - [https://github.com/zerozenxlabs/CVE-2023-36424](https://github.com/zerozenxlabs/CVE-2023-36424) :  ![starts](https://img.shields.io/github/stars/zerozenxlabs/CVE-2023-36424.svg) ![forks](https://img.shields.io/github/forks/zerozenxlabs/CVE-2023-36424.svg)
+
+## CVE-2023-36407
+
+> Windows Hyper-V Elevation of Privilege Vulnerability
+
+- **PoC**
+  - [https://github.com/pwndorei/CVE-2023-36407](https://github.com/pwndorei/CVE-2023-36407) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2023-36407.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2023-36407.svg)
+  - [https://github.com/zha0/CVE-2023-36407](https://github.com/zha0/CVE-2023-36407) :  ![starts](https://img.shields.io/github/stars/zha0/CVE-2023-36407.svg) ![forks](https://img.shields.io/github/forks/zha0/CVE-2023-36407.svg)
+
+## CVE-2023-36025
+
+> Windows SmartScreen Security Feature Bypass Vulnerability
+
+- **Analyse**
+  - https://www.trendmicro.com/en_hk/research/24/a/cve-2023-36025-exploited-for-defense-evasion-in-phemedrone-steal.html
+- **Exp**
+  - - [https://github.com/coolman6942o/-EXPLOIT-CVE-2023-36025](https://github.com/coolman6942o/-EXPLOIT-CVE-2023-36025) :  ![starts](https://img.shields.io/github/stars/coolman6942o/-EXPLOIT-CVE-2023-36025.svg) ![forks](https://img.shields.io/github/forks/coolman6942o/-EXPLOIT-CVE-2023-36025.svg)
+- **PoC**
+  - [https://github.com/ka7ana/CVE-2023-36025](https://github.com/ka7ana/CVE-2023-36025) :  ![starts](https://img.shields.io/github/stars/ka7ana/CVE-2023-36025.svg) ![forks](https://img.shields.io/github/forks/ka7ana/CVE-2023-36025.svg)
+  - [https://github.com/J466Y/test_CVE-2023-36025](https://github.com/J466Y/test_CVE-2023-36025) :  ![starts](https://img.shields.io/github/stars/J466Y/test_CVE-2023-36025.svg) ![forks](https://img.shields.io/github/forks/J466Y/test_CVE-2023-36025.svg)
+
+
+## CVE-2023-29360
+
+> Microsoft Streaming Service Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://seg-fault.gitbook.io/researchs/windows-security-research/exploit-development/mskssrv.sys-cve-2023-29360
+  - https://big5-sec.github.io/posts/CVE-2023-29360-analysis/
+- **Exp**
+  - [https://github.com/Nero22k/cve-2023-29360](https://github.com/Nero22k/cve-2023-29360) :  ![starts](https://img.shields.io/github/stars/Nero22k/cve-2023-29360.svg) ![forks](https://img.shields.io/github/forks/Nero22k/cve-2023-29360.svg)
+  - [https://github.com/0xDivyanshu-new/CVE-2023-29360](https://github.com/0xDivyanshu-new/CVE-2023-29360) :  ![starts](https://img.shields.io/github/stars/0xDivyanshu-new/CVE-2023-29360.svg) ![forks](https://img.shields.io/github/forks/0xDivyanshu-new/CVE-2023-29360.svg)
+
+## CVE-2023-29336
+
+> Win32k Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.numencyber.com/cve-2023-29336-win32k-analysis/
+- **Exp**
+  - [https://github.com/m-cetin/CVE-2023-29336](https://github.com/m-cetin/CVE-2023-29336) :  ![starts](https://img.shields.io/github/stars/m-cetin/CVE-2023-29336.svg) ![forks](https://img.shields.io/github/forks/m-cetin/CVE-2023-29336.svg)
+  - [https://github.com/numencyber/Vulnerability_PoC](https://github.com/numencyber/Vulnerability_PoC) :  ![starts](https://img.shields.io/github/stars/numencyber/Vulnerability_PoC.svg) ![forks](https://img.shields.io/github/forks/numencyber/Vulnerability_PoC.svg)
+
+## CVE-2023-28252
+
+> Windows Common Log File System Driver Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.coresecurity.com/core-labs/articles/analysis-cve-2023-28252-clfs-vulnerability
+  - https://github.com/fortra/CVE-2023-28252
+  - https://ti.qianxin.com/blog/articles/CVE-2023-28252-Analysis-of-In-the-Wild-Exploit-Sample-of-CLFS-Privilege-Escalation-Vulnerability/
+- **Exp**
+  - [https://github.com/fortra/CVE-2023-28252](https://github.com/fortra/CVE-2023-28252) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2023-28252.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2023-28252.svg)
+  - [https://github.com/duck-sec/CVE-2023-28252-Compiled-exe](https://github.com/duck-sec/CVE-2023-28252-Compiled-exe) :  ![starts](https://img.shields.io/github/stars/duck-sec/CVE-2023-28252-Compiled-exe.svg) ![forks](https://img.shields.io/github/forks/duck-sec/CVE-2023-28252-Compiled-exe.svg)
+  - [https://github.com/byt3n33dl3/CLFS](https://github.com/byt3n33dl3/CLFS) :  ![starts](https://img.shields.io/github/stars/byt3n33dl3/CLFS.svg) ![forks](https://img.shields.io/github/forks/byt3n33dl3/CLFS.svg)
+  - [https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252](https://github.com/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252) :  ![starts](https://img.shields.io/github/stars/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252.svg) ![forks](https://img.shields.io/github/forks/bkstephen/Compiled-PoC-Binary-For-CVE-2023-28252.svg)
+  - [https://github.com/726232111/CVE-2023-28252](https://github.com/726232111/CVE-2023-28252) :  ![starts](https://img.shields.io/github/stars/726232111/CVE-2023-28252.svg) ![forks](https://img.shields.io/github/forks/726232111/CVE-2023-28252.svg)
+
+
+## CVE-2023-28244
+
+> Windows Kerberos Elevation of Privilege Vulnerability
+
+- **PoC**
+  - [https://github.com/sk3w/cve-2023-28244](https://github.com/sk3w/cve-2023-28244) :  ![starts](https://img.shields.io/github/stars/sk3w/cve-2023-28244.svg) ![forks](https://img.shields.io/github/forks/sk3w/cve-2023-28244.svg)
+
+## CVE-2023-28229
+
+> Windows CNG Key Isolation Service Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://whereisk0shl.top/post/isolate-me-from-sandbox-explore-elevation-of-privilege-of-cng-key-isolation
+- **Exp**
+  - [https://github.com/Y3A/CVE-2023-28229](https://github.com/Y3A/CVE-2023-28229) :  ![starts](https://img.shields.io/github/stars/Y3A/CVE-2023-28229.svg) ![forks](https://img.shields.io/github/forks/Y3A/CVE-2023-28229.svg)
+  - [https://github.com/byt3n33dl3/CrackKeyIso](https://github.com/byt3n33dl3/CrackKeyIso) :  ![starts](https://img.shields.io/github/stars/byt3n33dl3/CrackKeyIso.svg) ![forks](https://img.shields.io/github/forks/byt3n33dl3/CrackKeyIso.svg)
+
+## CVE-2023-28218
+
+> Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://blog.theori.io/exploiting-windows-kernel-wild-copy-with-user-fault-handling-cve-2023-28218-89f5189d0926
+- **PoC**
+  - [https://github.com/h1bAna/CVE-2023-28218](https://github.com/h1bAna/CVE-2023-28218) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2023-28218.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2023-28218.svg)
+
+## CVE-2023-24871
+
+> Windows Bluetooth Service Remote Code Execution Vulnerability
+
+- **Analyse**
+  - https://ynwarcs.github.io/w-cve-2023-24871-lpe
+  - https://ynwarcs.github.io/x-cve-2023-24871-rce
+- **Exp**
+  - [https://github.com/ynwarcs/CVE-2023-24871](https://github.com/ynwarcs/CVE-2023-24871) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2023-24871.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2023-24871.svg)
+
+## CVE-2023-23388
+
+> Windows Bluetooth Driver Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://ynwarcs.github.io/v-cve-2023-23388
+- **PoC**
+  - [https://github.com/ynwarcs/CVE-2023-23388](https://github.com/ynwarcs/CVE-2023-23388) :  ![starts](https://img.shields.io/github/stars/ynwarcs/CVE-2023-23388.svg) ![forks](https://img.shields.io/github/forks/ynwarcs/CVE-2023-23388.svg)
+
+
+## CVE-2023-21822
+
+> Windows Graphics Component Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://www.zerodayinitiative.com/blog/2023/8/1/exploiting-a-flaw-in-bitmap-handling-in-windows-user-mode-printer-drivers
+- **Exp**
+  - [https://github.com/DashaMilitskaya/cve_2023_21822](https://github.com/DashaMilitskaya/cve_2023_21822) :  ![starts](https://img.shields.io/github/stars/DashaMilitskaya/cve_2023_21822.svg) ![forks](https://img.shields.io/github/forks/DashaMilitskaya/cve_2023_21822.svg)
+
+## CVE-2023-21817
+
+> Windows Kerberos Elevation of Privilege Vulnerability
+
+- **PoC**
+  - https://gist.github.com/monoxgas/f615514fb51ebb55a7229f3cf79cf95b
+  
 ## CVE-2023-21768
 
 > Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
@@ -223,13 +434,24 @@
   - https://securityintelligence.com/posts/patch-tuesday-exploit-wednesday-pwning-windows-ancillary-function-driver-winsock/
   - https://mp.weixin.qq.com/s/9W9puJltbK-xto2A1duqgQ
 - **Exp**
+  - [https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768](https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/chompie1337/Windows_LPE_AFD_CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/chompie1337/Windows_LPE_AFD_CVE-2023-21768.svg)
   - [https://github.com/SamuelTulach/nullmap](https://github.com/SamuelTulach/nullmap) :  ![starts](https://img.shields.io/github/stars/SamuelTulach/nullmap.svg) ![forks](https://img.shields.io/github/forks/SamuelTulach/nullmap.svg)
   - [https://github.com/Malwareman007/CVE-2023-21768](https://github.com/Malwareman007/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/Malwareman007/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/Malwareman007/CVE-2023-21768.svg)
-  - [https://github.com/CKevens/CVE-2023-21768-POC](https://github.com/CKevens/CVE-2023-21768-POC) :  ![starts](https://img.shields.io/github/stars/CKevens/CVE-2023-21768-POC.svg) ![forks](https://img.shields.io/github/forks/CKevens/CVE-2023-21768-POC.svg)
+  - [https://github.com/3yujw7njai/CVE-2023-21768-POC](https://github.com/3yujw7njai/CVE-2023-21768-POC) :  ![starts](https://img.shields.io/github/stars/3yujw7njai/CVE-2023-21768-POC.svg) ![forks](https://img.shields.io/github/forks/3yujw7njai/CVE-2023-21768-POC.svg)
   - [https://github.com/cl4ym0re/cve-2023-21768-compiled](https://github.com/cl4ym0re/cve-2023-21768-compiled) :  ![starts](https://img.shields.io/github/stars/cl4ym0re/cve-2023-21768-compiled.svg) ![forks](https://img.shields.io/github/forks/cl4ym0re/cve-2023-21768-compiled.svg)
   - [https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit](https://github.com/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit) :  ![starts](https://img.shields.io/github/stars/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit.svg) ![forks](https://img.shields.io/github/forks/zoemurmure/CVE-2023-21768-AFD-for-WinSock-EoP-exploit.svg)
-  - [https://github.com/h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2023-21768.svg)
+  - [https://github.com/xboxoneresearch/CVE-2023-21768-dotnet](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet) :  ![starts](https://img.shields.io/github/stars/xboxoneresearch/CVE-2023-21768-dotnet.svg) ![forks](https://img.shields.io/github/forks/xboxoneresearch/CVE-2023-21768-dotnet.svg)
   - [https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768](https://github.com/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/HKxiaoli/Windows_AFD_LPE_CVE-2023-21768.svg)
+  - [https://github.com/h1bAna/CVE-2023-21768](https://github.com/h1bAna/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/h1bAna/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/h1bAna/CVE-2023-21768.svg)
+  - [https://github.com/Rosayxy/Recreate-cve-2023-21768](https://github.com/Rosayxy/Recreate-cve-2023-21768) :  ![starts](https://img.shields.io/github/stars/Rosayxy/Recreate-cve-2023-21768.svg) ![forks](https://img.shields.io/github/forks/Rosayxy/Recreate-cve-2023-21768.svg)
+  - [https://github.com/ldrx30/CVE-2023-21768](https://github.com/ldrx30/CVE-2023-21768) :  ![starts](https://img.shields.io/github/stars/ldrx30/CVE-2023-21768.svg) ![forks](https://img.shields.io/github/forks/ldrx30/CVE-2023-21768.svg)
+
+## CVE-2023-21766
+
+> Windows Overlay Filter Information Disclosure Vulnerability
+
+- **Exp**
+  - [https://github.com/Y3A/cve-2023-21766](https://github.com/Y3A/cve-2023-21766) :  ![starts](https://img.shields.io/github/stars/Y3A/cve-2023-21766.svg) ![forks](https://img.shields.io/github/forks/Y3A/cve-2023-21766.svg)
 
 ## CVE-2023-21752
 
@@ -240,6 +462,42 @@
 - **Exp**
   - [https://github.com/Wh04m1001/CVE-2023-21752](https://github.com/Wh04m1001/CVE-2023-21752) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/CVE-2023-21752.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/CVE-2023-21752.svg)
 
+## CVE-2023-21746
+
+> Windows NTLM Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://securityonline.info/poc-exploit-for-windows-ntlm-privilege-escalation-flaw-cve-2023-21746-published/
+- **Exp**
+  - [https://github.com/decoder-it/LocalPotato](https://github.com/decoder-it/LocalPotato) :  ![starts](https://img.shields.io/github/stars/decoder-it/LocalPotato.svg) ![forks](https://img.shields.io/github/forks/decoder-it/LocalPotato.svg)
+  - [https://github.com/blu3ming/LocalPotato](https://github.com/blu3ming/LocalPotato) :  ![starts](https://img.shields.io/github/stars/blu3ming/LocalPotato.svg) ![forks](https://img.shields.io/github/forks/blu3ming/LocalPotato.svg)
+
+## CVE-2023-21674
+
+> Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://blog.theori.io/chaining-n-days-to-compromise-all-part-2-windows-kernel-lpe-a-k-a-chrome-sandbox-escape-44cb49d7a4f8
+- **PoC**
+  - [https://github.com/hd3s5aa/CVE-2023-21674](https://github.com/hd3s5aa/CVE-2023-21674) :  ![starts](https://img.shields.io/github/stars/hd3s5aa/CVE-2023-21674.svg) ![forks](https://img.shields.io/github/forks/hd3s5aa/CVE-2023-21674.svg)
+
+## CVE-2023-21554
+
+> Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+
+- **Analyse**
+  - https://www.zoemurmure.top/posts/cve_2023_21554/
+  - https://github.com/3tternp/CVE-2023-21554/blob/main/CVE-2023-21554%20Loophole%20Analysis.pdf
+- **PoC**
+  - [https://github.com/zoemurmure/CVE-2023-21554-PoC](https://github.com/zoemurmure/CVE-2023-21554-PoC) :  ![starts](https://img.shields.io/github/stars/zoemurmure/CVE-2023-21554-PoC.svg) ![forks](https://img.shields.io/github/forks/zoemurmure/CVE-2023-21554-PoC.svg)
+  - [https://github.com/3tternp/CVE-2023-21554](https://github.com/3tternp/CVE-2023-21554) :  ![starts](https://img.shields.io/github/stars/3tternp/CVE-2023-21554.svg) ![forks](https://img.shields.io/github/forks/3tternp/CVE-2023-21554.svg)
+
+## CVE-2023-21823
+
+> Windows Graphics Component Remote Code Execution Vulnerability
+
+- **Exp**
+  - [https://github.com/Elizarfish/CVE-2023-21823](https://github.com/Elizarfish/CVE-2023-21823) :  ![starts](https://img.shields.io/github/stars/Elizarfish/CVE-2023-21823.svg) ![forks](https://img.shields.io/github/forks/Elizarfish/CVE-2023-21823.svg)
 
 # 2022
 
@@ -268,8 +526,6 @@
 
 - **Analyse**
   - [https://github.com/Wack0/CVE-2022-35841](https://github.com/Wack0/CVE-2022-35841) :  ![starts](https://img.shields.io/github/stars/Wack0/CVE-2022-35841.svg) ![forks](https://img.shields.io/github/forks/Wack0/CVE-2022-35841.svg)
-
-
 
 
 ## CVE-2022-34718
@@ -425,7 +681,7 @@ Windows Network File System Remote Code Execution Vulnerability.
   - [https://github.com/KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC) :  ![starts](https://img.shields.io/github/stars/KaLendsi/CVE-2021-43224-POC.svg) ![forks](https://img.shields.io/github/forks/KaLendsi/CVE-2021-43224-POC.svg)
 
 
-## CVE-2021-42278/CVE-2021-42278
+## CVE-2021-42287/CVE-2021-42278
 
 > Active Directory Domain Services Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-42282, CVE-2021-42287, CVE-2021-42291.
 
