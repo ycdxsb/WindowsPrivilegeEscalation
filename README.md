@@ -23,6 +23,26 @@
 > - [exploitdb](https://github.com/offensive-security/exploitdb)
 > - [Exploit-Street](https://github.com/MzHmO/Exploit-Street)
 
+- [2024](#2024)
+  - [CVE-2024-38100](#cve-2024-38100)
+  - [CVE-2024-38080](#cve-2024-38080)
+  - [CVE-2024-38054](#cve-2024-38054)
+  - [CVE-2024-35250](#cve-2024-35250)
+  - [CVE-2024-30090](#cve-2024-30090)
+  - [CVE-2024-30088](#cve-2024-30088)
+  - [CVE-2024-30078](#cve-2024-30078)
+  - [CVE-2024-30051](#cve-2024-30051)
+  - [CVE-2024-29050](#cve-2024-29050)
+  - [CVE-2024-26230](#cve-2024-26230)
+  - [CVE-2024-26229](#cve-2024-26229)
+  - [CVE-2024-26218](#cve-2024-26218)
+  - [CVE-2024-26160](#cve-2024-26160)
+  - [CVE-2024-21447](#cve-2024-21447)
+  - [CVE-2024-21345](#cve-2024-21345)
+  - [CVE-2024-21338](#cve-2024-21338)
+  - [CVE-2024-21320](#cve-2024-21320)
+  - [CVE-2024-20698](#cve-2024-20698)
+  - [CVE-2024-6768](#cve-2024-6768)
 - [2023](#2023)
   - [CVE-2023-38146](#cve-2023-38146)
   - [CVE-2023-36900](#cve-2023-36900)
@@ -224,6 +244,177 @@
   - [CVE-2003-0352 (MS03-026)](#cve-2003-0352-ms03-026)
 - [2000](#2000)
   - [CVE-2000-0979](#cve-2000-0979)
+
+# 2024
+## CVE-2024-38100
+
+> Windows File Explorer Elevation of Privilege Vulnerability
+  
+- **Exp**
+  - [https://github.com/MzHmO/LeakedWallpaper](https://github.com/MzHmO/LeakedWallpaper) :  ![starts](https://img.shields.io/github/stars/MzHmO/LeakedWallpaper.svg) ![forks](https://img.shields.io/github/forks/MzHmO/LeakedWallpaper.svg)
+  - [https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC](https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC) :  ![starts](https://img.shields.io/github/stars/Florian-Hoth/CVE-2024-38100-RCE-POC.svg) ![forks](https://img.shields.io/github/forks/Florian-Hoth/CVE-2024-38100-RCE-POC.svg)
+
+## CVE-2024-38080
+
+> Windows Hyper-V Elevation of Privilege Vulnerability
+
+- **PoC**
+  - - [https://github.com/pwndorei/CVE-2024-38080](https://github.com/pwndorei/CVE-2024-38080) :  ![starts](https://img.shields.io/github/stars/pwndorei/CVE-2024-38080.svg) ![forks](https://img.shields.io/github/forks/pwndorei/CVE-2024-38080.svg)
+
+## CVE-2024-38054
+
+> Kernel Streaming WOW Thunk Service Driver Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://devco.re/blog/2024/08/23/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part1/
+  - https://devco.re/blog/2024/10/05/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part2/
+- **Exp**
+  - [https://github.com/Black-Frost/windows-learning](https://github.com/Black-Frost/windows-learning) :  ![starts](https://img.shields.io/github/stars/Black-Frost/windows-learning.svg) ![forks](https://img.shields.io/github/forks/Black-Frost/windows-learning.svg)
+## CVE-2024-35250
+
+> Windows Kernel-Mode Driver Elevation of Privilege Vulnerability
+
+- **Exp**
+  - [https://github.com/varwara/CVE-2024-35250](https://github.com/varwara/CVE-2024-35250) :  ![starts](https://img.shields.io/github/stars/varwara/CVE-2024-35250.svg) ![forks](https://img.shields.io/github/forks/varwara/CVE-2024-35250.svg)
+  - [https://github.com/0xjiefeng/CVE-2024-35250-BOF](https://github.com/0xjiefeng/CVE-2024-35250-BOF) :  ![starts](https://img.shields.io/github/stars/0xjiefeng/CVE-2024-35250-BOF.svg) ![forks](https://img.shields.io/github/forks/0xjiefeng/CVE-2024-35250-BOF.svg)
+
+## CVE-2024-30090
+
+> Microsoft Streaming Service Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://devco.re/blog/2024/08/23/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part1-en/
+  - https://devco.re/blog/2024/10/05/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part2-en/
+- **Exp**
+  - [https://github.com/Dor00tkit/CVE-2024-30090](https://github.com/Dor00tkit/CVE-2024-30090) :  ![starts](https://img.shields.io/github/stars/Dor00tkit/CVE-2024-30090.svg) ![forks](https://img.shields.io/github/forks/Dor00tkit/CVE-2024-30090.svg)
+
+## CVE-2024-30088
+
+> Windows Kernel Elevation of Privilege Vulnerability
+
+- **Exp**
+  - [https://github.com/exploits-forsale/collateral-damage](https://github.com/exploits-forsale/collateral-damage) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/collateral-damage.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/collateral-damage.svg)
+  - [https://github.com/tykawaii98/CVE-2024-30088](https://github.com/tykawaii98/CVE-2024-30088) :  ![starts](https://img.shields.io/github/stars/tykawaii98/CVE-2024-30088.svg) ![forks](https://img.shields.io/github/forks/tykawaii98/CVE-2024-30088.svg)
+  - [https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc](https://github.com/Zombie-Kaiser/CVE-2024-30088-Windows-poc) :  ![starts](https://img.shields.io/github/stars/Zombie-Kaiser/CVE-2024-30088-Windows-poc.svg) ![forks](https://img.shields.io/github/forks/Zombie-Kaiser/CVE-2024-30088-Windows-poc.svg)
+  - [https://github.com/NextGenPentesters/CVE-2024-30088-](https://github.com/NextGenPentesters/CVE-2024-30088-) :  ![starts](https://img.shields.io/github/stars/NextGenPentesters/CVE-2024-30088-.svg) ![forks](https://img.shields.io/github/forks/NextGenPentesters/CVE-2024-30088-.svg)
+  - [https://github.com/Admin9961/CVE-2024-30088](https://github.com/Admin9961/CVE-2024-30088) :  ![starts](https://img.shields.io/github/stars/Admin9961/CVE-2024-30088.svg) ![forks](https://img.shields.io/github/forks/Admin9961/CVE-2024-30088.svg)
+  - [https://github.com/Justintroup85/exploits-forsale-collateral-damage](https://github.com/Justintroup85/exploits-forsale-collateral-damage) :  ![starts](https://img.shields.io/github/stars/Justintroup85/exploits-forsale-collateral-damage.svg) ![forks](https://img.shields.io/github/forks/Justintroup85/exploits-forsale-collateral-damage.svg)
+
+## CVE-2024-30078
+
+> Windows Wi-Fi Driver Remote Code Execution Vulnerability
+
+- **PoC**
+  - [https://github.com/blkph0x/CVE_2024_30078_POC_WIFI](https://github.com/blkph0x/CVE_2024_30078_POC_WIFI) :  ![starts](https://img.shields.io/github/stars/blkph0x/CVE_2024_30078_POC_WIFI.svg) ![forks](https://img.shields.io/github/forks/blkph0x/CVE_2024_30078_POC_WIFI.svg)
+  - [https://github.com/a-roshbaik/CVE_2024_30078_POC_WIFI](https://github.com/a-roshbaik/CVE_2024_30078_POC_WIFI) :  ![starts](https://img.shields.io/github/stars/a-roshbaik/CVE_2024_30078_POC_WIFI.svg) ![forks](https://img.shields.io/github/forks/a-roshbaik/CVE_2024_30078_POC_WIFI.svg)
+
+## CVE-2024-30051
+
+> Windows DWM Core Library Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://ti.qianxin.com/blog/articles/public-secret-research-on-the-cve-2024-30051-privilege-escalation-vulnerability-in-the-wild-en/
+  - https://github.com/fortra/CVE-2024-30051
+- **Exp**
+  - [https://github.com/fortra/CVE-2024-30051](https://github.com/fortra/CVE-2024-30051) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2024-30051.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2024-30051.svg)
+
+## CVE-2024-29050
+
+> Windows Cryptographic Services Remote Code Execution Vulnerability
+
+- **PoC**
+  - [https://github.com/Akrachli/CVE-2024-29050](https://github.com/Akrachli/CVE-2024-29050) :  ![starts](https://img.shields.io/github/stars/Akrachli/CVE-2024-29050.svg) ![forks](https://img.shields.io/github/forks/Akrachli/CVE-2024-29050.svg)
+
+## CVE-2024-26230
+
+> Windows Telephony Server Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - https://whereisk0shl.top/post/a-trick-the-story-of-cve-2024-26230
+- **Exp**
+  - [https://github.com/Wa1nut4/CVE-2024-26230](https://github.com/Wa1nut4/CVE-2024-26230) :  ![starts](https://img.shields.io/github/stars/Wa1nut4/CVE-2024-26230.svg) ![forks](https://img.shields.io/github/forks/Wa1nut4/CVE-2024-26230.svg)
+  - [https://github.com/kiwids0220/CVE-2024-26230](https://github.com/kiwids0220/CVE-2024-26230) :  ![starts](https://img.shields.io/github/stars/kiwids0220/CVE-2024-26230.svg) ![forks](https://img.shields.io/github/forks/kiwids0220/CVE-2024-26230.svg)
+
+## CVE-2024-26229
+
+> Windows CSC Service Elevation of Privilege Vulnerability
+
+- **Exp**
+  - [https://github.com/varwara/CVE-2024-26229](https://github.com/varwara/CVE-2024-26229) :  ![starts](https://img.shields.io/github/stars/varwara/CVE-2024-26229.svg) ![forks](https://img.shields.io/github/forks/varwara/CVE-2024-26229.svg)
+  - [https://github.com/RalfHacker/CVE-2024-26229-exploit](https://github.com/RalfHacker/CVE-2024-26229-exploit) :  ![starts](https://img.shields.io/github/stars/RalfHacker/CVE-2024-26229-exploit.svg) ![forks](https://img.shields.io/github/forks/RalfHacker/CVE-2024-26229-exploit.svg)
+  - [https://github.com/Cracked5pider/eop24-26229](https://github.com/Cracked5pider/eop24-26229) :  ![starts](https://img.shields.io/github/stars/Cracked5pider/eop24-26229.svg) ![forks](https://img.shields.io/github/forks/Cracked5pider/eop24-26229.svg)
+  - [https://github.com/apkc/CVE-2024-26229-BOF](https://github.com/apkc/CVE-2024-26229-BOF) :  ![starts](https://img.shields.io/github/stars/apkc/CVE-2024-26229-BOF.svg) ![forks](https://img.shields.io/github/forks/apkc/CVE-2024-26229-BOF.svg)
+  - [https://github.com/team-MineDEV/CVE-2024-26229](https://github.com/team-MineDEV/CVE-2024-26229) :  ![starts](https://img.shields.io/github/stars/team-MineDEV/CVE-2024-26229.svg) ![forks](https://img.shields.io/github/forks/team-MineDEV/CVE-2024-26229.svg)
+  - [https://github.com/mqxmm/CVE-2024-26229](https://github.com/mqxmm/CVE-2024-26229) :  ![starts](https://img.shields.io/github/stars/mqxmm/CVE-2024-26229.svg) ![forks](https://img.shields.io/github/forks/mqxmm/CVE-2024-26229.svg)
+
+## CVE-2024-26218
+
+> Windows Kernel Elevation of Privilege Vulnerability
+
+- **PoC**
+  - [https://github.com/exploits-forsale/CVE-2024-26218](https://github.com/exploits-forsale/CVE-2024-26218) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/CVE-2024-26218.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/CVE-2024-26218.svg)
+
+## CVE-2024-26160
+
+> Windows Cloud Files Mini Filter Driver Information Disclosure Vulnerability
+
+- **PoC**
+  - [https://github.com/xsh3llsh0ck/CVE-2024-26160](https://github.com/xsh3llsh0ck/CVE-2024-26160) :  ![starts](https://img.shields.io/github/stars/xsh3llsh0ck/CVE-2024-26160.svg) ![forks](https://img.shields.io/github/forks/xsh3llsh0ck/CVE-2024-26160.svg)
+
+## CVE-2024-21447
+
+> Windows Authentication Elevation of Privilege Vulnerability
+
+- **Exp**
+  - [https://github.com/Wh04m1001/UserManagerEoP](https://github.com/Wh04m1001/UserManagerEoP) :  ![starts](https://img.shields.io/github/stars/Wh04m1001/UserManagerEoP.svg) ![forks](https://img.shields.io/github/forks/Wh04m1001/UserManagerEoP.svg)
+
+## CVE-2024-21345
+
+> Windows Kernel Elevation of Privilege Vulnerability
+
+- **PoC**
+  - [https://github.com/exploits-forsale/CVE-2024-21345](https://github.com/exploits-forsale/CVE-2024-21345) :  ![starts](https://img.shields.io/github/stars/exploits-forsale/CVE-2024-21345.svg) ![forks](https://img.shields.io/github/forks/exploits-forsale/CVE-2024-21345.svg)
+
+## CVE-2024-21338
+
+> Windows Kernel Elevation of Privilege Vulnerability
+
+**Analyse**
+  - https://www.crowdfense.com/windows-applocker-driver-lpe-vulnerability-cve-2024-21338/
+  - https://hakaisecurity.io/cve-2024-21338-from-admin-to-kernel-through-token-manipulation-and-windows-kernel-exploitation/research-blog/
+- **Exp**
+  - [https://github.com/hakaioffsec/CVE-2024-21338](https://github.com/hakaioffsec/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/hakaioffsec/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/hakaioffsec/CVE-2024-21338.svg)
+  - [https://github.com/tykawaii98/CVE-2024-21338_PoC](https://github.com/tykawaii98/CVE-2024-21338_PoC) :  ![starts](https://img.shields.io/github/stars/tykawaii98/CVE-2024-21338_PoC.svg) ![forks](https://img.shields.io/github/forks/tykawaii98/CVE-2024-21338_PoC.svg)
+  - [https://github.com/Crowdfense/CVE-2024-21338](https://github.com/Crowdfense/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/Crowdfense/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/Crowdfense/CVE-2024-21338.svg)
+  - [https://github.com/varwara/CVE-2024-21338](https://github.com/varwara/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/varwara/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/varwara/CVE-2024-21338.svg)
+  - [https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-](https://github.com/Zombie-Kaiser/CVE-2024-21338-x64-build-) :  ![starts](https://img.shields.io/github/stars/Zombie-Kaiser/CVE-2024-21338-x64-build-.svg) ![forks](https://img.shields.io/github/forks/Zombie-Kaiser/CVE-2024-21338-x64-build-.svg)
+  - [https://github.com/UMU618/CVE-2024-21338](https://github.com/UMU618/CVE-2024-21338) :  ![starts](https://img.shields.io/github/stars/UMU618/CVE-2024-21338.svg) ![forks](https://img.shields.io/github/forks/UMU618/CVE-2024-21338.svg)
+
+## CVE-2024-21320
+
+> Windows Themes Spoofing Vulnerability
+
+- **Analyse**
+  - https://www.rbtsec.com/blog/cve-2024-21320-windows-themes-spoofing-vulnerability-walkthrough/
+  - https://www.akamai.com/blog/security-research/leaking-ntlm-credentials-through-windows-themes
+- **PoC**
+  - [https://github.com/sxyrxyy/CVE-2024-21320-POC](https://github.com/sxyrxyy/CVE-2024-21320-POC) :  ![starts](https://img.shields.io/github/stars/sxyrxyy/CVE-2024-21320-POC.svg) ![forks](https://img.shields.io/github/forks/sxyrxyy/CVE-2024-21320-POC.svg)
+
+## CVE-2024-20698
+
+> Windows Kernel Elevation of Privilege Vulnerability
+
+- **Analyse**
+  - [https://github.com/RomanRybachek/CVE-2024-20698](https://github.com/RomanRybachek/CVE-2024-20698) :  ![starts](https://img.shields.io/github/stars/RomanRybachek/CVE-2024-20698.svg) ![forks](https://img.shields.io/github/forks/RomanRybachek/CVE-2024-20698.svg)
+
+## CVE-2024-6768
+
+> A Denial of Service in CLFS.sys in Microsoft Windows 10, Windows 11, Windows Server 2016, Windows Server 2019, and Windows Server 2022 allows a malicious authenticated low-privilege user to cause a Blue Screen of Death via a forced call to the KeBugCheckEx function.
+
+- **Analyse**
+  - https://github.com/fortra/CVE-2024-6768/
+- **PoC**
+  - [https://github.com/fortra/CVE-2024-6768](https://github.com/fortra/CVE-2024-6768) :  ![starts](https://img.shields.io/github/stars/fortra/CVE-2024-6768.svg) ![forks](https://img.shields.io/github/forks/fortra/CVE-2024-6768.svg)
 
 # 2023
 ## CVE-2023-38146
